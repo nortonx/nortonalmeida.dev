@@ -10,7 +10,6 @@ interface Repo {
 
 export default async function Portfolio() {
   const repos = await getRepos()
-  console.log(repos)
   return (
     <div>
       <h1 className="text-2xl font-bold">This is the Portfolio Page</h1>
@@ -18,8 +17,9 @@ export default async function Portfolio() {
       {repos?.map((repo: Repo) => {
         return <li key={repo?.id} className="my-4">
           <div>
-            <span className="font-bold">{repo?.name}</span>: <Link href={repo?.url} className="text-blue-600" data-testid={repo.name}>{repo?.url}</Link>
-            <div className="italic">{repo?.description}</div>
+            <span className="font-bold">{repo?.name}</span>:
+            <Link href={repo?.url} className="text-slate-400" data-testid={repo.name}> {repo?.url}</Link>
+            <div className="italic">Description - {repo?.description}</div>
           </div>
         </li>
       })}
