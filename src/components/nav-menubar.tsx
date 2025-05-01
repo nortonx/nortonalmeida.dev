@@ -15,8 +15,8 @@ export default function NavMenubar() {
           </NavigationMenuLink>
         </NavigationMenuItem>
         <NavigationMenuItem>
-          <NavigationMenuLink href="/about">
-            About
+          <NavigationMenuLink href="/portfolio">
+            Portfolio
           </NavigationMenuLink>
         </NavigationMenuItem>
         <NavigationMenuItem>
@@ -25,8 +25,8 @@ export default function NavMenubar() {
           </NavigationMenuLink>
         </NavigationMenuItem>
         <NavigationMenuItem>
-          <NavigationMenuLink href="/portfolio">
-            Portfolio
+          <NavigationMenuLink href="/about">
+            About
           </NavigationMenuLink>
         </NavigationMenuItem>
       </NavigationMenuList>
