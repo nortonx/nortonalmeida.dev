@@ -5,25 +5,28 @@ import {
   NavigationMenuList
 } from "@/components/ui/navigation-menu"
 
-import Link from "next/link";
-
 export default function NavMenubar() {
   return (
     <NavigationMenu>
       <NavigationMenuList>
         <NavigationMenuItem>
-          <NavigationMenuLink>
-            <Link href="/">Home</Link>
+          <NavigationMenuLink href="/">
+            Home
           </NavigationMenuLink>
         </NavigationMenuItem>
         <NavigationMenuItem>
-          <NavigationMenuLink>
-            <Link href="/about">About</Link>
+          <NavigationMenuLink href="/portfolio">
+            Portfolio
           </NavigationMenuLink>
         </NavigationMenuItem>
         <NavigationMenuItem>
-          <NavigationMenuLink>
-            <Link href="/profile">Profile</Link>
+          <NavigationMenuLink href="/profile">
+            Profile
+          </NavigationMenuLink>
+        </NavigationMenuItem>
+        <NavigationMenuItem>
+          <NavigationMenuLink href="/about">
+            About
           </NavigationMenuLink>
         </NavigationMenuItem>
       </NavigationMenuList>

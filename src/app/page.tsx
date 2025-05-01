@@ -1,5 +1,5 @@
 export default function Home() {
   return (
-    <div>Shadcn lives</div>
+    <div data-testid="home-page">Shadcn lives</div>
   );
 }
