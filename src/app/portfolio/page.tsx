@@ -9,6 +9,7 @@ interface Repo {
 }
 
 export default async function Portfolio() {
+  // @ts-expect-error Type "unknown" is not assignable to type "Repo"
   const repos: Repo[] = await getRepos()
 
   return (

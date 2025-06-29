@@ -10,9 +10,8 @@ export async function getRepos() {
       throw new Error(`HTTP error! status: ${response.status} - ${response.statusText}`)
     }
     return await response.json()
-  } catch(err: unknown) {
+  } catch(err) {
     console.error(err)
-    return null
   }
 
 }
