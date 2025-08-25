@@ -25,6 +25,11 @@ export default function NavMenubar() {
           </NavigationMenuLink>
         </NavigationMenuItem>
         <NavigationMenuItem>
+          <NavigationMenuLink href="/shop">
+            Fake shop
+          </NavigationMenuLink>
+        </NavigationMenuItem>
+        <NavigationMenuItem>
           <NavigationMenuLink href="/about">
             About
           </NavigationMenuLink>

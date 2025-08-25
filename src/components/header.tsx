@@ -3,7 +3,7 @@
 import React from "react";
 import Link from "next/link";
 import ModeToggle from "@/components/mode-toggle"
-import NavMenubar from "@/components/nav-menubar";
+import NavMenubar from "@/components/nav-menubar"
 
 export default function Header() {
 
