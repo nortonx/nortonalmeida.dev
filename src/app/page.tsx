@@ -1,9 +1,16 @@
-"use client"
+import NSection from "@/components/custom/NSection"
 
 export default function Home() {
   return (
     <div data-testid="home-page">
-      <h1>Content</h1>
+      <NSection title="Content">
+        <p>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eius
+          doloremque magni officia ex ullam inventore rerum sapiente soluta
+          voluptatum quibusdam harum iusto alias, quis obcaecati consectetur
+          iure animi distinctio. Unde.
+        </p>
+      </NSection>
     </div>
   )
 }
