@@ -2,7 +2,6 @@
   {
     "name": "Product 1",
     "value": 1200,
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
   }
 ]

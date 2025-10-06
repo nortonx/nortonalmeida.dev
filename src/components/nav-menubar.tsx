@@ -2,7 +2,7 @@ import {
   NavigationMenu,
   NavigationMenuItem,
   NavigationMenuLink,
-  NavigationMenuList
+  NavigationMenuList,
 } from "@/components/ui/navigation-menu"
 
 export default function NavMenubar() {
@@ -10,29 +10,22 @@ export default function NavMenubar() {
     <NavigationMenu>
       <NavigationMenuList>
         <NavigationMenuItem>
-          <NavigationMenuLink href="/">
-            Home
-          </NavigationMenuLink>
+          <NavigationMenuLink href="/">Home</NavigationMenuLink>
         </NavigationMenuItem>
         <NavigationMenuItem>
-          <NavigationMenuLink href="/portfolio">
-            Portfolio
-          </NavigationMenuLink>
+          <NavigationMenuLink href="/portfolio">Portfolio</NavigationMenuLink>
         </NavigationMenuItem>
         <NavigationMenuItem>
-          <NavigationMenuLink href="/profile">
-            Profile
-          </NavigationMenuLink>
+          <NavigationMenuLink href="/profile">Profile</NavigationMenuLink>
         </NavigationMenuItem>
         <NavigationMenuItem>
-          <NavigationMenuLink href="/shop">
-            Fake shop
-          </NavigationMenuLink>
+          <NavigationMenuLink href="/services">Services</NavigationMenuLink>
         </NavigationMenuItem>
         <NavigationMenuItem>
-          <NavigationMenuLink href="/about">
-            About
-          </NavigationMenuLink>
+          <NavigationMenuLink href="/shop">Fake shop</NavigationMenuLink>
+        </NavigationMenuItem>
+        <NavigationMenuItem>
+          <NavigationMenuLink href="/about">About</NavigationMenuLink>
         </NavigationMenuItem>
       </NavigationMenuList>
     </NavigationMenu>

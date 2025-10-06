@@ -1,12 +1,14 @@
-import { getRepos } from "@/app/actions";
-import nodeFetch from "node-fetch";
+import { getRepos } from "@/app/actions"
+import nodeFetch from "node-fetch"
 
-jest.mock('node-fetch', () => jest.fn(() =>
-  Promise.resolve({
-    ok: true,
-    json: () => Promise.resolve({ data: 'mocked data' }),
-  })
-));
+jest.mock("node-fetch", () =>
+  jest.fn(() =>
+    Promise.resolve({
+      ok: true,
+      json: () => Promise.resolve({ data: "mocked data" }),
+    }),
+  ),
+)
 
 describe("getRepos", () => {
   // beforeEach(() => {
@@ -14,10 +16,13 @@ describe("getRepos", () => {
   // });
 
   it("should fetch data and process it correctly", async () => {
-    const result = await getRepos();
-    expect(nodeFetch).toHaveBeenCalledWith("https://api.github.com/users/nortonx/repos", {
-      method: "GET",
-    });
-    expect(result).toBeDefined();
-  });
-});
+    const result = await getRepos()
+    expect(nodeFetch).toHaveBeenCalledWith(
+      "https://api.github.com/users/nortonx/repos",
+      {
+        method: "GET",
+      },
+    )
+    expect(result).toBeDefined()
+  })
+})
