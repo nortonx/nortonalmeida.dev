@@ -1,9 +1,3 @@
-
-
 export default function ShopPage() {
-  return (
-    <div>
-      Show products page
-    </div>
-  )
+  return <div>Show products page</div>
 }
