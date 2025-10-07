@@ -5,7 +5,7 @@ export interface NSectionProps extends React.ComponentProps<"section"> {
   title: string
 }
 
-export default function NSection({
+export default function XSection({
   title,
   className,
   children,
