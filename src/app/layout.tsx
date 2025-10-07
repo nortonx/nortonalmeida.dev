@@ -1,4 +1,5 @@
 import type { Metadata } from "next"
+import type React from "react"
 import { Geist, Geist_Mono } from "next/font/google"
 import { ThemeProvider } from "@/components/theme-provider"
 import Header from "@/components/header"
