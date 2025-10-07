@@ -1,4 +1,4 @@
-import NSection from "@/components/custom/NSection"
+import NSection from "@/components/custom/XSection"
 
 export default async function Portfolio() {
   return (
