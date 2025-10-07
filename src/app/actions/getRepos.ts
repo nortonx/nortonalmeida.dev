@@ -15,6 +15,7 @@ export async function getRepos() {
     }
     return await response.json()
   } catch (err) {
-    console.error(err)
+    // Log in server environment if available
+    typeof console !== "undefined" && console.error(err)
   }
 }

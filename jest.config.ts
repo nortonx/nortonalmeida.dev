@@ -11,6 +11,10 @@ const customJestConfig = {
   preset: "ts-jest",
   verbose: true,
   testMatch: ["<rootDir>/__tests__/**/*.test.tsx"],
+  moduleNameMapper: {
+    "^@/(.*)$": "<rootDir>/src/$1",
+    "^public/(.*)$": "<rootDir>/public/$1",
+  },
 }
 
-module.exports = createJestConfig(customJestConfig)
+export default createJestConfig(customJestConfig)
