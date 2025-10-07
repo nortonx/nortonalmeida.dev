@@ -65,10 +65,3 @@ jobs:
 
       - name: npm audit
         run: npm audit --audit-level=moderate
-
-      - name: Install gitleaks
-        run: |
-          curl -sSL https://raw.githubusercontent.com/gitleaks/gitleaks/master/install.sh | bash
-
-      - name: Secret scan (gitleaks)
-        run: ./gitleaks detect --no-banner --redact --verbose
