@@ -6,8 +6,19 @@ import { defineConfig, devices } from "@playwright/test"
  */
 import dotenv from "dotenv"
 import path from "path"
-const __dirnameLocal = path.dirname(new URL(import.meta.url).pathname)
-dotenv.config({ path: path.resolve(__dirnameLocal, ".env.local") })
+
+// Load environment variables from both .env and .env.local (local overrides)
+dotenv.config({ path: path.resolve(process.cwd(), ".env") })
+dotenv.config({ path: path.resolve(process.cwd(), ".env.local") })
+
+const baseURLRaw = process.env.BASE_URL ?? "http://127.0.0.1:3000"
+const base = new URL(baseURLRaw)
+const port = base.port || process.env.PORT || "3000"
+// Always include port in baseURL for local hosts to match the started server
+const baseURL = base.port
+  ? `${base.protocol}//${base.hostname}:${base.port}`
+  : `${base.protocol}//${base.hostname}:${port}`
+const shouldStartServer = ["localhost", "127.0.0.1"].includes(base.hostname)
 
 /**
  * See https://playwright.dev/docs/test-configuration.
@@ -27,7 +38,7 @@ export default defineConfig({
   /* Shared settings for all the projects below. See https://playwright.dev/docs/api/class-testoptions. */
   use: {
     /* Base URL to use in actions like `await page.goto('/')`. */
-    // baseURL: 'http://127.0.0.1:3080',
+    baseURL,
 
     /* Collect trace when retrying the failed test. See https://playwright.dev/docs/trace-viewer */
     trace: "on-first-retry",
@@ -72,9 +83,13 @@ export default defineConfig({
   ],
 
   /* Run your local dev server before starting the tests */
-  webServer: {
-    command: "npm run start",
-    url: "http://127.0.0.1:3000",
-    reuseExistingServer: !process.env.CI,
-  },
+  webServer: shouldStartServer
+    ? {
+        // Build and then start Next.js on the derived port
+        command: `bash -c "npm run build && npx next start -p ${port}"`,
+        url: baseURL,
+        reuseExistingServer: !process.env.CI,
+        timeout: 180_000,
+      }
+    : undefined,
 })
