@@ -1,62 +1,43 @@
-import { test } from "@playwright/test"
-import { navigateAndAssert } from "./helpers/nav"
+import { test, expect } from "@playwright/test"
+import { navigateToAnchor } from "./helpers/nav"
 
 test.describe("NavMenubar navigation", () => {
   test.beforeEach(async ({ page }) => {
     await page.goto(`/`)
   })
 
-  test("navigates to Home and highlights active link", async ({ page }) => {
-    await navigateAndAssert(page, {
-      name: "Home",
-      href: "/",
-      ariaLabel: "Content",
-      preNavigateUrl: `/about`,
-      assertHome: true,
-    })
-  })
-
-  test("navigates to Portfolio and highlights active link", async ({
-    page,
-  }) => {
-    await navigateAndAssert(page, {
-      name: "Portfolio",
-      href: "/portfolio",
-      ariaLabel: "Projects",
-    })
-  })
-
-  test("navigates to Profile and highlights active link", async ({ page }) => {
-    await navigateAndAssert(page, {
-      name: "Profile",
-      href: "/profile",
-      ariaLabel: "Profile",
-    })
-  })
-
-  test("navigates to Services and highlights active link", async ({ page }) => {
-    await navigateAndAssert(page, {
-      name: "Services",
-      href: "/services",
-      ariaLabel: "Services",
-    })
-  })
-
-  test("navigates to Fake shop and highlights active link", async ({
-    page,
-  }) => {
-    await navigateAndAssert(page, {
-      name: "Fake shop",
-      href: "/shop",
-      ariaLabel: "Shop",
-    })
-  })
-
-  test("navigates to About and highlights active link", async ({ page }) => {
-    await navigateAndAssert(page, {
+  test("navigates to About section", async ({ page }) => {
+    await navigateToAnchor(page, {
       name: "About",
-      href: "/about",
       ariaLabel: "About",
     })
+  })
+
+  test("navigates to Experience section", async ({ page }) => {
+    await navigateToAnchor(page, {
+      name: "Experience",
+      ariaLabel: "Experience",
+    })
+  })
+
+  test("navigates to Education section", async ({ page }) => {
+    await navigateToAnchor(page, {
+      name: "Education",
+      ariaLabel: "Education",
+    })
+  })
+
+  test("navigates to Skills section", async ({ page }) => {
+    await navigateToAnchor(page, {
+      name: "Skills",
+      ariaLabel: "Skills",
+    })
+  })
+
+  test("Home link is visible and functional", async ({ page }) => {
+    const homeLink = page.getByRole("link", { name: "Home" })
+    await expect(homeLink).toBeVisible()
+    await expect(homeLink).toHaveAttribute("href", "/")
+    await expect(homeLink).toHaveAttribute("data-active", "true")
   })
 })
