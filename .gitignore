@@ -44,4 +44,4 @@ next-env.d.ts
 .trae/*
 
 # tests
-.test-results/*
+.test-results

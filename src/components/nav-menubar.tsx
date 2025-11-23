@@ -6,51 +6,25 @@ import {
   NavigationMenuLink,
   NavigationMenuList,
 } from "@/components/ui/navigation-menu"
-import { usePathname } from "next/navigation"
 
 export default function NavMenubar() {
-  const pathname = usePathname()
   return (
     <NavigationMenu>
       <NavigationMenuList>
         <NavigationMenuItem>
-          <NavigationMenuLink href="/" data-active={pathname === "/"}>
-            Home
-          </NavigationMenuLink>
+          <NavigationMenuLink href="/">Home</NavigationMenuLink>
         </NavigationMenuItem>
         <NavigationMenuItem>
-          <NavigationMenuLink
-            href="/portfolio"
-            data-active={pathname === "/portfolio"}
-          >
-            Portfolio
-          </NavigationMenuLink>
+          <NavigationMenuLink href="#about">About</NavigationMenuLink>
         </NavigationMenuItem>
         <NavigationMenuItem>
-          <NavigationMenuLink
-            href="/profile"
-            data-active={pathname === "/profile"}
-          >
-            Profile
-          </NavigationMenuLink>
+          <NavigationMenuLink href="#experience">Experience</NavigationMenuLink>
         </NavigationMenuItem>
         <NavigationMenuItem>
-          <NavigationMenuLink
-            href="/services"
-            data-active={pathname === "/services"}
-          >
-            Services
-          </NavigationMenuLink>
+          <NavigationMenuLink href="#education">Education</NavigationMenuLink>
         </NavigationMenuItem>
         <NavigationMenuItem>
-          <NavigationMenuLink href="/shop" data-active={pathname === "/shop"}>
-            Fake shop
-          </NavigationMenuLink>
-        </NavigationMenuItem>
-        <NavigationMenuItem>
-          <NavigationMenuLink href="/about" data-active={pathname === "/about"}>
-            About
-          </NavigationMenuLink>
+          <NavigationMenuLink href="#skills">Skills</NavigationMenuLink>
         </NavigationMenuItem>
       </NavigationMenuList>
     </NavigationMenu>
