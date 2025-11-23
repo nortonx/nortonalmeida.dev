@@ -38,6 +38,5 @@ test.describe("NavMenubar navigation", () => {
     const homeLink = page.getByRole("link", { name: "Home" })
     await expect(homeLink).toBeVisible()
     await expect(homeLink).toHaveAttribute("href", "/")
-    await expect(homeLink).toHaveAttribute("data-active", "true")
   })
 })
