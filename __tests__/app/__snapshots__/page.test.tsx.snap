@@ -26,7 +26,7 @@ exports[`Home Page should render the page and match snapshot 1`] = `
       <p
         class="max-w-2xl text-lg leading-relaxed text-slate-600 dark:text-slate-300"
       >
-        Bachelor's degree in Information Systems, with over 20 years in technology and more than 10 years focused on front-end development. Highly skilled front-end software developer with over 15 years of experience working with Fortune 500 companies.
+        Bachelor's degree in Information Systems, with over 20 years in technology—including more than 15 years working with Fortune 500 companies and over 10 years focused on front-end development. Highly skilled front-end software developer.
       </p>
       <div
         class="flex gap-4"
@@ -66,6 +66,7 @@ exports[`Home Page should render the page and match snapshot 1`] = `
           class="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium transition-all disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg:not([class*='size-'])]:size-4 shrink-0 [&_svg]:shrink-0 outline-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive border bg-background shadow-xs hover:bg-accent hover:text-accent-foreground dark:bg-input/30 dark:border-input dark:hover:bg-input/50 h-9 px-4 py-2 has-[>svg]:px-3"
           data-slot="button"
           href="https://linkedin.com/in/norton-almeida"
+          rel="noopener noreferrer"
           target="_blank"
         >
           <svg
@@ -101,7 +102,8 @@ exports[`Home Page should render the page and match snapshot 1`] = `
         <a
           class="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium transition-all disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg:not([class*='size-'])]:size-4 shrink-0 [&_svg]:shrink-0 outline-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive hover:bg-accent hover:text-accent-foreground dark:hover:bg-accent/50 h-9 px-4 py-2 has-[>svg]:px-3"
           data-slot="button"
-          href="https://github.com"
+          href="https://github.com/nortonx"
+          rel="noopener noreferrer"
           target="_blank"
         >
           <svg

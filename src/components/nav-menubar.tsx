@@ -6,17 +6,13 @@ import {
   NavigationMenuLink,
   NavigationMenuList,
 } from "@/components/ui/navigation-menu"
-import { usePathname } from "next/navigation"
 
 export default function NavMenubar() {
-  const pathname = usePathname()
   return (
     <NavigationMenu>
       <NavigationMenuList>
         <NavigationMenuItem>
-          <NavigationMenuLink href="/" data-active={pathname === "/"}>
-            Home
-          </NavigationMenuLink>
+          <NavigationMenuLink href="/">Home</NavigationMenuLink>
         </NavigationMenuItem>
         <NavigationMenuItem>
           <NavigationMenuLink href="#about">About</NavigationMenuLink>
