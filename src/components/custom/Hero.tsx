@@ -17,10 +17,7 @@ export default function Hero() {
       </div>
 
       <p className="max-w-2xl text-lg leading-relaxed text-slate-600 dark:text-slate-300">
-        Bachelor's degree in Information Systems, with over 20 years in
-        technology and more than 10 years focused on front-end development.
-        Highly skilled front-end software developer with over 15 years of
-        experience working with Fortune 500 companies.
+        Bachelor's degree in Information Systems, with over 20 years in technology—including more than 15 years working with Fortune 500 companies and over 10 years focused on front-end development. Highly skilled front-end software developer.
       </p>
 
       <div className="flex gap-4">
