@@ -1,18 +1,30 @@
-import { defineConfig, devices } from '@playwright/test';
+import { defineConfig, devices } from "@playwright/test"
 
 /**
  * Read environment variables from file.
  * https://github.com/motdotla/dotenv
  */
-import dotenv from 'dotenv';
-import path from 'path';
-dotenv.config({ path: path.resolve(__dirname, '.env.local') });
+import dotenv from "dotenv"
+import path from "path"
+
+// Load environment variables from both .env and .env.local (local overrides)
+dotenv.config({ path: path.resolve(process.cwd(), ".env") })
+dotenv.config({ path: path.resolve(process.cwd(), ".env.local") })
+
+const baseURLRaw = process.env.BASE_URL ?? "http://127.0.0.1:3000"
+const base = new URL(baseURLRaw)
+const port = base.port || process.env.PORT || "3000"
+// Always include port in baseURL for local hosts to match the started server
+const baseURL = base.port
+  ? `${base.protocol}//${base.hostname}:${base.port}`
+  : `${base.protocol}//${base.hostname}:${port}`
+const shouldStartServer = ["localhost", "127.0.0.1"].includes(base.hostname)
 
 /**
  * See https://playwright.dev/docs/test-configuration.
  */
 export default defineConfig({
-  testDir: './e2e',
+  testDir: "./e2e",
   /* Run tests in files in parallel */
   fullyParallel: true,
   /* Fail the build on CI if you accidentally left test.only in the source code. */
@@ -22,41 +34,41 @@ export default defineConfig({
   /* Opt out of parallel tests on CI. */
   workers: process.env.CI ? 1 : undefined,
   /* Reporter to use. See https://playwright.dev/docs/test-reporters */
-  reporter: 'html',
+  reporter: "html",
   /* Shared settings for all the projects below. See https://playwright.dev/docs/api/class-testoptions. */
   use: {
     /* Base URL to use in actions like `await page.goto('/')`. */
-    // baseURL: 'http://127.0.0.1:3080',
+    baseURL,
 
     /* Collect trace when retrying the failed test. See https://playwright.dev/docs/trace-viewer */
-    trace: 'on-first-retry',
+    trace: "on-first-retry",
   },
 
   /* Configure projects for major browsers */
   projects: [
     {
-      name: 'chromium',
-      use: { ...devices['Desktop Chrome'] },
+      name: "chromium",
+      use: { ...devices["Desktop Chrome"] },
     },
 
     {
-      name: 'firefox',
-      use: { ...devices['Desktop Firefox'] },
+      name: "firefox",
+      use: { ...devices["Desktop Firefox"] },
     },
 
     {
-      name: 'webkit',
-      use: { ...devices['Desktop Safari'] },
+      name: "webkit",
+      use: { ...devices["Desktop Safari"] },
     },
 
     /* Test against mobile viewports. */
     {
-      name: 'Mobile Chrome',
-      use: { ...devices['Pixel 6'] },
+      name: "Mobile Chrome",
+      use: { ...devices["Pixel 6"] },
     },
     {
-      name: 'Mobile Safari',
-      use: { ...devices['iPhone 12'] },
+      name: "Mobile Safari",
+      use: { ...devices["iPhone 12"] },
     },
 
     /* Test against branded browsers. */
@@ -71,9 +83,13 @@ export default defineConfig({
   ],
 
   /* Run your local dev server before starting the tests */
-  webServer: {
-    command: 'npm run start',
-    url: 'http://127.0.0.1:3000',
-    reuseExistingServer: !process.env.CI,
-  },
-});
+  webServer: shouldStartServer
+    ? {
+        // Build and then start Next.js on the derived port
+        command: `bash -c "npm run build && npx next start -p ${port}"`,
+        url: baseURL,
+        reuseExistingServer: !process.env.CI,
+        timeout: 180_000,
+      }
+    : undefined,
+})

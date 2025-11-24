@@ -1,14 +1,16 @@
-"use client";
+"use client"
 
-import React from "react";
-import Link from "next/link";
+import React from "react"
+import Link from "next/link"
 import ModeToggle from "@/components/mode-toggle"
 import NavMenubar from "@/components/nav-menubar"
 
 export default function Header() {
-
   return (
-    <header className="flex justify-between items-center mt-10" data-testid="header-component">
+    <header
+      className="flex justify-between items-center mt-10"
+      data-testid="header-component"
+    >
       <Link href="/" className="text-xl font-bold">
         www.nortonalmeida.dev
       </Link>
