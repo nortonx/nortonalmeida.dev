@@ -18,11 +18,9 @@ exports[`Home Page should render the page and match snapshot 1`] = `
       </div>
       <div
         class="space-y-6 max-w-4xl"
-        style="opacity: 0.011775650990603029;"
       >
         <div
           class="space-y-2"
-          style="opacity: 0.011775650990603029; transform: translateY(19.769153964633666px);"
         >
           <span
             class="text-primary font-medium tracking-wide text-sm uppercase"
@@ -46,7 +44,6 @@ exports[`Home Page should render the page and match snapshot 1`] = `
         </div>
         <div
           class="flex flex-wrap gap-2 text-sm text-muted-foreground font-mono"
-          style="opacity: 0; transform: translateY(20px);"
         >
           <span
             class="px-2 py-1 rounded-md bg-slate-100 dark:bg-slate-800/50 border border-slate-200 dark:border-slate-700/50"
@@ -79,9 +76,7 @@ exports[`Home Page should render the page and match snapshot 1`] = `
             Node.js
           </span>
         </div>
-        <div
-          style="opacity: 0; transform: translateY(20px);"
-        >
+        <div>
           <p
             class="max-w-2xl text-lg leading-relaxed text-slate-600 dark:text-slate-400"
           >
@@ -100,7 +95,6 @@ exports[`Home Page should render the page and match snapshot 1`] = `
         </div>
         <div
           class="flex gap-4 pt-4"
-          style="opacity: 0; transform: translateY(20px);"
         >
           <a
             class="inline-flex items-center justify-center gap-2 whitespace-nowrap text-sm font-medium disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg:not([class*='size-'])]:size-4 shrink-0 [&_svg]:shrink-0 outline-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive bg-primary text-primary-foreground hover:bg-primary/90 h-10 has-[>svg]:px-4 rounded-full px-8 shadow-lg shadow-primary/20 hover:shadow-primary/30 transition-shadow"
@@ -208,7 +202,6 @@ exports[`Home Page should render the page and match snapshot 1`] = `
     </section>
     <div
       class="w-full"
-      style="opacity: 0; transform: translateY(20px);"
     >
       <section
         aria-label="About"
@@ -254,7 +247,6 @@ exports[`Home Page should render the page and match snapshot 1`] = `
     </div>
     <div
       class="w-full"
-      style="opacity: 0; transform: translateY(20px);"
     >
       <section
         aria-label="Experience"
@@ -278,7 +270,6 @@ exports[`Home Page should render the page and match snapshot 1`] = `
         >
           <div
             class="relative pl-8 group"
-            style="opacity: 0; transform: translateX(-20px);"
           >
             <div
               class="absolute -left-[9px] top-1 h-4 w-4 rounded-full bg-slate-200 dark:bg-slate-800 border-4 border-background group-hover:bg-primary group-hover:scale-125 transition-all duration-300"
@@ -314,7 +305,6 @@ exports[`Home Page should render the page and match snapshot 1`] = `
           </div>
           <div
             class="relative pl-8 group"
-            style="opacity: 0; transform: translateX(-20px);"
           >
             <div
               class="absolute -left-[9px] top-1 h-4 w-4 rounded-full bg-slate-200 dark:bg-slate-800 border-4 border-background group-hover:bg-primary group-hover:scale-125 transition-all duration-300"
@@ -350,7 +340,6 @@ exports[`Home Page should render the page and match snapshot 1`] = `
           </div>
           <div
             class="relative pl-8 group"
-            style="opacity: 0; transform: translateX(-20px);"
           >
             <div
               class="absolute -left-[9px] top-1 h-4 w-4 rounded-full bg-slate-200 dark:bg-slate-800 border-4 border-background group-hover:bg-primary group-hover:scale-125 transition-all duration-300"
@@ -404,7 +393,6 @@ exports[`Home Page should render the page and match snapshot 1`] = `
           </div>
           <div
             class="relative pl-8 group"
-            style="opacity: 0; transform: translateX(-20px);"
           >
             <div
               class="absolute -left-[9px] top-1 h-4 w-4 rounded-full bg-slate-200 dark:bg-slate-800 border-4 border-background group-hover:bg-primary group-hover:scale-125 transition-all duration-300"
@@ -467,7 +455,6 @@ exports[`Home Page should render the page and match snapshot 1`] = `
           </div>
           <div
             class="relative pl-8 group"
-            style="opacity: 0; transform: translateX(-20px);"
           >
             <div
               class="absolute -left-[9px] top-1 h-4 w-4 rounded-full bg-slate-200 dark:bg-slate-800 border-4 border-background group-hover:bg-primary group-hover:scale-125 transition-all duration-300"
@@ -522,7 +509,6 @@ exports[`Home Page should render the page and match snapshot 1`] = `
     </div>
     <div
       class="w-full"
-      style="opacity: 0; transform: translateY(20px);"
     >
       <section
         aria-label="Education"
@@ -587,7 +573,6 @@ exports[`Home Page should render the page and match snapshot 1`] = `
     </div>
     <div
       class="w-full"
-      style="opacity: 0; transform: translateY(20px);"
     >
       <section
         aria-label="Skills"
@@ -608,149 +593,124 @@ exports[`Home Page should render the page and match snapshot 1`] = `
         </div>
         <div
           class="flex flex-wrap gap-3"
-          style="opacity: 0;"
         >
           <span
             class="px-4 py-2 bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-lg text-sm font-medium hover:border-primary/50 hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors cursor-default shadow-sm"
-            style="opacity: 0; transform: scale(0.8);"
           >
             Vue.js
           </span>
           <span
             class="px-4 py-2 bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-lg text-sm font-medium hover:border-primary/50 hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors cursor-default shadow-sm"
-            style="opacity: 0; transform: scale(0.8);"
           >
             JavaScript
           </span>
           <span
             class="px-4 py-2 bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-lg text-sm font-medium hover:border-primary/50 hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors cursor-default shadow-sm"
-            style="opacity: 0; transform: scale(0.8);"
           >
             TypeScript
           </span>
           <span
             class="px-4 py-2 bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-lg text-sm font-medium hover:border-primary/50 hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors cursor-default shadow-sm"
-            style="opacity: 0; transform: scale(0.8);"
           >
             React.js
           </span>
           <span
             class="px-4 py-2 bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-lg text-sm font-medium hover:border-primary/50 hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors cursor-default shadow-sm"
-            style="opacity: 0; transform: scale(0.8);"
           >
             Next.js
           </span>
           <span
             class="px-4 py-2 bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-lg text-sm font-medium hover:border-primary/50 hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors cursor-default shadow-sm"
-            style="opacity: 0; transform: scale(0.8);"
           >
             Nuxt.js
           </span>
           <span
             class="px-4 py-2 bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-lg text-sm font-medium hover:border-primary/50 hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors cursor-default shadow-sm"
-            style="opacity: 0; transform: scale(0.8);"
           >
             Node.js
           </span>
           <span
             class="px-4 py-2 bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-lg text-sm font-medium hover:border-primary/50 hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors cursor-default shadow-sm"
-            style="opacity: 0; transform: scale(0.8);"
           >
             Agile Methodologies
           </span>
           <span
             class="px-4 py-2 bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-lg text-sm font-medium hover:border-primary/50 hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors cursor-default shadow-sm"
-            style="opacity: 0; transform: scale(0.8);"
           >
             Microfrontends
           </span>
           <span
             class="px-4 py-2 bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-lg text-sm font-medium hover:border-primary/50 hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors cursor-default shadow-sm"
-            style="opacity: 0; transform: scale(0.8);"
           >
             Vuex
           </span>
           <span
             class="px-4 py-2 bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-lg text-sm font-medium hover:border-primary/50 hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors cursor-default shadow-sm"
-            style="opacity: 0; transform: scale(0.8);"
           >
             Pinia
           </span>
           <span
             class="px-4 py-2 bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-lg text-sm font-medium hover:border-primary/50 hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors cursor-default shadow-sm"
-            style="opacity: 0; transform: scale(0.8);"
           >
             Express
           </span>
           <span
             class="px-4 py-2 bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-lg text-sm font-medium hover:border-primary/50 hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors cursor-default shadow-sm"
-            style="opacity: 0; transform: scale(0.8);"
           >
             HTML
           </span>
           <span
             class="px-4 py-2 bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-lg text-sm font-medium hover:border-primary/50 hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors cursor-default shadow-sm"
-            style="opacity: 0; transform: scale(0.8);"
           >
             CSS
           </span>
           <span
             class="px-4 py-2 bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-lg text-sm font-medium hover:border-primary/50 hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors cursor-default shadow-sm"
-            style="opacity: 0; transform: scale(0.8);"
           >
             SASS
           </span>
           <span
             class="px-4 py-2 bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-lg text-sm font-medium hover:border-primary/50 hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors cursor-default shadow-sm"
-            style="opacity: 0; transform: scale(0.8);"
           >
             LESS
           </span>
           <span
             class="px-4 py-2 bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-lg text-sm font-medium hover:border-primary/50 hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors cursor-default shadow-sm"
-            style="opacity: 0; transform: scale(0.8);"
           >
             Shell Script
           </span>
           <span
             class="px-4 py-2 bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-lg text-sm font-medium hover:border-primary/50 hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors cursor-default shadow-sm"
-            style="opacity: 0; transform: scale(0.8);"
           >
             Storybook
           </span>
           <span
             class="px-4 py-2 bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-lg text-sm font-medium hover:border-primary/50 hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors cursor-default shadow-sm"
-            style="opacity: 0; transform: scale(0.8);"
           >
             Ruby on Rails
           </span>
           <span
             class="px-4 py-2 bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-lg text-sm font-medium hover:border-primary/50 hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors cursor-default shadow-sm"
-            style="opacity: 0; transform: scale(0.8);"
           >
             PHP
           </span>
           <span
             class="px-4 py-2 bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-lg text-sm font-medium hover:border-primary/50 hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors cursor-default shadow-sm"
-            style="opacity: 0; transform: scale(0.8);"
           >
             MySQL
           </span>
           <span
             class="px-4 py-2 bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-lg text-sm font-medium hover:border-primary/50 hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors cursor-default shadow-sm"
-            style="opacity: 0; transform: scale(0.8);"
           >
             PostgreSQL
           </span>
           <span
             class="px-4 py-2 bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-lg text-sm font-medium hover:border-primary/50 hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors cursor-default shadow-sm"
-            style="opacity: 0; transform: scale(0.8);"
           >
             Docker
           </span>
           <span
             class="px-4 py-2 bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-lg text-sm font-medium hover:border-primary/50 hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors cursor-default shadow-sm"
-            style="opacity: 0; transform: scale(0.8);"
           >
             AWS
           </span>
@@ -759,7 +719,6 @@ exports[`Home Page should render the page and match snapshot 1`] = `
     </div>
     <div
       class="w-full"
-      style="opacity: 0; transform: translateY(20px);"
     >
       <section
         aria-label="Causes"
@@ -780,53 +739,44 @@ exports[`Home Page should render the page and match snapshot 1`] = `
         </div>
         <div
           class="flex flex-wrap gap-3"
-          style="opacity: 0;"
         >
           <span
             class="px-4 py-2 bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-lg text-sm font-medium hover:border-primary/50 hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors cursor-default shadow-sm"
-            style="opacity: 0; transform: scale(0.8);"
           >
             Poverty Alleviation
           </span>
           <span
             class="px-4 py-2 bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-lg text-sm font-medium hover:border-primary/50 hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors cursor-default shadow-sm"
-            style="opacity: 0; transform: scale(0.8);"
           >
             Science and Technology
           </span>
           <span
             class="px-4 py-2 bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-lg text-sm font-medium hover:border-primary/50 hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors cursor-default shadow-sm"
-            style="opacity: 0; transform: scale(0.8);"
           >
             Arts and Culture
           </span>
           <span
             class="px-4 py-2 bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-lg text-sm font-medium hover:border-primary/50 hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors cursor-default shadow-sm"
-            style="opacity: 0; transform: scale(0.8);"
           >
             Human Rights
           </span>
           <span
             class="px-4 py-2 bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-lg text-sm font-medium hover:border-primary/50 hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors cursor-default shadow-sm"
-            style="opacity: 0; transform: scale(0.8);"
           >
             Education
           </span>
           <span
             class="px-4 py-2 bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-lg text-sm font-medium hover:border-primary/50 hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors cursor-default shadow-sm"
-            style="opacity: 0; transform: scale(0.8);"
           >
             Environment
           </span>
           <span
             class="px-4 py-2 bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-lg text-sm font-medium hover:border-primary/50 hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors cursor-default shadow-sm"
-            style="opacity: 0; transform: scale(0.8);"
           >
             Health
           </span>
           <span
             class="px-4 py-2 bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-lg text-sm font-medium hover:border-primary/50 hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors cursor-default shadow-sm"
-            style="opacity: 0; transform: scale(0.8);"
           >
             Civil Rights and Social Action
           </span>
