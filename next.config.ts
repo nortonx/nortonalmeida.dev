@@ -8,6 +8,7 @@ const nextConfig: NextConfig = {
     // Skip Next.js lint during builds; use ESLint CLI in CI
     ignoreDuringBuilds: true,
   },
+  output: "standalone",
 }
 
 export default nextConfig
