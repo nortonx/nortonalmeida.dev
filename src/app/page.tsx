@@ -50,6 +50,7 @@ export default function Home() {
       company: "AgilityFeat",
       period: "Aug 2022 - Sep 2022",
       location: "Belo Horizonte, Minas Gerais, Brazil",
+      description: "Short-term consulting project during Avenue Code employment.",
       skills: ["Ruby on Rails", "React", "AWS", "Scrum"],
     },
   ]
