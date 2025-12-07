@@ -10,7 +10,11 @@
       "WebSearch",
       "WebFetch(domain:playwright.dev)",
       "Bash(npm run test:e2e:*)",
-      "Bash(npm run:*)"
+      "Bash(npm run:*)",
+      "Bash(gh pr view:*)",
+      "Bash(gh pr:*)",
+      "Bash(gh run view:*)",
+      "Bash(gh api:*)"
     ],
     "deny": [],
     "ask": []

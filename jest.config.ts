@@ -14,6 +14,7 @@ const customJestConfig = {
   moduleNameMapper: {
     "^@/(.*)$": "<rootDir>/src/$1",
     "^public/(.*)$": "<rootDir>/public/$1",
+    "^framer-motion$": "<rootDir>/__mocks__/framer-motion.tsx",
   },
 }
 
