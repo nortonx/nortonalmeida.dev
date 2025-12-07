@@ -487,6 +487,11 @@ exports[`Home Page should render the page and match snapshot 1`] = `
                 Belo Horizonte, Minas Gerais, Brazil
               </div>
             </div>
+            <div
+              class="prose dark:prose-invert max-w-none text-slate-600 dark:text-slate-400 text-sm mb-4"
+            >
+              Short-term consulting project during Avenue Code employment.
+            </div>
             <ul
               class="list-disc list-outside ml-4 space-y-1 text-sm text-slate-600 dark:text-slate-400"
             >
