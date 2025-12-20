@@ -1,4 +1,4 @@
-// Jest Snapshot v1, https://goo.gl/fbAQLP
+// Jest Snapshot v1, https://jestjs.io/docs/snapshot-testing
 
 exports[`Header component renders basics and matches snapshot 1`] = `
 <div>
@@ -22,6 +22,7 @@ exports[`Header component renders basics and matches snapshot 1`] = `
       </div>
       <button
         data-testid="mode-toggle"
+        type="button"
       >
         Toggle
       </button>

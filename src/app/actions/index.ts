@@ -1,1 +1,1 @@
-export { getRepos } from "./getRepos"
+export { getRepos } from "./getRepos";
