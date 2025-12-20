@@ -19,7 +19,7 @@ export default function NavMenubar() {
 	return (
 		<NavigationMenu className="max-w-full w-full justify-center md:justify-start">
 			<NavigationMenuList className="flex-wrap gap-2 md:gap-4">
-				{navItems.map((item, index) => (
+				{navItems.map((item) => (
 					<NavigationMenuItem key={item.href}>
 						<NavigationMenuLink
 							href={item.href}

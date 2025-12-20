@@ -15,13 +15,14 @@ export function TerminalReveal({
 	className,
 }: TerminalRevealProps) {
 	const containerRef = useRef<HTMLDivElement>(null);
-	const [isTyping, setIsTyping] = useState(true);
 
+	// biome-ignore lint/correctness/useExhaustiveDependencies: children dependency needed to restart effect on content change
 	useEffect(() => {
 		if (!containerRef.current) return;
 
 		const container = containerRef.current;
 		const textNodes: { node: Text; content: string }[] = [];
+		let animationTimeoutId: NodeJS.Timeout;
 
 		// 1. Traverse and collect all text nodes
 		const walker = document.createTreeWalker(
@@ -45,12 +46,12 @@ export function TerminalReveal({
 		// 2. Typewriter effect
 		let currentNodeIndex = 0;
 		let currentCharIndex = 0;
+		// eslint-disable-next-line prefer-const
 		let cancelled = false;
 
 		const typeNextChar = () => {
 			if (cancelled) return;
 			if (currentNodeIndex >= textNodes.length) {
-				setIsTyping(false);
 				return;
 			}
 
@@ -68,7 +69,7 @@ export function TerminalReveal({
 
 			// Schedule next char (randomize speed slightly for realism)
 			const delay = speed + Math.random() * 10;
-			setTimeout(typeNextChar, delay);
+			animationTimeoutId = setTimeout(typeNextChar, delay);
 		};
 
 		// Start typing
@@ -76,23 +77,20 @@ export function TerminalReveal({
 
 		return () => {
 			cancelled = true;
+			clearTimeout(animationTimeoutId);
 			// Restore text if unmounted mid-typing
 			textNodes.forEach(({ node, content }) => {
 				node.textContent = content;
 			});
 		};
-	}, [speed]);
+	}, [speed, children]);
 
 	return (
 		<div ref={containerRef} className={className}>
-			<div
-				className={`transition-opacity duration-300 ${isTyping ? "opacity-100" : "opacity-100"}`}
-			>
-				{children}
-			</div>
-			{/* Cursor element could be added here if we track position, but pure text manipulation makes it hard to place a cursor absoluteley. 
-                We can rely on the 'appearing' text as the effect. 
-            */}
+			<div className="opacity-100">{children}</div>
+			{/* Cursor element could be added here if we track position. */}
+			{/* Pure text manipulation makes it hard to place a cursor absolutely, */}
+			{/* so we rely on the 'appearing' text as the effect. */}
 		</div>
 	);
 }

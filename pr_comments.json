@@ -1,0 +1,15 @@
+{
+	"reviews": [
+		{
+			"id": "PRR_kwDOOh2l5c7Wp5fb",
+			"author": { "login": "copilot-pull-request-reviewer" },
+			"authorAssociation": "CONTRIBUTOR",
+			"body": "## Pull request overview\n\nThis PR implements a typewriter-style text reveal component and integrates it into the application layout, along with navigation menu improvements and font configuration changes.\n\n- Adds a new `TerminalReveal` component with character-by-character text animation effect\n- Refactors the navigation menu to use a data-driven approach with responsive styling\n- Updates the layout to use only the monospace font and wraps all content in the terminal reveal effect\n\n### Reviewed changes\n\nCopilot reviewed 4 out of 4 changed files in this pull request and generated 9 comments.\n\n| File | Description |\n| ---- | ----------- |\n| src/components/terminal-reveal.tsx | Implements the new TerminalReveal component with DOM traversal and typewriter animation logic |\n| src/components/__tests__/terminal-reveal.test.tsx | Adds basic test coverage for the TerminalReveal component |\n| src/components/nav-menubar.tsx | Refactors navigation menu to use an array-based approach with updated responsive styling |\n| src/app/layout.tsx | Removes Geist Sans font, wraps Header and main content with TerminalReveal component |\n\n\n\n\n\n---\n\n💡 <a href=\"/nortonx/nortonalmeida.dev/new/main/.github/instructions?filename=*.instructions.md\" class=\"Link--inTextBlock\" target=\"_blank\" rel=\"noopener noreferrer\">Add Copilot custom instructions</a> for smarter, more guided reviews. <a href=\"https://docs.github.com/en/copilot/customizing-copilot/adding-repository-custom-instructions-for-github-copilot\" class=\"Link--inTextBlock\" target=\"_blank\" rel=\"noopener noreferrer\">Learn how to get started</a>.",
+			"submittedAt": "2025-12-20T21:14:08Z",
+			"includesCreatedEdit": false,
+			"reactionGroups": [],
+			"state": "COMMENTED",
+			"commit": { "oid": "cd6374708d582e971f9037b168e9f36e9a0292ca" }
+		}
+	]
+}
