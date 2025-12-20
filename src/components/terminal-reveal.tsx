@@ -87,10 +87,7 @@ export function TerminalReveal({
 
 	return (
 		<div ref={containerRef} className={className}>
-			<div className="opacity-100">{children}</div>
-			{/* Cursor element could be added here if we track position. */}
-			{/* Pure text manipulation makes it hard to place a cursor absolutely, */}
-			{/* so we rely on the 'appearing' text as the effect. */}
+			{children}
 		</div>
 	);
 }
