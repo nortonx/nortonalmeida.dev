@@ -1,4 +1,4 @@
-import nextJs from "next/jest"
+import nextJs from "next/jest.js"
 
 const createJestConfig = nextJs({
   dir: "./",

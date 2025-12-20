@@ -1,12 +1,8 @@
 "use server"
 
-import nodeFetch from "node-fetch"
-
 export async function getRepos() {
   try {
-    const response = await nodeFetch(
-      "https://api.github.com/users/nortonx/repos",
-    )
+    const response = await fetch("https://api.github.com/users/nortonx/repos")
 
     if (!response.ok) {
       throw new Error(
