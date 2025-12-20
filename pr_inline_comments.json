@@ -1,0 +1,64 @@
+{
+	"data": {
+		"repository": {
+			"pullRequest": {
+				"reviews": {
+					"nodes": [
+						{
+							"author": { "login": "copilot-pull-request-reviewer" },
+							"comments": {
+								"nodes": [
+									{
+										"path": "src/components/__tests__/terminal-reveal.test.tsx",
+										"line": 45,
+										"body": "The test doesn't verify the actual typewriter behavior - it only checks that text is eventually present. Consider adding assertions to verify that text is progressively revealed character by character, checking intermediate states during the typing animation."
+									},
+									{
+										"path": "src/components/__tests__/terminal-reveal.test.tsx",
+										"line": 46,
+										"body": "The test suite lacks coverage for several important behaviors: (1) component cleanup/unmounting during animation, (2) the `isTyping` state changes, (3) custom className prop application, (4) speed prop variations, and (5) handling of nested/complex children structures. Consider adding tests for these scenarios."
+									},
+									{
+										"path": "src/components/terminal-reveal.tsx",
+										"line": 95,
+										"body": "The comment contains spelling errors: \"absoluteley\" should be \"absolutely\". Additionally, the comment formatting is inconsistent with the rest of the codebase (uses multi-line comment style).\n```suggestion\n\t\t\t{/* Cursor element could be added here if we track position. */}\n\t\t\t{/* Pure text manipulation makes it hard to place a cursor absolutely, */}\n\t\t\t{/* so we rely on the 'appearing' text as the effect. */}\n```"
+									},
+									{
+										"path": "src/components/__tests__/terminal-reveal.test.tsx",
+										"line": 27,
+										"body": "The test has commented-out code and explanatory comments that should be removed. Lines 22-26 contain debugging notes rather than meaningful test assertions. This reduces test clarity and maintainability."
+									},
+									{
+										"path": "src/components/nav-menubar.tsx",
+										"line": 22,
+										"body": "The `index` variable is declared but never used in the map callback. Remove it to avoid creating unused variables.\n```suggestion\n\t\t\t\t{navItems.map((item) => (\n```"
+									},
+									{
+										"path": "src/app/layout.tsx",
+										"line": 40,
+										"body": "Wrapping the entire Header and main content in TerminalReveal may cause usability issues. The typewriter effect will apply to all content on every page navigation, potentially including interactive elements. This could delay user interaction and make navigation feel sluggish. Consider limiting the effect to specific content sections rather than the entire layout.\n```suggestion\n\t\t\t\t\t\t</TerminalReveal>\n\t\t\t\t\t\t<main className=\"my-10\">{children}</main>\n```"
+									},
+									{
+										"path": "src/components/terminal-reveal.tsx",
+										"line": 90,
+										"body": "The opacity transition has no effect because both states are set to \"opacity-100\". This appears to be dead code. Either remove the transition classes or implement different opacity values for typing vs completed states.\n```suggestion\n\t\t\t<div className=\"opacity-100\">\n```"
+									},
+									{
+										"path": "src/components/terminal-reveal.tsx",
+										"line": 71,
+										"body": "The typewriter effect uses setTimeout recursively without tracking timeout IDs, which creates a potential memory leak. When the component unmounts, the cleanup function sets `cancelled = true`, but any pending timeouts will still fire. Consider using requestAnimationFrame or storing timeout IDs to clear them properly in the cleanup function."
+									},
+									{
+										"path": "src/components/terminal-reveal.tsx",
+										"line": 84,
+										"body": "The useEffect has a missing dependency: `children` is not included in the dependency array. If the children prop changes, the typewriter effect will not restart. This could lead to stale or incorrect behavior. Either add `children` to the dependencies or document why it's intentionally omitted."
+									}
+								]
+							}
+						}
+					]
+				}
+			}
+		}
+	}
+}

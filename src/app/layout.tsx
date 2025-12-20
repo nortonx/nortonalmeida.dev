@@ -1,14 +1,10 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
+import { Geist_Mono } from "next/font/google";
 import type React from "react";
 import Header from "@/components/header";
 import { ThemeProvider } from "@/components/theme-provider";
 import "./globals.css";
-
-const geistSans = Geist({
-	variable: "--font-geist-sans",
-	subsets: ["latin"],
-});
+import { TerminalReveal } from "@/components/terminal-reveal";
 
 const geistMono = Geist_Mono({
 	variable: "--font-geist-mono",
@@ -28,7 +24,7 @@ export default function RootLayout({
 	return (
 		<html lang="en">
 			<body
-				className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+				className={`${geistMono.variable} font-mono antialiased`}
 				suppressHydrationWarning={true}
 			>
 				<ThemeProvider
@@ -38,8 +34,10 @@ export default function RootLayout({
 					disableTransitionOnChange
 				>
 					<div className="container mx-auto max-w-4xl dark:text-white text-gray-900">
-						<Header />
-						<main className="my-10">{children}</main>
+						<TerminalReveal speed={5}>
+							<Header />
+							<main className="my-10">{children}</main>
+						</TerminalReveal>
 					</div>
 				</ThemeProvider>
 			</body>
