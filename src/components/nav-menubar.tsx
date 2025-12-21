@@ -6,6 +6,7 @@ import {
 	NavigationMenuLink,
 	NavigationMenuList,
 } from "@/components/ui/navigation-menu";
+import { version } from "../../package.json";
 
 const navItems = [
 	{ href: "/", label: "Home" },
@@ -29,6 +30,11 @@ export default function NavMenubar() {
 						</NavigationMenuLink>
 					</NavigationMenuItem>
 				))}
+				<NavigationMenuItem>
+					<span className="block px-2 py-1 md:px-3 md:py-2 text-sm md:text-base font-medium text-muted-foreground">
+						v{version}
+					</span>
+				</NavigationMenuItem>
 			</NavigationMenuList>
 		</NavigationMenu>
 	);

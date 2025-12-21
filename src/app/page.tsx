@@ -6,10 +6,12 @@ import NSection from "@/components/custom/XSection";
 export default function Home() {
 	const experienceData = [
 		{
-			title: "Full Stack Developer",
+			title: "Senior Full Stack Developer",
 			company: "NACS Ltda",
 			period: "Mar 2025 - Present",
 			location: "Remote • Brasil",
+			description:
+				"Full Stack Developer Consultant for NACS clients. Solutions Architect, Full Stack Developer.",
 		},
 		{
 			title: "Senior Frontend Developer",

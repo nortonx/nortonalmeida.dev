@@ -24,11 +24,6 @@ export default function Hero() {
 
 	return (
 		<section className="relative flex flex-col items-start justify-center min-h-[85vh] py-20 gap-8 overflow-hidden">
-			{/* Background Decorative Elements */}
-			<div className="absolute top-0 right-0 -z-10 opacity-20 dark:opacity-10 transform translate-x-1/3 -translate-y-1/3">
-				<div className="w-[600px] h-[600px] bg-primary/30 rounded-full blur-3xl filter" />
-			</div>
-
 			<motion.div
 				variants={container}
 				initial="hidden"
@@ -36,16 +31,13 @@ export default function Hero() {
 				className="space-y-6 max-w-4xl"
 			>
 				<motion.div variants={item} className="space-y-2">
-					<span className="text-primary font-medium tracking-wide text-sm uppercase">
-						Portfolio
-					</span>
 					<h1 className="text-5xl font-extrabold tracking-tight lg:text-7xl bg-clip-text text-transparent bg-gradient-to-r from-slate-900 to-slate-500 dark:from-white dark:to-slate-400 pb-2">
 						Norton Almeida
 					</h1>
 					<h2 className="text-2xl font-semibold text-slate-600 dark:text-slate-300 flex flex-wrap gap-2 items-center">
 						Solutions Architect
 						<span className="w-1.5 h-1.5 rounded-full bg-primary mx-2" />
-						Frontend Specialist
+						Full Stack Developer / Frontend Specialist
 					</h2>
 				</motion.div>
 

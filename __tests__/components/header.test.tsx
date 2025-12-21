@@ -22,7 +22,7 @@ describe("Header component", () => {
 
 		// Title link
 		const homeLink = screen.getByRole("link", {
-			name: /www\.nortonalmeida\.dev/i,
+			name: /https:\/\/nortonalmeida\.dev/i,
 		});
 		expect(homeLink).toHaveAttribute("href", "/");
 
