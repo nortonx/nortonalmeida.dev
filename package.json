@@ -21,7 +21,9 @@
 		"test:updateSnapshot": "jest --updateSnapshot",
 		"test:playwright": "playwright test --reporter=dot",
 		"test:ui": "playwright test --ui",
-		"prepare": "husky"
+		"prepare": "husky",
+		"version:patch": "npm version patch --no-git-tag-version",
+		"version:minor": "npm version minor --no-git-tag-version"
 	},
 	"dependencies": {
 		"@radix-ui/react-dropdown-menu": "^2.1.12",

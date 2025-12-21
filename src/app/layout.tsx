@@ -22,11 +22,12 @@ export default function RootLayout({
 	children: React.ReactNode;
 }>) {
 	return (
-		<html lang="en">
-			<body
-				className={`${geistMono.variable} font-mono antialiased`}
-				suppressHydrationWarning={true}
-			>
+		<html lang="en" suppressHydrationWarning>
+			<body className={`${geistMono.variable} font-mono antialiased`}>
+				{/* Background Decorative Elements */}
+				<div className="fixed top-0 right-0 -z-10 opacity-20 dark:opacity-10 transform translate-x-1/3 -translate-y-1/3">
+					<div className="w-[600px] h-[600px] bg-primary/30 rounded-full blur-3xl filter" />
+				</div>
 				<ThemeProvider
 					attribute="class"
 					defaultTheme="system"

@@ -21,7 +21,7 @@ export async function navigateToAnchor(
 export async function assertHeaderVisible(page: Page) {
 	await expect(page.getByTestId("header-component")).toBeVisible();
 	await expect(
-		page.getByRole("link", { name: "www.nortonalmeida.dev" }),
+		page.getByRole("link", { name: "https://nortonalmeida.dev" }),
 	).toBeVisible();
 }
 

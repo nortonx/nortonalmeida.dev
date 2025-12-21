@@ -29,6 +29,11 @@ export default function NavMenubar() {
 						</NavigationMenuLink>
 					</NavigationMenuItem>
 				))}
+				<NavigationMenuItem>
+					<span className="block px-2 py-1 md:px-3 md:py-2 text-sm md:text-base font-medium text-muted-foreground">
+						v{process.env.NEXT_PUBLIC_APP_VERSION}
+					</span>
+				</NavigationMenuItem>
 			</NavigationMenuList>
 		</NavigationMenu>
 	);
