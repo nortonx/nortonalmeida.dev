@@ -1,6 +1,10 @@
 import type { NextConfig } from "next";
+import { version } from "./package.json";
 
 const nextConfig: NextConfig = {
+	env: {
+		NEXT_PUBLIC_APP_VERSION: version,
+	},
 	/* config options here */
 	eslint: {
 		// Limit linting to key project directories to avoid noise
