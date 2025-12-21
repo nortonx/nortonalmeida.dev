@@ -11,7 +11,7 @@ export default function Home() {
 			period: "Mar 2025 - Present",
 			location: "Remote • Brasil",
 			description:
-				"Full Stack Developer Consultant for NACS clients. Solutions Architect, Full Stack Developer.",
+				"Consultant for NACS clients, working as a Solutions Architect and Full Stack Developer.",
 		},
 		{
 			title: "Senior Frontend Developer",
