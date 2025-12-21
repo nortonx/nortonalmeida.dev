@@ -48,10 +48,14 @@ export default function Hero() {
 					{[
 						"JavaScript",
 						"TypeScript",
+						"Vue",
+						"Nuxt",
 						"React",
 						"Next.js",
-						"Vue",
 						"Node.js",
+						"NestJS",
+						"ElysiaJS",
+						"Bun",
 					].map((tech) => (
 						<span
 							key={tech}

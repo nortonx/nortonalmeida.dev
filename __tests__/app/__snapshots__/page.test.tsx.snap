@@ -46,6 +46,16 @@ exports[`Home Page should render the page and match snapshot 1`] = `
           <span
             class="px-2 py-1 rounded-md bg-slate-100 dark:bg-slate-800/50 border border-slate-200 dark:border-slate-700/50"
           >
+            Vue
+          </span>
+          <span
+            class="px-2 py-1 rounded-md bg-slate-100 dark:bg-slate-800/50 border border-slate-200 dark:border-slate-700/50"
+          >
+            Nuxt
+          </span>
+          <span
+            class="px-2 py-1 rounded-md bg-slate-100 dark:bg-slate-800/50 border border-slate-200 dark:border-slate-700/50"
+          >
             React
           </span>
           <span
@@ -56,12 +66,22 @@ exports[`Home Page should render the page and match snapshot 1`] = `
           <span
             class="px-2 py-1 rounded-md bg-slate-100 dark:bg-slate-800/50 border border-slate-200 dark:border-slate-700/50"
           >
-            Vue
+            Node.js
           </span>
           <span
             class="px-2 py-1 rounded-md bg-slate-100 dark:bg-slate-800/50 border border-slate-200 dark:border-slate-700/50"
           >
-            Node.js
+            NestJS
+          </span>
+          <span
+            class="px-2 py-1 rounded-md bg-slate-100 dark:bg-slate-800/50 border border-slate-200 dark:border-slate-700/50"
+          >
+            ElysiaJS
+          </span>
+          <span
+            class="px-2 py-1 rounded-md bg-slate-100 dark:bg-slate-800/50 border border-slate-200 dark:border-slate-700/50"
+          >
+            Bun
           </span>
         </div>
         <div>
