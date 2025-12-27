@@ -1,0 +1,38 @@
+# lefthook.yml
+# Git hooks manager configuration
+# Docs: https://lefthook.dev
+
+min_version: 1.11.0
+
+pre-commit:
+  jobs:
+    # Group 1: Parallel linting and type checking on staged files
+    - name: code-quality
+      group:
+        parallel: true
+        jobs:
+          - name: typecheck
+            run: npm run typecheck
+
+          - name: biome-check
+            glob: "*.{js,jsx,ts,tsx,json,css}"
+            run: npx biome check --write {staged_files}
+            stage_fixed: true
+
+          - name: biome-format
+            glob: "*.{js,jsx,ts,tsx,json,css,md}"
+            run: npx biome format --write {staged_files}
+            stage_fixed: true
+
+    # Group 2: Build verification (sequential, depends on code quality)
+    - name: build
+      run: npm run build
+
+    # Group 3: Test suite (sequential, depends on build)
+    - name: test
+      run: npm test
+
+pre-push:
+  commands:
+    test:
+      run: npm test
