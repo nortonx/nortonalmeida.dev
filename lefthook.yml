@@ -1,0 +1,28 @@
+# lefthook.yml
+# Git hooks manager configuration
+# Docs: https://lefthook.dev
+
+min_version: 2.0.0
+
+pre-commit:
+  parallel: true
+  jobs:
+    # Parallel: These don't depend on each other
+    - name: typecheck
+      run: npm run typecheck
+
+    - name: biome
+      glob: "*.{js,jsx,ts,tsx,json,css,md}"
+      run: npx biome check --write {staged_files}
+      stage_fixed: true
+
+    - name: test
+      run: npm test
+
+pre-push:
+  commands:
+    build:
+      run: npm run build
+
+    test:
+      run: npm test
