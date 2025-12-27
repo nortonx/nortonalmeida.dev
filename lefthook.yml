@@ -24,6 +24,8 @@ pre-commit:
             run: npx biome format --write {staged_files}
             stage_fixed: true
 
+          - name: format-check
+            run: npm run format:check
     # Group 2: Build verification (sequential, depends on code quality)
     - name: build
       run: npm run build
