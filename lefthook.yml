@@ -5,32 +5,20 @@
 min_version: 2.0.0
 
 pre-commit:
+  parallel: true
   jobs:
-    # Group 1: Parallel linting and type checking on staged files
-    - name: code-quality
-      group:
-        parallel: true
-        jobs:
-          - name: typecheck
-            run: npm run typecheck
+    # Parallel: These don't depend on each other
+    - name: typecheck
+      run: npm run typecheck
 
-          - name: biome-check
-            glob: "*.{js,jsx,ts,tsx,json,css}"
-            run: npx biome check --write {staged_files}
-            stage_fixed: true
+    - name: biome
+      glob: "*.{js,jsx,ts,tsx,json,css,md}"
+      run: npx biome check --write {staged_files}
+      stage_fixed: true
 
-          - name: biome-format
-            glob: "*.{js,jsx,ts,tsx,json,css,md}"
-            run: npx biome format --write {staged_files}
-            stage_fixed: true
-
-          - name: format-check
-            run: npm run format:check
-    # Group 2: Build verification (sequential, depends on code quality)
     - name: build
       run: npm run build
 
-    # Group 3: Test suite (sequential, depends on build)
     - name: test
       run: npm test
 
