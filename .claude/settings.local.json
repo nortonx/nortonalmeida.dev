@@ -30,7 +30,8 @@
       "Bash(npx tsc:*)",
       "Bash(cat:*)",
       "Bash(find:*)",
-      "Bash(git -C /Users/norton/workspace/personal/nortonalmeida.dev/website config core.hooksPath)"
+      "Bash(git -C /Users/norton/workspace/personal/nortonalmeida.dev/website config core.hooksPath)",
+      "Bash(npx lefthook:*)"
     ],
     "deny": [],
     "ask": []
