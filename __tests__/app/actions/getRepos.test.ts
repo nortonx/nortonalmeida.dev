@@ -1,27 +1,22 @@
 import { getRepos } from "@/app/actions"
-import nodeFetch from "node-fetch"
+import { describe, it, expect, beforeEach, jest } from "@jest/globals"
 
-jest.mock("node-fetch", () =>
-  jest.fn(() =>
-    Promise.resolve({
-      ok: true,
-      json: () => Promise.resolve({ data: "mocked data" }),
-    }),
-  ),
-)
+const mockFetch = jest.fn<typeof fetch>()
+global.fetch = mockFetch
 
 describe("getRepos", () => {
-  // beforeEach(() => {
-  //   nodeFetch.mockClear();
-  // });
+  beforeEach(() => {
+    mockFetch.mockClear()
+    mockFetch.mockResolvedValue({
+      ok: true,
+      json: () => Promise.resolve({ data: "mocked data" }),
+    } as Response)
+  })
 
   it("should fetch data and process it correctly", async () => {
     const result = await getRepos()
-    expect(nodeFetch).toHaveBeenCalledWith(
+    expect(mockFetch).toHaveBeenCalledWith(
       "https://api.github.com/users/nortonx/repos",
-      {
-        method: "GET",
-      },
     )
     expect(result).toBeDefined()
   })
