@@ -1,4 +1,4 @@
-import nextJs from "next/jest"
+import nextJs from "next/jest.js"
 
 const createJestConfig = nextJs({
   dir: "./",
@@ -10,7 +10,10 @@ const customJestConfig = {
   testEnvironment: "jest-environment-jsdom",
   preset: "ts-jest",
   verbose: true,
-  testMatch: ["<rootDir>/__tests__/**/*.test.tsx"],
+  testMatch: [
+    "<rootDir>/__tests__/**/*.test.ts",
+    "<rootDir>/__tests__/**/*.test.tsx",
+  ],
   moduleNameMapper: {
     "^@/(.*)$": "<rootDir>/src/$1",
     "^public/(.*)$": "<rootDir>/public/$1",
