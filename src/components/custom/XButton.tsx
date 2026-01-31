@@ -24,8 +24,7 @@ export default function XButton({
         !size && "px-4 py-2",
         className,
       )}
-      {...props}
-    >
+      {...props}>
       {children ?? label}
     </Button>
   )

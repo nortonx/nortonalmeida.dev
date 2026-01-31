@@ -149,8 +149,7 @@ export default function Home() {
           ].map((skill) => (
             <span
               key={skill}
-              className="px-3 py-1 bg-slate-100 dark:bg-slate-800 rounded-full text-sm font-medium"
-            >
+              className="px-3 py-1 bg-slate-100 dark:bg-slate-800 rounded-full text-sm font-medium">
               {skill}
             </span>
           ))}
@@ -171,8 +170,7 @@ export default function Home() {
           ].map((cause) => (
             <span
               key={cause}
-              className="px-3 py-1 border border-slate-200 dark:border-slate-700 rounded-full text-sm"
-            >
+              className="px-3 py-1 border border-slate-200 dark:border-slate-700 rounded-full text-sm">
               {cause}
             </span>
           ))}

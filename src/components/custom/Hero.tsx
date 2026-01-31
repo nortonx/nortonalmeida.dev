@@ -33,8 +33,7 @@ export default function Hero() {
           <Link
             href="https://linkedin.com/in/norton-almeida"
             target="_blank"
-            rel="noopener noreferrer"
-          >
+            rel="noopener noreferrer">
             <Linkedin className="mr-2 h-4 w-4" /> LinkedIn
           </Link>
         </Button>
@@ -42,8 +41,7 @@ export default function Hero() {
           <Link
             href="https://github.com/nortonx"
             target="_blank"
-            rel="noopener noreferrer"
-          >
+            rel="noopener noreferrer">
             <Github className="mr-2 h-4 w-4" /> GitHub
           </Link>
         </Button>

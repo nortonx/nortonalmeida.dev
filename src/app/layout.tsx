@@ -29,14 +29,12 @@ export default function RootLayout({
     <html lang="en">
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-        suppressHydrationWarning={true}
-      >
+        suppressHydrationWarning={true}>
         <ThemeProvider
           attribute="class"
           defaultTheme="system"
           enableSystem
-          disableTransitionOnChange
-        >
+          disableTransitionOnChange>
           <div className="container mx-auto max-w-4xl dark:text-white text-gray-900">
             <Header />
             <main className="my-10">{children}</main>

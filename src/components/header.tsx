@@ -9,8 +9,7 @@ export default function Header() {
   return (
     <header
       className="flex justify-between items-center mt-10"
-      data-testid="header-component"
-    >
+      data-testid="header-component">
       <Link href="/" className="text-xl font-bold">
         www.nortonalmeida.dev
       </Link>

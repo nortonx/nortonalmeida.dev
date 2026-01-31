@@ -15,7 +15,9 @@
       "Bash(cmd /c \"cd /d c:\\\\Users\\\\norto\\\\workspace\\\\nortonalmeida.dev && npm ci 2>&1\")",
       "Bash(npm install:*)",
       "Bash(npm show:*)",
-      "Bash(npx tsc:*)"
+      "Bash(npx tsc:*)",
+      "Bash(git add:*)",
+      "Bash(npx prettier:*)"
     ],
     "deny": [],
     "ask": []
