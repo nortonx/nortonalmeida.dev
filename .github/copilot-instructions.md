@@ -179,7 +179,7 @@ test("Feature Name", async ({ page }) => {
 
 ## Environment & Dependencies
 
-- **Node.js**: >= 24.11
+- **Node.js**: 24.13 (per mise.toml)
 - **npm**: >= 11.6
 - **Key Libraries**: Next.js 16, React 19, Tailwind v4, Radix UI, TypeScript 5
 - **Test Runners**: Jest 30, Playwright 1.51+
