@@ -18,8 +18,7 @@ export default function XSection({
         "relative border rounded-md p-4 border-slate-300",
         className,
       )}
-      {...props}
-    >
+      {...props}>
       <span className="absolute -top-3.5 left-4 inline-block rounded-sm bg-background px-2 text-xl font-bold dark:text-slate-200 text-slate-800">
         {title}
       </span>
