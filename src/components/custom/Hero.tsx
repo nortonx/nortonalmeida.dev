@@ -11,11 +11,10 @@ function useTypewriter(text: string, speed = 55, startDelay = 800) {
   const [done, setDone] = useState(false)
 
   useEffect(() => {
-    let timeout: ReturnType<typeof setTimeout>
-    let interval: ReturnType<typeof setInterval>
+    let interval: ReturnType<typeof setInterval> | undefined
     let i = 0
 
-    timeout = setTimeout(() => {
+    const timeout = setTimeout(() => {
       interval = setInterval(() => {
         i++
         setDisplayed(text.slice(0, i))

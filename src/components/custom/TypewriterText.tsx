@@ -21,7 +21,7 @@ export default function TypewriterText({
   useEffect(() => {
     if (!isInView) return
     let i = 0
-    let interval: ReturnType<typeof setInterval>
+    let interval: ReturnType<typeof setInterval> | undefined
 
     const timeout = setTimeout(() => {
       interval = setInterval(() => {

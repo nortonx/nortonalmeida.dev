@@ -17,18 +17,81 @@ exports[`Home Page should render the page and match snapshot 1`] = `
         >
           <h1
             class="text-5xl font-extrabold tracking-tight lg:text-7xl bg-clip-text text-transparent bg-gradient-to-r from-slate-900 to-slate-500 dark:from-white dark:to-slate-400 pb-2 min-h-[1.2em]"
-          />
+          >
+            Norton Almeida
+          </h1>
           <h2
             class="font-mono text-xl text-slate-600 dark:text-slate-300 min-h-[1.75rem]"
-          />
+          >
+            Solutions Architect · Full Stack Developer
+          </h2>
         </div>
         <div
           class="flex flex-wrap gap-2 text-sm text-muted-foreground font-mono"
-        />
+        >
+          <span
+            class="px-2 py-1 rounded-md bg-slate-100 dark:bg-slate-800/50 border border-slate-200 dark:border-slate-700/50"
+          >
+            JavaScript
+          </span>
+          <span
+            class="px-2 py-1 rounded-md bg-slate-100 dark:bg-slate-800/50 border border-slate-200 dark:border-slate-700/50"
+          >
+            TypeScript
+          </span>
+          <span
+            class="px-2 py-1 rounded-md bg-slate-100 dark:bg-slate-800/50 border border-slate-200 dark:border-slate-700/50"
+          >
+            Vue
+          </span>
+          <span
+            class="px-2 py-1 rounded-md bg-slate-100 dark:bg-slate-800/50 border border-slate-200 dark:border-slate-700/50"
+          >
+            Nuxt
+          </span>
+          <span
+            class="px-2 py-1 rounded-md bg-slate-100 dark:bg-slate-800/50 border border-slate-200 dark:border-slate-700/50"
+          >
+            React
+          </span>
+          <span
+            class="px-2 py-1 rounded-md bg-slate-100 dark:bg-slate-800/50 border border-slate-200 dark:border-slate-700/50"
+          >
+            Next.js
+          </span>
+          <span
+            class="px-2 py-1 rounded-md bg-slate-100 dark:bg-slate-800/50 border border-slate-200 dark:border-slate-700/50"
+          >
+            Node.js
+          </span>
+          <span
+            class="px-2 py-1 rounded-md bg-slate-100 dark:bg-slate-800/50 border border-slate-200 dark:border-slate-700/50"
+          >
+            NestJS
+          </span>
+          <span
+            class="px-2 py-1 rounded-md bg-slate-100 dark:bg-slate-800/50 border border-slate-200 dark:border-slate-700/50"
+          >
+            ElysiaJS
+          </span>
+          <span
+            class="px-2 py-1 rounded-md bg-slate-100 dark:bg-slate-800/50 border border-slate-200 dark:border-slate-700/50"
+          >
+            Bun
+          </span>
+        </div>
         <div>
           <p
             class="max-w-2xl text-lg leading-relaxed text-slate-600 dark:text-slate-400 min-h-[6rem]"
-          />
+          >
+            Designing scalable solutions and crafting exceptional user experiences. With over 20 years in technology and a specialization in frontend development, I bridge the gap between complex backend logic and beautiful, intuitive interfaces.
+            <br />
+            <span
+              class="block mt-4 text-sm text-slate-500 italic"
+            >
+              Bachelor’s in Information Systems • Postgrad Solutions Architect (2026)
+            </span>
+          </p>
         </div>
         <div
           class="flex gap-4 pt-4"
@@ -150,7 +213,9 @@ exports[`Home Page should render the page and match snapshot 1`] = `
         >
           <h2
             class="font-mono text-3xl font-bold tracking-tight text-slate-900 dark:text-slate-100 shrink-0"
-          />
+          >
+            About
+          </h2>
           <div
             class="h-px bg-slate-200 dark:bg-slate-800 flex-grow"
           />
@@ -159,13 +224,19 @@ exports[`Home Page should render the page and match snapshot 1`] = `
           class="text-lg leading-relaxed text-slate-700 dark:text-slate-300 space-y-6 max-w-3xl"
         >
           <p>
-            <span />
+            <span>
+              Bachelor's degree in Information Systems, with over 20 years in technology and more than 10 years focused on front-end development. Highly skilled front-end software developer with over 15 years of experience working with Fortune 500 companies as a consultant and developer.
+            </span>
           </p>
           <p>
-            <span />
+            <span>
+              Strong experience in developing responsive web applications and mobile-first designs. Proven track record of delivering high-quality work on time and within budget.
+            </span>
           </p>
           <p>
-            <span />
+            <span>
+              I'm a professional with excellent communication and collaboration skills. Passionate about creating user-friendly and visually appealing web applications. Currently looking for remote opportunities to work with international teams again.
+            </span>
           </p>
         </div>
       </section>
@@ -183,7 +254,9 @@ exports[`Home Page should render the page and match snapshot 1`] = `
         >
           <h2
             class="font-mono text-3xl font-bold tracking-tight text-slate-900 dark:text-slate-100 shrink-0"
-          />
+          >
+            Experience
+          </h2>
           <div
             class="h-px bg-slate-200 dark:bg-slate-800 flex-grow"
           />
@@ -203,12 +276,16 @@ exports[`Home Page should render the page and match snapshot 1`] = `
               <h3
                 class="text-xl font-bold text-slate-900 dark:text-slate-100 group-hover:text-primary transition-colors"
               >
-                <span />
+                <span>
+                  Full Stack Developer
+                </span>
               </h3>
               <span
                 class="text-sm font-medium text-slate-500 dark:text-slate-400 bg-slate-100 dark:bg-slate-800/50 px-2 py-1 rounded"
               >
-                <span />
+                <span>
+                  Dec 2025 - Present
+                </span>
               </span>
             </div>
             <div
@@ -217,18 +294,24 @@ exports[`Home Page should render the page and match snapshot 1`] = `
               <div
                 class="text-base font-semibold text-slate-700 dark:text-slate-300"
               >
-                <span />
+                <span>
+                  Amaris Consulting
+                </span>
               </div>
               <div
                 class="text-sm text-muted-foreground"
               >
-                <span />
+                <span>
+                  Remote • Full-time
+                </span>
               </div>
             </div>
             <div
               class="prose dark:prose-invert max-w-none text-slate-600 dark:text-slate-400 text-sm mb-4"
             >
-              <span />
+              <span>
+                Providing senior front-end consulting services for enterprise clients.
+              </span>
             </div>
           </div>
           <div
@@ -243,12 +326,16 @@ exports[`Home Page should render the page and match snapshot 1`] = `
               <h3
                 class="text-xl font-bold text-slate-900 dark:text-slate-100 group-hover:text-primary transition-colors"
               >
-                <span />
+                <span>
+                  Full-Stack Developer
+                </span>
               </h3>
               <span
                 class="text-sm font-medium text-slate-500 dark:text-slate-400 bg-slate-100 dark:bg-slate-800/50 px-2 py-1 rounded"
               >
-                <span />
+                <span>
+                  Mar 2025 - Present
+                </span>
               </span>
             </div>
             <div
@@ -257,30 +344,42 @@ exports[`Home Page should render the page and match snapshot 1`] = `
               <div
                 class="text-base font-semibold text-slate-700 dark:text-slate-300"
               >
-                <span />
+                <span>
+                  NACS Ltda
+                </span>
               </div>
               <div
                 class="text-sm text-muted-foreground"
               >
-                <span />
+                <span>
+                  Remote • Freelance
+                </span>
               </div>
             </div>
             <div
               class="prose dark:prose-invert max-w-none text-slate-600 dark:text-slate-400 text-sm mb-4"
             >
-              <span />
+              <span>
+                Consultant for NACS clients, working as a Solutions Architect and Full Stack Developer.
+              </span>
             </div>
             <ul
               class="list-disc list-outside ml-4 space-y-1 text-sm text-slate-600 dark:text-slate-400"
             >
               <li>
-                <span />
+                <span>
+                  Built a Financial Tracker MVP using Next.js 15, React 19, Shadcn/Tailwind, Nest.js, and PostgreSQL with Playwright E2E testing
+                </span>
               </li>
               <li>
-                <span />
+                <span>
+                  Developed platforms for multiple business domains (work safety, finance tracking) with full-stack ownership
+                </span>
               </li>
               <li>
-                <span />
+                <span>
+                  Delivered consulting services with agile methodologies and modern tooling (Bun, ElysiaJS, Drizzle)
+                </span>
               </li>
             </ul>
           </div>
@@ -296,12 +395,16 @@ exports[`Home Page should render the page and match snapshot 1`] = `
               <h3
                 class="text-xl font-bold text-slate-900 dark:text-slate-100 group-hover:text-primary transition-colors"
               >
-                <span />
+                <span>
+                  Senior Frontend Developer
+                </span>
               </h3>
               <span
                 class="text-sm font-medium text-slate-500 dark:text-slate-400 bg-slate-100 dark:bg-slate-800/50 px-2 py-1 rounded"
               >
-                <span />
+                <span>
+                  Jul 2024 - Mar 2025
+                </span>
               </span>
             </div>
             <div
@@ -310,30 +413,42 @@ exports[`Home Page should render the page and match snapshot 1`] = `
               <div
                 class="text-base font-semibold text-slate-700 dark:text-slate-300"
               >
-                <span />
+                <span>
+                  87Labs
+                </span>
               </div>
               <div
                 class="text-sm text-muted-foreground"
               >
-                <span />
+                <span>
+                  Remote • Contract
+                </span>
               </div>
             </div>
             <div
               class="prose dark:prose-invert max-w-none text-slate-600 dark:text-slate-400 text-sm mb-4"
             >
-              <span />
+              <span>
+                Consulted for Locaweb (major ISP) on their Customer Central platform, delivering component development and unit testing.
+              </span>
             </div>
             <ul
               class="list-disc list-outside ml-4 space-y-1 text-sm text-slate-600 dark:text-slate-400"
             >
               <li>
-                <span />
+                <span>
+                  Reverse-engineered undocumented legacy Ruby on Rails platform to enable modernization
+                </span>
               </li>
               <li>
-                <span />
+                <span>
+                  Automated deployment pipelines with Azure DevOps
+                </span>
               </li>
               <li>
-                <span />
+                <span>
+                  Monitored performance via Sentry and Grafana
+                </span>
               </li>
             </ul>
           </div>
@@ -349,12 +464,16 @@ exports[`Home Page should render the page and match snapshot 1`] = `
               <h3
                 class="text-xl font-bold text-slate-900 dark:text-slate-100 group-hover:text-primary transition-colors"
               >
-                <span />
+                <span>
+                  Senior Frontend Developer
+                </span>
               </h3>
               <span
                 class="text-sm font-medium text-slate-500 dark:text-slate-400 bg-slate-100 dark:bg-slate-800/50 px-2 py-1 rounded"
               >
-                <span />
+                <span>
+                  Nov 2023 - Aug 2024
+                </span>
               </span>
             </div>
             <div
@@ -363,30 +482,42 @@ exports[`Home Page should render the page and match snapshot 1`] = `
               <div
                 class="text-base font-semibold text-slate-700 dark:text-slate-300"
               >
-                <span />
+                <span>
+                  Defensoria Pública do Estado de Minas Gerais
+                </span>
               </div>
               <div
                 class="text-sm text-muted-foreground"
               >
-                <span />
+                <span>
+                  Hybrid • Belo Horizonte, Minas Gerais
+                </span>
               </div>
             </div>
             <div
               class="prose dark:prose-invert max-w-none text-slate-600 dark:text-slate-400 text-sm mb-4"
             >
-              <span />
+              <span>
+                Responsible for developing current modules and new features supporting the Public Defender's Office demands.
+              </span>
             </div>
             <ul
               class="list-disc list-outside ml-4 space-y-1 text-sm text-slate-600 dark:text-slate-400"
             >
               <li>
-                <span />
+                <span>
+                  Developed Digital Signature UI, integrating with REST APIs to enable digital signing of legal petitions
+                </span>
               </li>
               <li>
-                <span />
+                <span>
+                  Maintained and enhanced the internal Chat application with new components and desktop-optimized views
+                </span>
               </li>
               <li>
-                <span />
+                <span>
+                  Contributed to agile adoption and process improvement initiatives
+                </span>
               </li>
             </ul>
           </div>
@@ -402,12 +533,16 @@ exports[`Home Page should render the page and match snapshot 1`] = `
               <h3
                 class="text-xl font-bold text-slate-900 dark:text-slate-100 group-hover:text-primary transition-colors"
               >
-                <span />
+                <span>
+                  Senior Frontend Developer / Consultant
+                </span>
               </h3>
               <span
                 class="text-sm font-medium text-slate-500 dark:text-slate-400 bg-slate-100 dark:bg-slate-800/50 px-2 py-1 rounded"
               >
-                <span />
+                <span>
+                  Aug 2014 - Jul 2023
+                </span>
               </span>
             </div>
             <div
@@ -416,36 +551,52 @@ exports[`Home Page should render the page and match snapshot 1`] = `
               <div
                 class="text-base font-semibold text-slate-700 dark:text-slate-300"
               >
-                <span />
+                <span>
+                  Avenue Code
+                </span>
               </div>
               <div
                 class="text-sm text-muted-foreground"
               >
-                <span />
+                <span>
+                  Hybrid • Belo Horizonte
+                </span>
               </div>
             </div>
             <div
               class="prose dark:prose-invert max-w-none text-slate-600 dark:text-slate-400 text-sm mb-4"
             >
-              <span />
+              <span>
+                Front-end Developer Consultant for Fortune 500 companies across retail and automotive industries for 9 years.
+              </span>
             </div>
             <ul
               class="list-disc list-outside ml-4 space-y-1 text-sm text-slate-600 dark:text-slate-400"
             >
               <li>
-                <span />
+                <span>
+                  Led implementation of Customer Journey for a Car Rental product as sole front-end developer
+                </span>
               </li>
               <li>
-                <span />
+                <span>
+                  Executed rebranding projects for 3 major car manufacturers, involving CSS overhauls and new component libraries
+                </span>
               </li>
               <li>
-                <span />
+                <span>
+                  Built and optimized Component Style Guide (CSG) and Storybook-based component libraries for department stores
+                </span>
               </li>
               <li>
-                <span />
+                <span>
+                  REST API integration, A/B testing, and checkout optimization during peak Holiday seasons
+                </span>
               </li>
               <li>
-                <span />
+                <span>
+                  Mentored junior and mid-level developers; led onboarding, code reviews, and client presentations
+                </span>
               </li>
             </ul>
           </div>
@@ -461,12 +612,16 @@ exports[`Home Page should render the page and match snapshot 1`] = `
               <h3
                 class="text-xl font-bold text-slate-900 dark:text-slate-100 group-hover:text-primary transition-colors"
               >
-                <span />
+                <span>
+                  Software Developer
+                </span>
               </h3>
               <span
                 class="text-sm font-medium text-slate-500 dark:text-slate-400 bg-slate-100 dark:bg-slate-800/50 px-2 py-1 rounded"
               >
-                <span />
+                <span>
+                  Aug 2022 - Sep 2022
+                </span>
               </span>
             </div>
             <div
@@ -475,33 +630,47 @@ exports[`Home Page should render the page and match snapshot 1`] = `
               <div
                 class="text-base font-semibold text-slate-700 dark:text-slate-300"
               >
-                <span />
+                <span>
+                  AgilityFeat
+                </span>
               </div>
               <div
                 class="text-sm text-muted-foreground"
               >
-                <span />
+                <span>
+                  Belo Horizonte, Minas Gerais, Brazil
+                </span>
               </div>
             </div>
             <div
               class="prose dark:prose-invert max-w-none text-slate-600 dark:text-slate-400 text-sm mb-4"
             >
-              <span />
+              <span>
+                Short-term consulting project during Avenue Code employment.
+              </span>
             </div>
             <ul
               class="list-disc list-outside ml-4 space-y-1 text-sm text-slate-600 dark:text-slate-400"
             >
               <li>
-                <span />
+                <span>
+                  Ruby on Rails
+                </span>
               </li>
               <li>
-                <span />
+                <span>
+                  React
+                </span>
               </li>
               <li>
-                <span />
+                <span>
+                  AWS
+                </span>
               </li>
               <li>
-                <span />
+                <span>
+                  Scrum
+                </span>
               </li>
             </ul>
           </div>
@@ -517,12 +686,16 @@ exports[`Home Page should render the page and match snapshot 1`] = `
               <h3
                 class="text-xl font-bold text-slate-900 dark:text-slate-100 group-hover:text-primary transition-colors"
               >
-                <span />
+                <span>
+                  Web Developer
+                </span>
               </h3>
               <span
                 class="text-sm font-medium text-slate-500 dark:text-slate-400 bg-slate-100 dark:bg-slate-800/50 px-2 py-1 rounded"
               >
-                <span />
+                <span>
+                  2011 - 2014
+                </span>
               </span>
             </div>
             <div
@@ -531,24 +704,32 @@ exports[`Home Page should render the page and match snapshot 1`] = `
               <div
                 class="text-base font-semibold text-slate-700 dark:text-slate-300"
               >
-                <span />
+                <span>
+                  Self-Employed (Freelancer)
+                </span>
               </div>
               <div
                 class="text-sm text-muted-foreground"
               >
-                <span />
+                <span>
+                  Belo Horizonte
+                </span>
               </div>
             </div>
             <div
               class="prose dark:prose-invert max-w-none text-slate-600 dark:text-slate-400 text-sm mb-4"
             >
-              <span />
+              <span>
+                Developed a Ruby on Rails physical evaluation platform and WordPress websites for various clients.
+              </span>
             </div>
             <ul
               class="list-disc list-outside ml-4 space-y-1 text-sm text-slate-600 dark:text-slate-400"
             >
               <li>
-                <span />
+                <span>
+                  Set up testing environments with live hosting and Git for instant client review
+                </span>
               </li>
             </ul>
           </div>
@@ -568,7 +749,9 @@ exports[`Home Page should render the page and match snapshot 1`] = `
         >
           <h2
             class="font-mono text-3xl font-bold tracking-tight text-slate-900 dark:text-slate-100 shrink-0"
-          />
+          >
+            Education
+          </h2>
           <div
             class="h-px bg-slate-200 dark:bg-slate-800 flex-grow"
           />
@@ -582,17 +765,23 @@ exports[`Home Page should render the page and match snapshot 1`] = `
             <h3
               class="text-xl font-bold mb-1"
             >
-              <span />
+              <span>
+                PUC Minas
+              </span>
             </h3>
             <p
               class="text-muted-foreground font-medium mb-2"
             >
-              <span />
+              <span>
+                Postgraduate Degree, Solutions Architect
+              </span>
             </p>
             <p
               class="text-sm text-slate-500"
             >
-              <span />
+              <span>
+                Expected May 2025
+              </span>
             </p>
           </div>
           <div
@@ -601,17 +790,23 @@ exports[`Home Page should render the page and match snapshot 1`] = `
             <h3
               class="text-xl font-bold mb-1"
             >
-              <span />
+              <span>
+                FCSL
+              </span>
             </h3>
             <p
               class="text-muted-foreground font-medium mb-2"
             >
-              <span />
+              <span>
+                Bacharel em Sistemas de Informa\\u00e7\\u00e3o
+              </span>
             </p>
             <p
               class="text-sm text-slate-500"
             >
-              <span />
+              <span>
+                2010 - 2013
+              </span>
             </p>
           </div>
         </div>
@@ -630,7 +825,9 @@ exports[`Home Page should render the page and match snapshot 1`] = `
         >
           <h2
             class="font-mono text-3xl font-bold tracking-tight text-slate-900 dark:text-slate-100 shrink-0"
-          />
+          >
+            Skills
+          </h2>
           <div
             class="h-px bg-slate-200 dark:bg-slate-800 flex-grow"
           />
@@ -641,247 +838,345 @@ exports[`Home Page should render the page and match snapshot 1`] = `
           <span
             class="px-4 py-2 bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-lg text-sm font-medium hover:border-primary/50 hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors cursor-default shadow-sm"
           >
-            <span />
+            <span>
+              TypeScript
+            </span>
           </span>
           <span
             class="px-4 py-2 bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-lg text-sm font-medium hover:border-primary/50 hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors cursor-default shadow-sm"
           >
-            <span />
+            <span>
+              JavaScript
+            </span>
           </span>
           <span
             class="px-4 py-2 bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-lg text-sm font-medium hover:border-primary/50 hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors cursor-default shadow-sm"
           >
-            <span />
+            <span>
+              React.js
+            </span>
           </span>
           <span
             class="px-4 py-2 bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-lg text-sm font-medium hover:border-primary/50 hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors cursor-default shadow-sm"
           >
-            <span />
+            <span>
+              Next.js
+            </span>
           </span>
           <span
             class="px-4 py-2 bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-lg text-sm font-medium hover:border-primary/50 hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors cursor-default shadow-sm"
           >
-            <span />
+            <span>
+              Vue.js
+            </span>
           </span>
           <span
             class="px-4 py-2 bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-lg text-sm font-medium hover:border-primary/50 hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors cursor-default shadow-sm"
           >
-            <span />
+            <span>
+              Vuex
+            </span>
           </span>
           <span
             class="px-4 py-2 bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-lg text-sm font-medium hover:border-primary/50 hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors cursor-default shadow-sm"
           >
-            <span />
+            <span>
+              Pinia
+            </span>
           </span>
           <span
             class="px-4 py-2 bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-lg text-sm font-medium hover:border-primary/50 hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors cursor-default shadow-sm"
           >
-            <span />
+            <span>
+              Nuxt.js
+            </span>
           </span>
           <span
             class="px-4 py-2 bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-lg text-sm font-medium hover:border-primary/50 hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors cursor-default shadow-sm"
           >
-            <span />
+            <span>
+              Node.js
+            </span>
           </span>
           <span
             class="px-4 py-2 bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-lg text-sm font-medium hover:border-primary/50 hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors cursor-default shadow-sm"
           >
-            <span />
+            <span>
+              Express
+            </span>
           </span>
           <span
             class="px-4 py-2 bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-lg text-sm font-medium hover:border-primary/50 hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors cursor-default shadow-sm"
           >
-            <span />
+            <span>
+              Nest.js
+            </span>
           </span>
           <span
             class="px-4 py-2 bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-lg text-sm font-medium hover:border-primary/50 hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors cursor-default shadow-sm"
           >
-            <span />
+            <span>
+              HTML5
+            </span>
           </span>
           <span
             class="px-4 py-2 bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-lg text-sm font-medium hover:border-primary/50 hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors cursor-default shadow-sm"
           >
-            <span />
+            <span>
+              CSS3
+            </span>
           </span>
           <span
             class="px-4 py-2 bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-lg text-sm font-medium hover:border-primary/50 hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors cursor-default shadow-sm"
           >
-            <span />
+            <span>
+              SASS
+            </span>
           </span>
           <span
             class="px-4 py-2 bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-lg text-sm font-medium hover:border-primary/50 hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors cursor-default shadow-sm"
           >
-            <span />
+            <span>
+              LESS
+            </span>
           </span>
           <span
             class="px-4 py-2 bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-lg text-sm font-medium hover:border-primary/50 hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors cursor-default shadow-sm"
           >
-            <span />
+            <span>
+              Tailwind CSS
+            </span>
           </span>
           <span
             class="px-4 py-2 bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-lg text-sm font-medium hover:border-primary/50 hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors cursor-default shadow-sm"
           >
-            <span />
+            <span>
+              Shadcn
+            </span>
           </span>
           <span
             class="px-4 py-2 bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-lg text-sm font-medium hover:border-primary/50 hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors cursor-default shadow-sm"
           >
-            <span />
+            <span>
+              Storybook
+            </span>
           </span>
           <span
             class="px-4 py-2 bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-lg text-sm font-medium hover:border-primary/50 hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors cursor-default shadow-sm"
           >
-            <span />
+            <span>
+              Zustand
+            </span>
           </span>
           <span
             class="px-4 py-2 bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-lg text-sm font-medium hover:border-primary/50 hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors cursor-default shadow-sm"
           >
-            <span />
+            <span>
+              Quasar
+            </span>
           </span>
           <span
             class="px-4 py-2 bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-lg text-sm font-medium hover:border-primary/50 hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors cursor-default shadow-sm"
           >
-            <span />
+            <span>
+              Jest
+            </span>
           </span>
           <span
             class="px-4 py-2 bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-lg text-sm font-medium hover:border-primary/50 hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors cursor-default shadow-sm"
           >
-            <span />
+            <span>
+              Vitest
+            </span>
           </span>
           <span
             class="px-4 py-2 bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-lg text-sm font-medium hover:border-primary/50 hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors cursor-default shadow-sm"
           >
-            <span />
+            <span>
+              React Testing Library
+            </span>
           </span>
           <span
             class="px-4 py-2 bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-lg text-sm font-medium hover:border-primary/50 hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors cursor-default shadow-sm"
           >
-            <span />
+            <span>
+              Playwright
+            </span>
           </span>
           <span
             class="px-4 py-2 bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-lg text-sm font-medium hover:border-primary/50 hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors cursor-default shadow-sm"
           >
-            <span />
+            <span>
+              Cypress
+            </span>
           </span>
           <span
             class="px-4 py-2 bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-lg text-sm font-medium hover:border-primary/50 hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors cursor-default shadow-sm"
           >
-            <span />
+            <span>
+              A/B Testing
+            </span>
           </span>
           <span
             class="px-4 py-2 bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-lg text-sm font-medium hover:border-primary/50 hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors cursor-default shadow-sm"
           >
-            <span />
+            <span>
+              AWS
+            </span>
           </span>
           <span
             class="px-4 py-2 bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-lg text-sm font-medium hover:border-primary/50 hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors cursor-default shadow-sm"
           >
-            <span />
+            <span>
+              GCP
+            </span>
           </span>
           <span
             class="px-4 py-2 bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-lg text-sm font-medium hover:border-primary/50 hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors cursor-default shadow-sm"
           >
-            <span />
+            <span>
+              Docker
+            </span>
           </span>
           <span
             class="px-4 py-2 bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-lg text-sm font-medium hover:border-primary/50 hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors cursor-default shadow-sm"
           >
-            <span />
+            <span>
+              CI/CD
+            </span>
           </span>
           <span
             class="px-4 py-2 bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-lg text-sm font-medium hover:border-primary/50 hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors cursor-default shadow-sm"
           >
-            <span />
+            <span>
+              Vercel
+            </span>
           </span>
           <span
             class="px-4 py-2 bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-lg text-sm font-medium hover:border-primary/50 hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors cursor-default shadow-sm"
           >
-            <span />
+            <span>
+              Heroku
+            </span>
           </span>
           <span
             class="px-4 py-2 bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-lg text-sm font-medium hover:border-primary/50 hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors cursor-default shadow-sm"
           >
-            <span />
+            <span>
+              PostgreSQL
+            </span>
           </span>
           <span
             class="px-4 py-2 bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-lg text-sm font-medium hover:border-primary/50 hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors cursor-default shadow-sm"
           >
-            <span />
+            <span>
+              MySQL
+            </span>
           </span>
           <span
             class="px-4 py-2 bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-lg text-sm font-medium hover:border-primary/50 hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors cursor-default shadow-sm"
           >
-            <span />
+            <span>
+              MongoDB
+            </span>
           </span>
           <span
             class="px-4 py-2 bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-lg text-sm font-medium hover:border-primary/50 hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors cursor-default shadow-sm"
           >
-            <span />
+            <span>
+              Supabase
+            </span>
           </span>
           <span
             class="px-4 py-2 bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-lg text-sm font-medium hover:border-primary/50 hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors cursor-default shadow-sm"
           >
-            <span />
+            <span>
+              Prisma
+            </span>
           </span>
           <span
             class="px-4 py-2 bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-lg text-sm font-medium hover:border-primary/50 hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors cursor-default shadow-sm"
           >
-            <span />
+            <span>
+              Drizzle
+            </span>
           </span>
           <span
             class="px-4 py-2 bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-lg text-sm font-medium hover:border-primary/50 hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors cursor-default shadow-sm"
           >
-            <span />
+            <span>
+              Zod
+            </span>
           </span>
           <span
             class="px-4 py-2 bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-lg text-sm font-medium hover:border-primary/50 hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors cursor-default shadow-sm"
           >
-            <span />
+            <span>
+              REST APIs
+            </span>
           </span>
           <span
             class="px-4 py-2 bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-lg text-sm font-medium hover:border-primary/50 hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors cursor-default shadow-sm"
           >
-            <span />
+            <span>
+              WCAG
+            </span>
           </span>
           <span
             class="px-4 py-2 bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-lg text-sm font-medium hover:border-primary/50 hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors cursor-default shadow-sm"
           >
-            <span />
+            <span>
+              Core Web Vitals
+            </span>
           </span>
           <span
             class="px-4 py-2 bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-lg text-sm font-medium hover:border-primary/50 hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors cursor-default shadow-sm"
           >
-            <span />
+            <span>
+              Agile/Scrum
+            </span>
           </span>
           <span
             class="px-4 py-2 bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-lg text-sm font-medium hover:border-primary/50 hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors cursor-default shadow-sm"
           >
-            <span />
+            <span>
+              Microfrontends
+            </span>
           </span>
           <span
             class="px-4 py-2 bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-lg text-sm font-medium hover:border-primary/50 hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors cursor-default shadow-sm"
           >
-            <span />
+            <span>
+              Code Review
+            </span>
           </span>
           <span
             class="px-4 py-2 bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-lg text-sm font-medium hover:border-primary/50 hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors cursor-default shadow-sm"
           >
-            <span />
+            <span>
+              Mentoring
+            </span>
           </span>
           <span
             class="px-4 py-2 bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-lg text-sm font-medium hover:border-primary/50 hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors cursor-default shadow-sm"
           >
-            <span />
+            <span>
+              Ruby on Rails
+            </span>
           </span>
           <span
             class="px-4 py-2 bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-lg text-sm font-medium hover:border-primary/50 hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors cursor-default shadow-sm"
           >
-            <span />
+            <span>
+              PHP
+            </span>
           </span>
           <span
             class="px-4 py-2 bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-lg text-sm font-medium hover:border-primary/50 hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors cursor-default shadow-sm"
           >
-            <span />
+            <span>
+              Shell Script
+            </span>
           </span>
         </div>
       </section>
@@ -899,7 +1194,9 @@ exports[`Home Page should render the page and match snapshot 1`] = `
         >
           <h2
             class="font-mono text-3xl font-bold tracking-tight text-slate-900 dark:text-slate-100 shrink-0"
-          />
+          >
+            Certifications
+          </h2>
           <div
             class="h-px bg-slate-200 dark:bg-slate-800 flex-grow"
           />
@@ -910,17 +1207,23 @@ exports[`Home Page should render the page and match snapshot 1`] = `
           <span
             class="px-4 py-2 bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-lg text-sm font-medium hover:border-primary/50 hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors cursor-default shadow-sm"
           >
-            <span />
+            <span>
+              Google Agile Essentials – Coursera
+            </span>
           </span>
           <span
             class="px-4 py-2 bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-lg text-sm font-medium hover:border-primary/50 hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors cursor-default shadow-sm"
           >
-            <span />
+            <span>
+              Google AI Essentials – Credly
+            </span>
           </span>
           <span
             class="px-4 py-2 bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-lg text-sm font-medium hover:border-primary/50 hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors cursor-default shadow-sm"
           >
-            <span />
+            <span>
+              Datadog Foundation
+            </span>
           </span>
         </div>
       </section>
@@ -938,7 +1241,9 @@ exports[`Home Page should render the page and match snapshot 1`] = `
         >
           <h2
             class="font-mono text-3xl font-bold tracking-tight text-slate-900 dark:text-slate-100 shrink-0"
-          />
+          >
+            Languages
+          </h2>
           <div
             class="h-px bg-slate-200 dark:bg-slate-800 flex-grow"
           />
@@ -949,17 +1254,23 @@ exports[`Home Page should render the page and match snapshot 1`] = `
           <span
             class="px-4 py-2 bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-lg text-sm font-medium hover:border-primary/50 hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors cursor-default shadow-sm"
           >
-            <span />
+            <span>
+              English (Advanced/Fluent)
+            </span>
           </span>
           <span
             class="px-4 py-2 bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-lg text-sm font-medium hover:border-primary/50 hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors cursor-default shadow-sm"
           >
-            <span />
+            <span>
+              Portuguese (Native)
+            </span>
           </span>
           <span
             class="px-4 py-2 bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-lg text-sm font-medium hover:border-primary/50 hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors cursor-default shadow-sm"
           >
-            <span />
+            <span>
+              Spanish (Basic)
+            </span>
           </span>
         </div>
       </section>
@@ -977,7 +1288,9 @@ exports[`Home Page should render the page and match snapshot 1`] = `
         >
           <h2
             class="font-mono text-3xl font-bold tracking-tight text-slate-900 dark:text-slate-100 shrink-0"
-          />
+          >
+            Causes
+          </h2>
           <div
             class="h-px bg-slate-200 dark:bg-slate-800 flex-grow"
           />
@@ -988,42 +1301,58 @@ exports[`Home Page should render the page and match snapshot 1`] = `
           <span
             class="px-4 py-2 bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-lg text-sm font-medium hover:border-primary/50 hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors cursor-default shadow-sm"
           >
-            <span />
+            <span>
+              Poverty Alleviation
+            </span>
           </span>
           <span
             class="px-4 py-2 bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-lg text-sm font-medium hover:border-primary/50 hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors cursor-default shadow-sm"
           >
-            <span />
+            <span>
+              Science and Technology
+            </span>
           </span>
           <span
             class="px-4 py-2 bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-lg text-sm font-medium hover:border-primary/50 hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors cursor-default shadow-sm"
           >
-            <span />
+            <span>
+              Arts and Culture
+            </span>
           </span>
           <span
             class="px-4 py-2 bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-lg text-sm font-medium hover:border-primary/50 hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors cursor-default shadow-sm"
           >
-            <span />
+            <span>
+              Human Rights
+            </span>
           </span>
           <span
             class="px-4 py-2 bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-lg text-sm font-medium hover:border-primary/50 hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors cursor-default shadow-sm"
           >
-            <span />
+            <span>
+              Education
+            </span>
           </span>
           <span
             class="px-4 py-2 bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-lg text-sm font-medium hover:border-primary/50 hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors cursor-default shadow-sm"
           >
-            <span />
+            <span>
+              Environment
+            </span>
           </span>
           <span
             class="px-4 py-2 bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-lg text-sm font-medium hover:border-primary/50 hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors cursor-default shadow-sm"
           >
-            <span />
+            <span>
+              Health
+            </span>
           </span>
           <span
             class="px-4 py-2 bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-lg text-sm font-medium hover:border-primary/50 hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors cursor-default shadow-sm"
           >
-            <span />
+            <span>
+              Civil Rights and Social Action
+            </span>
           </span>
         </div>
       </section>

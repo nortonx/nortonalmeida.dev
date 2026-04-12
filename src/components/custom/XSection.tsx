@@ -29,7 +29,7 @@ function useTypewriterInView(text: string, speed = 45) {
   return { ref, displayed, done }
 }
 
-export interface NSectionProps extends React.ComponentProps<"section"> {
+export interface XSectionProps extends React.ComponentProps<"section"> {
   title: string
 }
 
@@ -38,7 +38,7 @@ export default function XSection({
   className,
   children,
   ...props
-}: NSectionProps) {
+}: XSectionProps) {
   const { ref, displayed, done } = useTypewriterInView(title)
 
   return (
