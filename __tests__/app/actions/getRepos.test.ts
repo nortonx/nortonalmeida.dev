@@ -17,6 +17,7 @@ describe("getRepos", () => {
     const result = await getRepos()
     expect(mockFetch).toHaveBeenCalledWith(
       "https://api.github.com/users/nortonx/repos",
+      { next: { revalidate: 3600 } },
     )
     expect(result).toBeDefined()
   })
