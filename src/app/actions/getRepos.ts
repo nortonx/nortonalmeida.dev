@@ -2,7 +2,9 @@
 
 export async function getRepos() {
   try {
-    const response = await fetch("https://api.github.com/users/nortonx/repos")
+    const response = await fetch("https://api.github.com/users/nortonx/repos", {
+      next: { revalidate: 3600 },
+    })
 
     if (!response.ok) {
       throw new Error(

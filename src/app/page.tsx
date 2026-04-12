@@ -1,6 +1,44 @@
 import NSection from "@/components/custom/XSection"
 import Hero from "@/components/custom/Hero"
 
+const SKILLS = [
+  "Vue.js",
+  "JavaScript",
+  "TypeScript",
+  "React.js",
+  "Next.js",
+  "Nuxt.js",
+  "Node.js",
+  "Agile Methodologies",
+  "Microfrontends",
+  "Vuex",
+  "Pinia",
+  "Express",
+  "HTML",
+  "CSS",
+  "SASS",
+  "LESS",
+  "Shell Script",
+  "Storybook",
+  "Ruby on Rails",
+  "PHP",
+  "MySQL",
+  "PostgreSQL",
+  "Docker",
+  "AWS",
+]
+
+const CAUSES = [
+  "Poverty Alleviation",
+  "Science and Technology",
+  "Arts and Culture",
+  "Human Rights",
+  "Education",
+  "Environment",
+  "Health",
+  "Civil Rights and Social Action",
+]
+
 export default function Home() {
   return (
     <div data-testid="home-page" className="space-y-20 pb-20">
@@ -121,32 +159,7 @@ export default function Home() {
 
       <NSection title="Skills" id="skills">
         <div className="flex flex-wrap gap-2">
-          {[
-            "Vue.js",
-            "JavaScript",
-            "TypeScript",
-            "React.js",
-            "Next.js",
-            "Nuxt.js",
-            "Node.js",
-            "Agile Methodologies",
-            "Microfrontends",
-            "Vuex",
-            "Pinia",
-            "Express",
-            "HTML",
-            "CSS",
-            "SASS",
-            "LESS",
-            "Shell Script",
-            "Storybook",
-            "Ruby on Rails",
-            "PHP",
-            "MySQL",
-            "PostgreSQL",
-            "Docker",
-            "AWS",
-          ].map((skill) => (
+          {SKILLS.map((skill) => (
             <span
               key={skill}
               className="px-3 py-1 bg-slate-100 dark:bg-slate-800 rounded-full text-sm font-medium">
@@ -158,16 +171,7 @@ export default function Home() {
 
       <NSection title="Causes" id="causes">
         <div className="flex flex-wrap gap-2">
-          {[
-            "Poverty Alleviation",
-            "Science and Technology",
-            "Arts and Culture",
-            "Human Rights",
-            "Education",
-            "Environment",
-            "Health",
-            "Civil Rights and Social Action",
-          ].map((cause) => (
+          {CAUSES.map((cause) => (
             <span
               key={cause}
               className="px-3 py-1 border border-slate-200 dark:border-slate-700 rounded-full text-sm">
