@@ -62,7 +62,7 @@ export default function Hero() {
     3600,
   )
   const { displayed: eduDisplayed } = useTypewriter(
-    "Bachelor\u2019s in Information Systems \u2022 Postgrad Solutions Architect (2025)",
+    "Bachelor\u2019s in Information Systems \u2022 Postgrad Solutions Architect (2026)",
     10,
     4800,
   )
@@ -97,27 +97,17 @@ export default function Hero() {
         <motion.div variants={item} className="space-y-3">
           <h1 className="text-5xl font-extrabold tracking-tight lg:text-7xl bg-clip-text text-transparent bg-gradient-to-r from-slate-900 to-slate-500 dark:from-white dark:to-slate-400 pb-2 min-h-[1.2em]">
             {nameDisplayed}
-            <span
-              className={
-                nameDone
-                  ? "inline-block w-[3px] h-[0.9em] bg-slate-900 dark:bg-white ml-1 align-middle animate-[blink_1s_step-end_infinite]"
-                  : nameDisplayed.length > 0
-                    ? "inline-block w-[3px] h-[0.9em] bg-slate-900 dark:bg-white ml-1 align-middle"
-                    : ""
-              }
-            />
+            {!nameDone && nameDisplayed.length > 0 && (
+              <span className="inline-block w-[3px] h-[0.9em] bg-slate-900 dark:bg-white ml-1 align-middle" />
+            )}
           </h1>
 
           {/* Typewriter line */}
           <h2 className="font-mono text-xl text-slate-600 dark:text-slate-300 min-h-[1.75rem]">
             {displayed}
-            <span
-              className={
-                done
-                  ? "inline-block w-[2px] h-[1.1em] bg-primary ml-0.5 align-middle animate-[blink_1s_step-end_infinite]"
-                  : "inline-block w-[2px] h-[1.1em] bg-primary ml-0.5 align-middle"
-              }
-            />
+            {!done && displayed.length > 0 && (
+              <span className="inline-block w-[2px] h-[1.1em] bg-primary ml-0.5 align-middle" />
+            )}
           </h2>
         </motion.div>
 

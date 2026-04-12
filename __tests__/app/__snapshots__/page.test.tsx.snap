@@ -17,18 +17,10 @@ exports[`Home Page should render the page and match snapshot 1`] = `
         >
           <h1
             class="text-5xl font-extrabold tracking-tight lg:text-7xl bg-clip-text text-transparent bg-gradient-to-r from-slate-900 to-slate-500 dark:from-white dark:to-slate-400 pb-2 min-h-[1.2em]"
-          >
-            <span
-              class=""
-            />
-          </h1>
+          />
           <h2
             class="font-mono text-xl text-slate-600 dark:text-slate-300 min-h-[1.75rem]"
-          >
-            <span
-              class="inline-block w-[2px] h-[1.1em] bg-primary ml-0.5 align-middle"
-            />
-          </h2>
+          />
         </div>
         <div
           class="flex flex-wrap gap-2 text-sm text-muted-foreground font-mono"
@@ -158,11 +150,7 @@ exports[`Home Page should render the page and match snapshot 1`] = `
         >
           <h2
             class="font-mono text-3xl font-bold tracking-tight text-slate-900 dark:text-slate-100 shrink-0"
-          >
-            <span
-              class="inline-block w-[2px] h-[0.9em] bg-primary ml-0.5 align-middle"
-            />
-          </h2>
+          />
           <div
             class="h-px bg-slate-200 dark:bg-slate-800 flex-grow"
           />
@@ -195,11 +183,7 @@ exports[`Home Page should render the page and match snapshot 1`] = `
         >
           <h2
             class="font-mono text-3xl font-bold tracking-tight text-slate-900 dark:text-slate-100 shrink-0"
-          >
-            <span
-              class="inline-block w-[2px] h-[0.9em] bg-primary ml-0.5 align-middle"
-            />
-          </h2>
+          />
           <div
             class="h-px bg-slate-200 dark:bg-slate-800 flex-grow"
           />
@@ -584,11 +568,7 @@ exports[`Home Page should render the page and match snapshot 1`] = `
         >
           <h2
             class="font-mono text-3xl font-bold tracking-tight text-slate-900 dark:text-slate-100 shrink-0"
-          >
-            <span
-              class="inline-block w-[2px] h-[0.9em] bg-primary ml-0.5 align-middle"
-            />
-          </h2>
+          />
           <div
             class="h-px bg-slate-200 dark:bg-slate-800 flex-grow"
           />
@@ -650,11 +630,7 @@ exports[`Home Page should render the page and match snapshot 1`] = `
         >
           <h2
             class="font-mono text-3xl font-bold tracking-tight text-slate-900 dark:text-slate-100 shrink-0"
-          >
-            <span
-              class="inline-block w-[2px] h-[0.9em] bg-primary ml-0.5 align-middle"
-            />
-          </h2>
+          />
           <div
             class="h-px bg-slate-200 dark:bg-slate-800 flex-grow"
           />
@@ -923,11 +899,7 @@ exports[`Home Page should render the page and match snapshot 1`] = `
         >
           <h2
             class="font-mono text-3xl font-bold tracking-tight text-slate-900 dark:text-slate-100 shrink-0"
-          >
-            <span
-              class="inline-block w-[2px] h-[0.9em] bg-primary ml-0.5 align-middle"
-            />
-          </h2>
+          />
           <div
             class="h-px bg-slate-200 dark:bg-slate-800 flex-grow"
           />
@@ -966,11 +938,7 @@ exports[`Home Page should render the page and match snapshot 1`] = `
         >
           <h2
             class="font-mono text-3xl font-bold tracking-tight text-slate-900 dark:text-slate-100 shrink-0"
-          >
-            <span
-              class="inline-block w-[2px] h-[0.9em] bg-primary ml-0.5 align-middle"
-            />
-          </h2>
+          />
           <div
             class="h-px bg-slate-200 dark:bg-slate-800 flex-grow"
           />
@@ -1009,11 +977,7 @@ exports[`Home Page should render the page and match snapshot 1`] = `
         >
           <h2
             class="font-mono text-3xl font-bold tracking-tight text-slate-900 dark:text-slate-100 shrink-0"
-          >
-            <span
-              class="inline-block w-[2px] h-[0.9em] bg-primary ml-0.5 align-middle"
-            />
-          </h2>
+          />
           <div
             class="h-px bg-slate-200 dark:bg-slate-800 flex-grow"
           />

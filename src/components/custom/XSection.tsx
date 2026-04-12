@@ -52,13 +52,9 @@ export default function XSection({
             ref={ref}
             className="font-mono text-3xl font-bold tracking-tight text-slate-900 dark:text-slate-100 shrink-0">
             {displayed}
-            <span
-              className={
-                done
-                  ? "inline-block w-[2px] h-[0.9em] bg-primary ml-0.5 align-middle animate-[blink_1s_step-end_infinite]"
-                  : "inline-block w-[2px] h-[0.9em] bg-primary ml-0.5 align-middle"
-              }
-            />
+            {!done && displayed.length > 0 && (
+              <span className="inline-block w-[2px] h-[0.9em] bg-primary ml-0.5 align-middle" />
+            )}
           </h2>
           <div className="h-px bg-slate-200 dark:bg-slate-800 flex-grow" />
         </div>
