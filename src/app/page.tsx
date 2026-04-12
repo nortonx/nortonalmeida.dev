@@ -1,31 +1,155 @@
-import NSection from "@/components/custom/XSection"
 import Hero from "@/components/custom/Hero"
+import SkillCloud from "@/components/custom/SkillCloud"
+import Timeline from "@/components/custom/Timeline"
+import TypewriterText from "@/components/custom/TypewriterText"
+import NSection from "@/components/custom/XSection"
+
+const experienceData = [
+  {
+    title: "Full Stack Developer",
+    company: "Amaris Consulting",
+    period: "Dec 2025 - Present",
+    location: "Remote • Full-time",
+    description:
+      "Providing senior front-end consulting services for enterprise clients.",
+  },
+  {
+    title: "Full-Stack Developer",
+    company: "NACS Ltda",
+    period: "Mar 2025 - Present",
+    location: "Remote • Freelance",
+    description:
+      "Consultant for NACS clients, working as a Solutions Architect and Full Stack Developer.",
+    skills: [
+      "Built a Financial Tracker MVP using Next.js 15, React 19, Shadcn/Tailwind, Nest.js, and PostgreSQL with Playwright E2E testing",
+      "Developed platforms for multiple business domains (work safety, finance tracking) with full-stack ownership",
+      "Delivered consulting services with agile methodologies and modern tooling (Bun, ElysiaJS, Drizzle)",
+    ],
+  },
+  {
+    title: "Senior Frontend Developer",
+    company: "87Labs",
+    period: "Jul 2024 - Mar 2025",
+    location: "Remote • Contract",
+    description:
+      "Consulted for Locaweb (major ISP) on their Customer Central platform, delivering component development and unit testing.",
+    skills: [
+      "Reverse-engineered undocumented legacy Ruby on Rails platform to enable modernization",
+      "Automated deployment pipelines with Azure DevOps",
+      "Monitored performance via Sentry and Grafana",
+    ],
+  },
+  {
+    title: "Senior Frontend Developer",
+    company: "Defensoria P\u00fablica do Estado de Minas Gerais",
+    period: "Nov 2023 - Aug 2024",
+    location: "Hybrid • Belo Horizonte, Minas Gerais",
+    description:
+      "Responsible for developing current modules and new features supporting the Public Defender's Office demands.",
+    skills: [
+      "Developed Digital Signature UI, integrating with REST APIs to enable digital signing of legal petitions",
+      "Maintained and enhanced the internal Chat application with new components and desktop-optimized views",
+      "Contributed to agile adoption and process improvement initiatives",
+    ],
+  },
+  {
+    title: "Senior Frontend Developer / Consultant",
+    company: "Avenue Code",
+    period: "Aug 2014 - Jul 2023",
+    location: "Hybrid • Belo Horizonte",
+    description:
+      "Front-end Developer Consultant for Fortune 500 companies across retail and automotive industries for 9 years.",
+    skills: [
+      "Led implementation of Customer Journey for a Car Rental product as sole front-end developer",
+      "Executed rebranding projects for 3 major car manufacturers, involving CSS overhauls and new component libraries",
+      "Built and optimized Component Style Guide (CSG) and Storybook-based component libraries for department stores",
+      "REST API integration, A/B testing, and checkout optimization during peak Holiday seasons",
+      "Mentored junior and mid-level developers; led onboarding, code reviews, and client presentations",
+    ],
+  },
+  {
+    title: "Software Developer",
+    company: "AgilityFeat",
+    period: "Aug 2022 - Sep 2022",
+    location: "Belo Horizonte, Minas Gerais, Brazil",
+    description: "Short-term consulting project during Avenue Code employment.",
+    skills: ["Ruby on Rails", "React", "AWS", "Scrum"],
+  },
+  {
+    title: "Web Developer",
+    company: "Self-Employed (Freelancer)",
+    period: "2011 - 2014",
+    location: "Belo Horizonte",
+    description:
+      "Developed a Ruby on Rails physical evaluation platform and WordPress websites for various clients.",
+    skills: [
+      "Set up testing environments with live hosting and Git for instant client review",
+    ],
+  },
+]
 
 const SKILLS = [
-  "Vue.js",
-  "JavaScript",
   "TypeScript",
+  "JavaScript",
   "React.js",
   "Next.js",
-  "Nuxt.js",
-  "Node.js",
-  "Agile Methodologies",
-  "Microfrontends",
+  "Vue.js",
   "Vuex",
   "Pinia",
+  "Nuxt.js",
+  "Node.js",
   "Express",
-  "HTML",
-  "CSS",
+  "Nest.js",
+  "HTML5",
+  "CSS3",
   "SASS",
   "LESS",
-  "Shell Script",
+  "Tailwind CSS",
+  "Shadcn",
   "Storybook",
+  "Zustand",
+  "Quasar",
+  "Jest",
+  "Vitest",
+  "React Testing Library",
+  "Playwright",
+  "Cypress",
+  "A/B Testing",
+  "AWS",
+  "GCP",
+  "Docker",
+  "CI/CD",
+  "Vercel",
+  "Heroku",
+  "PostgreSQL",
+  "MySQL",
+  "MongoDB",
+  "Supabase",
+  "Prisma",
+  "Drizzle",
+  "Zod",
+  "REST APIs",
+  "WCAG",
+  "Core Web Vitals",
+  "Agile/Scrum",
+  "Microfrontends",
+  "Code Review",
+  "Mentoring",
   "Ruby on Rails",
   "PHP",
-  "MySQL",
-  "PostgreSQL",
-  "Docker",
-  "AWS",
+  "Shell Script",
+]
+
+const CERTIFICATIONS = [
+  "Google Agile Essentials \u2013 Coursera",
+  "Google AI Essentials \u2013 Credly",
+  "Datadog Foundation",
+]
+
+const LANGUAGES = [
+  "English (Advanced/Fluent)",
+  "Portuguese (Native)",
+  "Spanish (Basic)",
 ]
 
 const CAUSES = [
@@ -41,144 +165,91 @@ const CAUSES = [
 
 export default function Home() {
   return (
-    <div data-testid="home-page" className="space-y-20 pb-20">
+    <div data-testid="home-page" className="space-y-12 pb-20">
       <Hero />
 
       <NSection title="About" id="about">
-        <div className="space-y-4 text-slate-600 dark:text-slate-300">
+        <div className="text-lg leading-relaxed text-slate-700 dark:text-slate-300 space-y-6 max-w-3xl">
           <p>
-            Bachelor's degree in Information Systems, with over 20 years in
-            technology and more than 10 years focused on front-end development.
-            Highly skilled front-end software developer with over 15 years of
-            experience working with Fortune 500 companies as a consultant and
-            developer.
+            <TypewriterText
+              text="Bachelor's degree in Information Systems, with over 20 years in technology and more than 10 years focused on front-end development. Highly skilled front-end software developer with over 15 years of experience working with Fortune 500 companies as a consultant and developer."
+              speed={5}
+            />
           </p>
           <p>
-            Strong experience in developing responsive web applications and
-            mobile-first designs. Proven track record of delivering high-quality
-            work on time and within budget.
+            <TypewriterText
+              text="Strong experience in developing responsive web applications and mobile-first designs. Proven track record of delivering high-quality work on time and within budget."
+              speed={5}
+              delay={1500}
+            />
           </p>
           <p>
-            I’m a professional with excellent communication and collaboration
-            skills. Passionate about creating user-friendly and visually
-            appealing web applications. Currently looking for remote
-            opportunities to work with international teams again.
+            <TypewriterText
+              text="I'm a professional with excellent communication and collaboration skills. Passionate about creating user-friendly and visually appealing web applications. Currently looking for remote opportunities to work with international teams again."
+              speed={5}
+              delay={2500}
+            />
           </p>
         </div>
       </NSection>
 
       <NSection title="Experience" id="experience">
-        <div className="space-y-8">
-          <div className="border-l-2 border-slate-200 dark:border-slate-700 pl-4 ml-2">
-            <h3 className="text-lg font-bold">Full Stack Developer</h3>
-            <p className="text-sm text-muted-foreground">
-              NACS Ltda • Mar 2025 - Present
-            </p>
-            <p className="mt-2">Remote • Brasil</p>
-          </div>
-
-          <div className="border-l-2 border-slate-200 dark:border-slate-700 pl-4 ml-2">
-            <h3 className="text-lg font-bold">Senior Frontend Developer</h3>
-            <p className="text-sm text-muted-foreground">
-              87Labs • Jul 2024 - Mar 2025
-            </p>
-            <p className="mt-2">Remote</p>
-          </div>
-
-          <div className="border-l-2 border-slate-200 dark:border-slate-700 pl-4 ml-2">
-            <h3 className="text-lg font-bold">Senior Frontend Developer</h3>
-            <p className="text-sm text-muted-foreground">
-              Defensoria Pública do Estado de Minas Gerais • Nov 2023 - Aug 2024
-            </p>
-            <p className="mt-2">Hybrid • Belo Horizonte, Minas Gerais</p>
-            <ul className="list-disc list-inside mt-2 space-y-1 text-sm text-slate-600 dark:text-slate-300">
-              <li>
-                Responsible for developing current modules and new platform
-                features that support the Public Defender's Office demands.
-              </li>
-              <li>Maintenance of current front-end code for Chat app.</li>
-              <li>Digital Signature User Interface development.</li>
-              <li>
-                Help with agile methodologies adoption, and process
-                improvements.
-              </li>
-            </ul>
-          </div>
-
-          <div className="border-l-2 border-slate-200 dark:border-slate-700 pl-4 ml-2">
-            <h3 className="text-lg font-bold">Senior Frontend Developer</h3>
-            <p className="text-sm text-muted-foreground">
-              Avenue Code • Aug 2014 - Jul 2023
-            </p>
-            <p className="mt-2">Hybrid • Belo Horizonte</p>
-            <ul className="list-disc list-inside mt-2 space-y-1 text-sm text-slate-600 dark:text-slate-300">
-              <li>Front-end Developer Consultant for Fortune 500 companies.</li>
-              <li>Development of fast and responsive web apps.</li>
-              <li>
-                New delivery features for products bought at department stores.
-              </li>
-              <li>REST API Integration, A/B testing, Unit tests.</li>
-              <li>
-                Development and optimization of components for the Component
-                Style Guide (CSG).
-              </li>
-              <li>Checkout and Splash page optimization.</li>
-              <li>Figma prototypes implementation (pixel perfect).</li>
-            </ul>
-          </div>
-
-          <div className="border-l-2 border-slate-200 dark:border-slate-700 pl-4 ml-2">
-            <h3 className="text-lg font-bold">Software Developer</h3>
-            <p className="text-sm text-muted-foreground">
-              AgilityFeat • Aug 2022 - Sep 2022
-            </p>
-            <p className="mt-2">Belo Horizonte, Minas Gerais, Brazil</p>
-            <p className="mt-2 text-sm">Ruby on Rails, React, AWS, Scrum</p>
-          </div>
-        </div>
+        <Timeline items={experienceData} />
       </NSection>
 
       <NSection title="Education" id="education">
-        <div className="space-y-6">
-          <div>
-            <h3 className="text-lg font-bold">PUC Minas</h3>
-            <p className="text-muted-foreground">
-              Postgraduate Degree, Solutions Architect
+        <div className="grid gap-6 md:grid-cols-2">
+          <div className="p-6 rounded-xl border border-slate-200 dark:border-slate-800 bg-slate-50 dark:bg-slate-900/50">
+            <h3 className="text-xl font-bold mb-1">
+              <TypewriterText text="PUC Minas" speed={40} />
+            </h3>
+            <p className="text-muted-foreground font-medium mb-2">
+              <TypewriterText
+                text="Postgraduate Degree, Solutions Architect"
+                speed={20}
+                delay={400}
+              />
             </p>
-            <p className="text-sm">Expected May 2025</p>
+            <p className="text-sm text-slate-500">
+              <TypewriterText
+                text="Expected May 2025"
+                speed={30}
+                delay={1200}
+              />
+            </p>
           </div>
-          <div>
-            <h3 className="text-lg font-bold">FCSL</h3>
-            <p className="text-muted-foreground">
-              Bacharel em Sistemas de Informação, Tecnologia da Informação
+          <div className="p-6 rounded-xl border border-slate-200 dark:border-slate-800 bg-slate-50 dark:bg-slate-900/50">
+            <h3 className="text-xl font-bold mb-1">
+              <TypewriterText text="FCSL" speed={40} />
+            </h3>
+            <p className="text-muted-foreground font-medium mb-2">
+              <TypewriterText
+                text="Bacharel em Sistemas de Informa\u00e7\u00e3o"
+                speed={20}
+                delay={200}
+              />
             </p>
-            <p className="text-sm">2010 - 2013</p>
+            <p className="text-sm text-slate-500">
+              <TypewriterText text="2010 - 2013" speed={30} delay={900} />
+            </p>
           </div>
         </div>
       </NSection>
 
       <NSection title="Skills" id="skills">
-        <div className="flex flex-wrap gap-2">
-          {SKILLS.map((skill) => (
-            <span
-              key={skill}
-              className="px-3 py-1 bg-slate-100 dark:bg-slate-800 rounded-full text-sm font-medium">
-              {skill}
-            </span>
-          ))}
-        </div>
+        <SkillCloud skills={SKILLS} />
+      </NSection>
+
+      <NSection title="Certifications" id="certifications">
+        <SkillCloud skills={CERTIFICATIONS} />
+      </NSection>
+
+      <NSection title="Languages" id="languages">
+        <SkillCloud skills={LANGUAGES} />
       </NSection>
 
       <NSection title="Causes" id="causes">
-        <div className="flex flex-wrap gap-2">
-          {CAUSES.map((cause) => (
-            <span
-              key={cause}
-              className="px-3 py-1 border border-slate-200 dark:border-slate-700 rounded-full text-sm">
-              {cause}
-            </span>
-          ))}
-        </div>
+        <SkillCloud skills={CAUSES} />
       </NSection>
     </div>
   )

@@ -17,7 +17,9 @@
       "Bash(npm show:*)",
       "Bash(npx tsc:*)",
       "Bash(git add:*)",
-      "Bash(npx prettier:*)"
+      "Bash(npx prettier:*)",
+      "Bash(curl -s http://localhost:3000)",
+      "Bash(python3:*)"
     ],
     "deny": [],
     "ask": []
