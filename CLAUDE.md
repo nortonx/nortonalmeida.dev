@@ -56,8 +56,8 @@ All share the same pattern: progressive `setInterval` reveal, `done` state track
 
 Content is driven by data arrays defined in `page.tsx`:
 
-- **experienceData** — Work history (Amaris Consulting, NACS, 87Labs, Defensoria Publica, Avenue Code, AgilityFeat, Self-Employed)
-- **SKILLS** — Technical skills (48 items)
+- **experienceData** — Work history (Amaris Consulting, NACS, 87Labs, Public Defender's Office, Avenue Code, Self-Employed)
+- **SKILLS** — Technical skills (54 items, Vue/Nuxt-first order)
 - **CERTIFICATIONS** — Google Agile Essentials, Google AI Essentials, Datadog Foundation
 - **LANGUAGES** — English, Portuguese, Spanish
 - **CAUSES** — Social causes

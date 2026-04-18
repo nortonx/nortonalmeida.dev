@@ -32,13 +32,13 @@ describe("Hero", () => {
   it("types out the subtitle after its delay", () => {
     render(<Hero />)
 
-    // Subtitle starts at 1700ms delay (500ms heatmap fade + 1200ms base)
+    // Subtitle starts at 1700ms delay, speed 55ms per char
     act(() => {
-      jest.advanceTimersByTime(1700 + 55 * 43 + 100)
+      jest.advanceTimersByTime(1700 + 55 * 45 + 100)
     })
 
     expect(
-      screen.getByText("Solutions Architect \u00b7 Full Stack Developer"),
+      screen.getByText("Vue/Nuxt Specialist \u00b7 Full Stack Developer"),
     ).toBeInTheDocument()
   })
 

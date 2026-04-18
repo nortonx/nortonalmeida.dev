@@ -10,45 +10,47 @@ const experienceData = [
     title: "Full Stack Developer",
     company: "Amaris Consulting",
     period: "Dec 2025 - Present",
-    location: "Remote • Full-time",
+    location: "Remote \u2022 Full-time",
     description:
-      "Providing senior front-end consulting services for enterprise clients.",
+      "Delivering senior front-end consulting for a Fortune 500 beverage industry client; building enterprise web applications with Vue.js and TypeScript on Microsoft Azure, with Azure DevOps pipelines.",
+    skills: [
+      "Built custom productivity workflows and automated code-reviewer bots leveraging LLMs to standardize reviews, catch regressions earlier, and compress feedback cycles across the team",
+      "Driving code quality through reviews, unit/integration testing, and design-system alignment across distributed teams",
+    ],
   },
   {
     title: "Full-Stack Developer",
     company: "NACS Ltda",
     period: "Mar 2025 - Present",
-    location: "Remote • Freelance",
+    location: "Remote \u2022 Freelance",
     description:
       "Consultant for NACS clients, working as a Solutions Architect and Full Stack Developer.",
     skills: [
-      "Built a Financial Tracker MVP using Next.js 15, React 19, Shadcn/Tailwind, Nest.js, and PostgreSQL with Playwright E2E testing",
+      "Built a Financial Tracker MVP using Nuxt 3, Vue 3, Shadcn/Tailwind, Nest.js, and PostgreSQL with Playwright E2E testing",
       "Developed platforms for multiple business domains (work safety, finance tracking) with full-stack ownership",
-      "Delivered consulting services with agile methodologies and modern tooling (Bun, ElysiaJS, Drizzle)",
+      "Delivered consulting services with agile methodologies and modern tooling (Bun, ElysiaJS, Drizzle, Pinia); integrated AI-assisted development (Claude Code, GitHub Copilot) to compress time-to-MVP while maintaining test coverage",
     ],
   },
   {
     title: "Senior Frontend Developer",
     company: "87Labs",
     period: "Jul 2024 - Mar 2025",
-    location: "Remote • Contract",
+    location: "Remote \u2022 Contract",
     description:
-      "Consulted for Locaweb (major ISP) on their Customer Central platform, delivering component development and unit testing.",
+      "Consulted for Locaweb (major Brazilian ISP) on their Customer Central platform, delivering Vue.js component development and unit testing.",
     skills: [
       "Reverse-engineered undocumented legacy Ruby on Rails platform to enable modernization",
-      "Automated deployment pipelines with Azure DevOps",
-      "Monitored performance via Sentry and Grafana",
+      "Automated deployment pipelines with Azure DevOps; monitored performance via Sentry and Grafana",
     ],
   },
   {
     title: "Senior Frontend Developer",
-    company: "Defensoria P\u00fablica do Estado de Minas Gerais",
+    company: "Public Defender\u2019s Office of Minas Gerais",
     period: "Nov 2023 - Aug 2024",
-    location: "Hybrid • Belo Horizonte, Minas Gerais",
+    location: "Hybrid \u2022 Belo Horizonte",
     description:
-      "Responsible for developing current modules and new features supporting the Public Defender's Office demands.",
+      "Developed Digital Signature UI in Vue.js, integrating with REST APIs to enable digital signing of legal petitions.",
     skills: [
-      "Developed Digital Signature UI, integrating with REST APIs to enable digital signing of legal petitions",
       "Maintained and enhanced the internal Chat application with new components and desktop-optimized views",
       "Contributed to agile adoption and process improvement initiatives",
     ],
@@ -57,24 +59,16 @@ const experienceData = [
     title: "Senior Frontend Developer / Consultant",
     company: "Avenue Code",
     period: "Aug 2014 - Jul 2023",
-    location: "Hybrid • Belo Horizonte",
+    location: "Hybrid \u2022 Belo Horizonte",
     description:
-      "Front-end Developer Consultant for Fortune 500 companies across retail and automotive industries for 9 years.",
+      "Served as front-end consultant for Fortune 500 companies across retail and automotive industries for 9 years; 5 years of dedicated AEM frontend development (HTL/Sightly, component/template authoring, clientlibs, Granite UI, Coral UI).",
     skills: [
-      "Led implementation of Customer Journey for a Car Rental product as sole front-end developer",
+      "Led implementation of Customer Journey for a Car Rental product as sole front-end developer, delivered on time and within budget",
       "Executed rebranding projects for 3 major car manufacturers, involving CSS overhauls and new component libraries",
       "Built and optimized Component Style Guide (CSG) and Storybook-based component libraries for department stores",
-      "REST API integration, A/B testing, and checkout optimization during peak Holiday seasons",
+      "Performed REST API integration, A/B testing, and checkout optimization during peak Holiday seasons",
       "Mentored junior and mid-level developers; led onboarding, code reviews, and client presentations",
     ],
-  },
-  {
-    title: "Software Developer",
-    company: "AgilityFeat",
-    period: "Aug 2022 - Sep 2022",
-    location: "Belo Horizonte, Minas Gerais, Brazil",
-    description: "Short-term consulting project during Avenue Code employment.",
-    skills: ["Ruby on Rails", "React", "AWS", "Scrum"],
   },
   {
     title: "Web Developer",
@@ -92,15 +86,17 @@ const experienceData = [
 const SKILLS = [
   "TypeScript",
   "JavaScript",
-  "React.js",
-  "Next.js",
   "Vue.js",
+  "Nuxt.js",
   "Vuex",
   "Pinia",
-  "Nuxt.js",
+  "Quasar",
+  "React.js",
+  "Next.js",
   "Node.js",
   "Express",
   "Nest.js",
+  "Ruby on Rails",
   "HTML5",
   "CSS3",
   "SASS",
@@ -109,19 +105,23 @@ const SKILLS = [
   "Shadcn",
   "Storybook",
   "Zustand",
-  "Quasar",
   "Jest",
   "Vitest",
   "React Testing Library",
   "Playwright",
   "Cypress",
   "A/B Testing",
+  "Microsoft Azure",
+  "Azure DevOps",
   "AWS",
   "GCP",
   "Docker",
-  "CI/CD",
+  "CI/CD (GitHub Actions, GitLab CI)",
   "Vercel",
   "Heroku",
+  "Sentry",
+  "Grafana",
+  "Datadog",
   "PostgreSQL",
   "MySQL",
   "MongoDB",
@@ -130,15 +130,14 @@ const SKILLS = [
   "Drizzle",
   "Zod",
   "REST APIs",
+  "Microfrontends",
   "WCAG",
   "Core Web Vitals",
   "Agile/Scrum",
-  "Microfrontends",
   "Code Review",
   "Mentoring",
-  "Ruby on Rails",
-  "PHP",
-  "Shell Script",
+  "AEM Frontend (HTL/Sightly)",
+  "AI-Augmented Development",
 ]
 
 const CERTIFICATIONS = [
@@ -166,30 +165,23 @@ const CAUSES = [
 
 export default function Home() {
   return (
-    <div data-testid="home-page" className="space-y-12 pb-20">
+    <div data-testid="home-page" className="space-y-6 pb-12">
       <GitHubHeatmap />
       <Hero />
 
       <NSection title="About" id="about">
-        <div className="text-lg leading-relaxed text-slate-700 dark:text-slate-300 space-y-6 max-w-3xl">
+        <div className="text-lg leading-relaxed text-slate-700 dark:text-slate-300 space-y-4 max-w-3xl">
           <p>
             <TypewriterText
-              text="Bachelor's degree in Information Systems, with over 20 years in technology and more than 10 years focused on front-end development. Highly skilled front-end software developer with over 15 years of experience working with Fortune 500 companies as a consultant and developer."
+              text="Senior Front-End Developer with 20+ years in technology and 10+ years of dedicated front-end expertise. Vue/Nuxt specialist with strong React/Next.js experience. Proven track record as a consultant for Fortune 500 companies, delivering high-performance web applications, leading rebranding initiatives, and mentoring development teams."
               speed={5}
             />
           </p>
           <p>
             <TypewriterText
-              text="Strong experience in developing responsive web applications and mobile-first designs. Proven track record of delivering high-quality work on time and within budget."
+              text="Skilled in modern JavaScript frameworks, responsive design, accessibility (WCAG), agile methodologies, and AI-augmented development workflows \u2014 including custom productivity automations and code-review bots."
               speed={5}
               delay={1500}
-            />
-          </p>
-          <p>
-            <TypewriterText
-              text="I'm a professional with excellent communication and collaboration skills. Passionate about creating user-friendly and visually appealing web applications. Currently looking for remote opportunities to work with international teams again."
-              speed={5}
-              delay={2500}
             />
           </p>
         </div>
@@ -200,8 +192,8 @@ export default function Home() {
       </NSection>
 
       <NSection title="Education" id="education">
-        <div className="grid gap-6 md:grid-cols-2">
-          <div className="p-6 rounded-xl border border-slate-200 dark:border-slate-800 bg-slate-50 dark:bg-slate-900/50">
+        <div className="grid gap-4 md:grid-cols-2">
+          <div className="p-5 rounded-xl border border-slate-200 dark:border-slate-800 bg-slate-50 dark:bg-slate-900/50">
             <h3 className="text-xl font-bold mb-1">
               <TypewriterText text="PUC Minas" speed={40} />
             </h3>
@@ -213,26 +205,22 @@ export default function Home() {
               />
             </p>
             <p className="text-sm text-slate-500">
-              <TypewriterText
-                text="Expected May 2025"
-                speed={30}
-                delay={1200}
-              />
+              <TypewriterText text="2025 \u2013 2026" speed={30} delay={1200} />
             </p>
           </div>
-          <div className="p-6 rounded-xl border border-slate-200 dark:border-slate-800 bg-slate-50 dark:bg-slate-900/50">
+          <div className="p-5 rounded-xl border border-slate-200 dark:border-slate-800 bg-slate-50 dark:bg-slate-900/50">
             <h3 className="text-xl font-bold mb-1">
               <TypewriterText text="FCSL" speed={40} />
             </h3>
             <p className="text-muted-foreground font-medium mb-2">
               <TypewriterText
-                text="Bacharel em Sistemas de Informa\u00e7\u00e3o"
+                text="Bachelor\u2019s in Information Systems"
                 speed={20}
                 delay={200}
               />
             </p>
             <p className="text-sm text-slate-500">
-              <TypewriterText text="2010 - 2013" speed={30} delay={900} />
+              <TypewriterText text="2013" speed={30} delay={900} />
             </p>
           </div>
         </div>

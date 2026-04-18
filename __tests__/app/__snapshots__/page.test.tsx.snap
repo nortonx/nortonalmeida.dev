@@ -3,7 +3,7 @@
 exports[`Home Page should render the page and match snapshot 1`] = `
 <div>
   <div
-    class="space-y-12 pb-20"
+    class="space-y-6 pb-12"
     data-testid="home-page"
   >
     <section
@@ -23,7 +23,7 @@ exports[`Home Page should render the page and match snapshot 1`] = `
           <h2
             class="font-mono text-xl text-slate-600 dark:text-slate-300 min-h-[1.75rem]"
           >
-            Solutions Architect · Full Stack Developer
+            Vue/Nuxt Specialist · Full Stack Developer
           </h2>
         </div>
         <div
@@ -84,12 +84,12 @@ exports[`Home Page should render the page and match snapshot 1`] = `
           <p
             class="max-w-2xl text-lg leading-relaxed text-slate-600 dark:text-slate-400 min-h-[6rem]"
           >
-            Designing scalable solutions and crafting exceptional user experiences. With over 20 years in technology and a specialization in frontend development, I bridge the gap between complex backend logic and beautiful, intuitive interfaces.
+            Senior Front-End Developer with 20+ years in technology and 10+ years of dedicated front-end expertise. Proven track record as a consultant for Fortune 500 companies, delivering high-performance web applications and mentoring development teams.
             <br />
             <span
               class="block mt-4 text-sm text-slate-500 italic"
             >
-              Bachelor’s in Information Systems • Postgrad Solutions Architect (2026)
+              Bachelor’s in Information Systems • Postgrad Solutions Architect (2025–2026)
             </span>
           </p>
         </div>
@@ -205,11 +205,11 @@ exports[`Home Page should render the page and match snapshot 1`] = `
     >
       <section
         aria-label="About"
-        class="x-section relative py-8 md:py-12"
+        class="x-section relative py-4 md:py-6"
         id="about"
       >
         <div
-          class="flex items-center gap-4 mb-8 md:mb-12"
+          class="flex items-center gap-4 mb-4 md:mb-6"
         >
           <h2
             class="font-mono text-3xl font-bold tracking-tight text-slate-900 dark:text-slate-100 shrink-0"
@@ -221,27 +221,20 @@ exports[`Home Page should render the page and match snapshot 1`] = `
           />
         </div>
         <div
-          class="text-lg leading-relaxed text-slate-700 dark:text-slate-300 space-y-6 max-w-3xl"
+          class="text-lg leading-relaxed text-slate-700 dark:text-slate-300 space-y-4 max-w-3xl"
         >
           <p>
             <span
-              class="typewriter-text"
+              class="typewriter-text typewriter-text--visible"
             >
-              Bachelor's degree in Information Systems, with over 20 years in technology and more than 10 years focused on front-end development. Highly skilled front-end software developer with over 15 years of experience working with Fortune 500 companies as a consultant and developer.
+              Senior Front-End Developer with 20+ years in technology and 10+ years of dedicated front-end expertise. Vue/Nuxt specialist with strong React/Next.js experience. Proven track record as a consultant for Fortune 500 companies, delivering high-performance web applications, leading rebranding initiatives, and mentoring development teams.
             </span>
           </p>
           <p>
             <span
-              class="typewriter-text"
+              class="typewriter-text typewriter-text--visible"
             >
-              Strong experience in developing responsive web applications and mobile-first designs. Proven track record of delivering high-quality work on time and within budget.
-            </span>
-          </p>
-          <p>
-            <span
-              class="typewriter-text"
-            >
-              I'm a professional with excellent communication and collaboration skills. Passionate about creating user-friendly and visually appealing web applications. Currently looking for remote opportunities to work with international teams again.
+              Skilled in modern JavaScript frameworks, responsive design, accessibility (WCAG), agile methodologies, and AI-augmented development workflows \\u2014 including custom productivity automations and code-review bots.
             </span>
           </p>
         </div>
@@ -252,11 +245,11 @@ exports[`Home Page should render the page and match snapshot 1`] = `
     >
       <section
         aria-label="Experience"
-        class="x-section relative py-8 md:py-12"
+        class="x-section relative py-4 md:py-6"
         id="experience"
       >
         <div
-          class="flex items-center gap-4 mb-8 md:mb-12"
+          class="flex items-center gap-4 mb-4 md:mb-6"
         >
           <h2
             class="font-mono text-3xl font-bold tracking-tight text-slate-900 dark:text-slate-100 shrink-0"
@@ -268,7 +261,7 @@ exports[`Home Page should render the page and match snapshot 1`] = `
           />
         </div>
         <div
-          class="timeline relative border-l-2 border-slate-200 dark:border-slate-800 ml-3 space-y-12 py-4"
+          class="timeline relative border-l-2 border-slate-200 dark:border-slate-800 ml-3 space-y-8 py-2"
         >
           <div
             class="relative pl-8 group"
@@ -283,7 +276,7 @@ exports[`Home Page should render the page and match snapshot 1`] = `
                 class="text-xl font-bold text-slate-900 dark:text-slate-100 group-hover:text-primary transition-colors"
               >
                 <span
-                  class="typewriter-text"
+                  class="typewriter-text typewriter-text--visible"
                 >
                   Full Stack Developer
                 </span>
@@ -292,7 +285,7 @@ exports[`Home Page should render the page and match snapshot 1`] = `
                 class="text-sm font-medium text-slate-500 dark:text-slate-400 bg-slate-100 dark:bg-slate-800/50 px-2 py-1 rounded"
               >
                 <span
-                  class="typewriter-text"
+                  class="typewriter-text typewriter-text--visible"
                 >
                   Dec 2025 - Present
                 </span>
@@ -305,7 +298,7 @@ exports[`Home Page should render the page and match snapshot 1`] = `
                 class="text-base font-semibold text-slate-700 dark:text-slate-300"
               >
                 <span
-                  class="typewriter-text"
+                  class="typewriter-text typewriter-text--visible"
                 >
                   Amaris Consulting
                 </span>
@@ -314,7 +307,7 @@ exports[`Home Page should render the page and match snapshot 1`] = `
                 class="text-sm text-muted-foreground"
               >
                 <span
-                  class="typewriter-text"
+                  class="typewriter-text typewriter-text--visible"
                 >
                   Remote • Full-time
                 </span>
@@ -324,11 +317,29 @@ exports[`Home Page should render the page and match snapshot 1`] = `
               class="prose dark:prose-invert max-w-none text-slate-600 dark:text-slate-400 text-sm mb-4"
             >
               <span
-                class="typewriter-text"
+                class="typewriter-text typewriter-text--visible"
               >
-                Providing senior front-end consulting services for enterprise clients.
+                Delivering senior front-end consulting for a Fortune 500 beverage industry client; building enterprise web applications with Vue.js and TypeScript on Microsoft Azure, with Azure DevOps pipelines.
               </span>
             </div>
+            <ul
+              class="list-disc list-outside ml-4 space-y-1 text-sm text-slate-600 dark:text-slate-400"
+            >
+              <li>
+                <span
+                  class="typewriter-text typewriter-text--visible"
+                >
+                  Built custom productivity workflows and automated code-reviewer bots leveraging LLMs to standardize reviews, catch regressions earlier, and compress feedback cycles across the team
+                </span>
+              </li>
+              <li>
+                <span
+                  class="typewriter-text typewriter-text--visible"
+                >
+                  Driving code quality through reviews, unit/integration testing, and design-system alignment across distributed teams
+                </span>
+              </li>
+            </ul>
           </div>
           <div
             class="relative pl-8 group"
@@ -343,7 +354,7 @@ exports[`Home Page should render the page and match snapshot 1`] = `
                 class="text-xl font-bold text-slate-900 dark:text-slate-100 group-hover:text-primary transition-colors"
               >
                 <span
-                  class="typewriter-text"
+                  class="typewriter-text typewriter-text--visible"
                 >
                   Full-Stack Developer
                 </span>
@@ -352,7 +363,7 @@ exports[`Home Page should render the page and match snapshot 1`] = `
                 class="text-sm font-medium text-slate-500 dark:text-slate-400 bg-slate-100 dark:bg-slate-800/50 px-2 py-1 rounded"
               >
                 <span
-                  class="typewriter-text"
+                  class="typewriter-text typewriter-text--visible"
                 >
                   Mar 2025 - Present
                 </span>
@@ -365,7 +376,7 @@ exports[`Home Page should render the page and match snapshot 1`] = `
                 class="text-base font-semibold text-slate-700 dark:text-slate-300"
               >
                 <span
-                  class="typewriter-text"
+                  class="typewriter-text typewriter-text--visible"
                 >
                   NACS Ltda
                 </span>
@@ -374,7 +385,7 @@ exports[`Home Page should render the page and match snapshot 1`] = `
                 class="text-sm text-muted-foreground"
               >
                 <span
-                  class="typewriter-text"
+                  class="typewriter-text typewriter-text--visible"
                 >
                   Remote • Freelance
                 </span>
@@ -384,7 +395,7 @@ exports[`Home Page should render the page and match snapshot 1`] = `
               class="prose dark:prose-invert max-w-none text-slate-600 dark:text-slate-400 text-sm mb-4"
             >
               <span
-                class="typewriter-text"
+                class="typewriter-text typewriter-text--visible"
               >
                 Consultant for NACS clients, working as a Solutions Architect and Full Stack Developer.
               </span>
@@ -394,23 +405,23 @@ exports[`Home Page should render the page and match snapshot 1`] = `
             >
               <li>
                 <span
-                  class="typewriter-text"
+                  class="typewriter-text typewriter-text--visible"
                 >
-                  Built a Financial Tracker MVP using Next.js 15, React 19, Shadcn/Tailwind, Nest.js, and PostgreSQL with Playwright E2E testing
+                  Built a Financial Tracker MVP using Nuxt 3, Vue 3, Shadcn/Tailwind, Nest.js, and PostgreSQL with Playwright E2E testing
                 </span>
               </li>
               <li>
                 <span
-                  class="typewriter-text"
+                  class="typewriter-text typewriter-text--visible"
                 >
                   Developed platforms for multiple business domains (work safety, finance tracking) with full-stack ownership
                 </span>
               </li>
               <li>
                 <span
-                  class="typewriter-text"
+                  class="typewriter-text typewriter-text--visible"
                 >
-                  Delivered consulting services with agile methodologies and modern tooling (Bun, ElysiaJS, Drizzle)
+                  Delivered consulting services with agile methodologies and modern tooling (Bun, ElysiaJS, Drizzle, Pinia); integrated AI-assisted development (Claude Code, GitHub Copilot) to compress time-to-MVP while maintaining test coverage
                 </span>
               </li>
             </ul>
@@ -428,7 +439,7 @@ exports[`Home Page should render the page and match snapshot 1`] = `
                 class="text-xl font-bold text-slate-900 dark:text-slate-100 group-hover:text-primary transition-colors"
               >
                 <span
-                  class="typewriter-text"
+                  class="typewriter-text typewriter-text--visible"
                 >
                   Senior Frontend Developer
                 </span>
@@ -437,7 +448,7 @@ exports[`Home Page should render the page and match snapshot 1`] = `
                 class="text-sm font-medium text-slate-500 dark:text-slate-400 bg-slate-100 dark:bg-slate-800/50 px-2 py-1 rounded"
               >
                 <span
-                  class="typewriter-text"
+                  class="typewriter-text typewriter-text--visible"
                 >
                   Jul 2024 - Mar 2025
                 </span>
@@ -450,7 +461,7 @@ exports[`Home Page should render the page and match snapshot 1`] = `
                 class="text-base font-semibold text-slate-700 dark:text-slate-300"
               >
                 <span
-                  class="typewriter-text"
+                  class="typewriter-text typewriter-text--visible"
                 >
                   87Labs
                 </span>
@@ -459,7 +470,7 @@ exports[`Home Page should render the page and match snapshot 1`] = `
                 class="text-sm text-muted-foreground"
               >
                 <span
-                  class="typewriter-text"
+                  class="typewriter-text typewriter-text--visible"
                 >
                   Remote • Contract
                 </span>
@@ -469,9 +480,9 @@ exports[`Home Page should render the page and match snapshot 1`] = `
               class="prose dark:prose-invert max-w-none text-slate-600 dark:text-slate-400 text-sm mb-4"
             >
               <span
-                class="typewriter-text"
+                class="typewriter-text typewriter-text--visible"
               >
-                Consulted for Locaweb (major ISP) on their Customer Central platform, delivering component development and unit testing.
+                Consulted for Locaweb (major Brazilian ISP) on their Customer Central platform, delivering Vue.js component development and unit testing.
               </span>
             </div>
             <ul
@@ -479,23 +490,16 @@ exports[`Home Page should render the page and match snapshot 1`] = `
             >
               <li>
                 <span
-                  class="typewriter-text"
+                  class="typewriter-text typewriter-text--visible"
                 >
                   Reverse-engineered undocumented legacy Ruby on Rails platform to enable modernization
                 </span>
               </li>
               <li>
                 <span
-                  class="typewriter-text"
+                  class="typewriter-text typewriter-text--visible"
                 >
-                  Automated deployment pipelines with Azure DevOps
-                </span>
-              </li>
-              <li>
-                <span
-                  class="typewriter-text"
-                >
-                  Monitored performance via Sentry and Grafana
+                  Automated deployment pipelines with Azure DevOps; monitored performance via Sentry and Grafana
                 </span>
               </li>
             </ul>
@@ -513,7 +517,7 @@ exports[`Home Page should render the page and match snapshot 1`] = `
                 class="text-xl font-bold text-slate-900 dark:text-slate-100 group-hover:text-primary transition-colors"
               >
                 <span
-                  class="typewriter-text"
+                  class="typewriter-text typewriter-text--visible"
                 >
                   Senior Frontend Developer
                 </span>
@@ -522,7 +526,7 @@ exports[`Home Page should render the page and match snapshot 1`] = `
                 class="text-sm font-medium text-slate-500 dark:text-slate-400 bg-slate-100 dark:bg-slate-800/50 px-2 py-1 rounded"
               >
                 <span
-                  class="typewriter-text"
+                  class="typewriter-text typewriter-text--visible"
                 >
                   Nov 2023 - Aug 2024
                 </span>
@@ -535,18 +539,18 @@ exports[`Home Page should render the page and match snapshot 1`] = `
                 class="text-base font-semibold text-slate-700 dark:text-slate-300"
               >
                 <span
-                  class="typewriter-text"
+                  class="typewriter-text typewriter-text--visible"
                 >
-                  Defensoria Pública do Estado de Minas Gerais
+                  Public Defender’s Office of Minas Gerais
                 </span>
               </div>
               <div
                 class="text-sm text-muted-foreground"
               >
                 <span
-                  class="typewriter-text"
+                  class="typewriter-text typewriter-text--visible"
                 >
-                  Hybrid • Belo Horizonte, Minas Gerais
+                  Hybrid • Belo Horizonte
                 </span>
               </div>
             </div>
@@ -554,9 +558,9 @@ exports[`Home Page should render the page and match snapshot 1`] = `
               class="prose dark:prose-invert max-w-none text-slate-600 dark:text-slate-400 text-sm mb-4"
             >
               <span
-                class="typewriter-text"
+                class="typewriter-text typewriter-text--visible"
               >
-                Responsible for developing current modules and new features supporting the Public Defender's Office demands.
+                Developed Digital Signature UI in Vue.js, integrating with REST APIs to enable digital signing of legal petitions.
               </span>
             </div>
             <ul
@@ -564,21 +568,14 @@ exports[`Home Page should render the page and match snapshot 1`] = `
             >
               <li>
                 <span
-                  class="typewriter-text"
-                >
-                  Developed Digital Signature UI, integrating with REST APIs to enable digital signing of legal petitions
-                </span>
-              </li>
-              <li>
-                <span
-                  class="typewriter-text"
+                  class="typewriter-text typewriter-text--visible"
                 >
                   Maintained and enhanced the internal Chat application with new components and desktop-optimized views
                 </span>
               </li>
               <li>
                 <span
-                  class="typewriter-text"
+                  class="typewriter-text typewriter-text--visible"
                 >
                   Contributed to agile adoption and process improvement initiatives
                 </span>
@@ -598,7 +595,7 @@ exports[`Home Page should render the page and match snapshot 1`] = `
                 class="text-xl font-bold text-slate-900 dark:text-slate-100 group-hover:text-primary transition-colors"
               >
                 <span
-                  class="typewriter-text"
+                  class="typewriter-text typewriter-text--visible"
                 >
                   Senior Frontend Developer / Consultant
                 </span>
@@ -607,7 +604,7 @@ exports[`Home Page should render the page and match snapshot 1`] = `
                 class="text-sm font-medium text-slate-500 dark:text-slate-400 bg-slate-100 dark:bg-slate-800/50 px-2 py-1 rounded"
               >
                 <span
-                  class="typewriter-text"
+                  class="typewriter-text typewriter-text--visible"
                 >
                   Aug 2014 - Jul 2023
                 </span>
@@ -620,7 +617,7 @@ exports[`Home Page should render the page and match snapshot 1`] = `
                 class="text-base font-semibold text-slate-700 dark:text-slate-300"
               >
                 <span
-                  class="typewriter-text"
+                  class="typewriter-text typewriter-text--visible"
                 >
                   Avenue Code
                 </span>
@@ -629,7 +626,7 @@ exports[`Home Page should render the page and match snapshot 1`] = `
                 class="text-sm text-muted-foreground"
               >
                 <span
-                  class="typewriter-text"
+                  class="typewriter-text typewriter-text--visible"
                 >
                   Hybrid • Belo Horizonte
                 </span>
@@ -639,9 +636,9 @@ exports[`Home Page should render the page and match snapshot 1`] = `
               class="prose dark:prose-invert max-w-none text-slate-600 dark:text-slate-400 text-sm mb-4"
             >
               <span
-                class="typewriter-text"
+                class="typewriter-text typewriter-text--visible"
               >
-                Front-end Developer Consultant for Fortune 500 companies across retail and automotive industries for 9 years.
+                Served as front-end consultant for Fortune 500 companies across retail and automotive industries for 9 years; 5 years of dedicated AEM frontend development (HTL/Sightly, component/template authoring, clientlibs, Granite UI, Coral UI).
               </span>
             </div>
             <ul
@@ -649,35 +646,35 @@ exports[`Home Page should render the page and match snapshot 1`] = `
             >
               <li>
                 <span
-                  class="typewriter-text"
+                  class="typewriter-text typewriter-text--visible"
                 >
-                  Led implementation of Customer Journey for a Car Rental product as sole front-end developer
+                  Led implementation of Customer Journey for a Car Rental product as sole front-end developer, delivered on time and within budget
                 </span>
               </li>
               <li>
                 <span
-                  class="typewriter-text"
+                  class="typewriter-text typewriter-text--visible"
                 >
                   Executed rebranding projects for 3 major car manufacturers, involving CSS overhauls and new component libraries
                 </span>
               </li>
               <li>
                 <span
-                  class="typewriter-text"
+                  class="typewriter-text typewriter-text--visible"
                 >
                   Built and optimized Component Style Guide (CSG) and Storybook-based component libraries for department stores
                 </span>
               </li>
               <li>
                 <span
-                  class="typewriter-text"
+                  class="typewriter-text typewriter-text--visible"
                 >
-                  REST API integration, A/B testing, and checkout optimization during peak Holiday seasons
+                  Performed REST API integration, A/B testing, and checkout optimization during peak Holiday seasons
                 </span>
               </li>
               <li>
                 <span
-                  class="typewriter-text"
+                  class="typewriter-text typewriter-text--visible"
                 >
                   Mentored junior and mid-level developers; led onboarding, code reviews, and client presentations
                 </span>
@@ -697,99 +694,7 @@ exports[`Home Page should render the page and match snapshot 1`] = `
                 class="text-xl font-bold text-slate-900 dark:text-slate-100 group-hover:text-primary transition-colors"
               >
                 <span
-                  class="typewriter-text"
-                >
-                  Software Developer
-                </span>
-              </h3>
-              <span
-                class="text-sm font-medium text-slate-500 dark:text-slate-400 bg-slate-100 dark:bg-slate-800/50 px-2 py-1 rounded"
-              >
-                <span
-                  class="typewriter-text"
-                >
-                  Aug 2022 - Sep 2022
-                </span>
-              </span>
-            </div>
-            <div
-              class="mb-4"
-            >
-              <div
-                class="text-base font-semibold text-slate-700 dark:text-slate-300"
-              >
-                <span
-                  class="typewriter-text"
-                >
-                  AgilityFeat
-                </span>
-              </div>
-              <div
-                class="text-sm text-muted-foreground"
-              >
-                <span
-                  class="typewriter-text"
-                >
-                  Belo Horizonte, Minas Gerais, Brazil
-                </span>
-              </div>
-            </div>
-            <div
-              class="prose dark:prose-invert max-w-none text-slate-600 dark:text-slate-400 text-sm mb-4"
-            >
-              <span
-                class="typewriter-text"
-              >
-                Short-term consulting project during Avenue Code employment.
-              </span>
-            </div>
-            <ul
-              class="list-disc list-outside ml-4 space-y-1 text-sm text-slate-600 dark:text-slate-400"
-            >
-              <li>
-                <span
-                  class="typewriter-text"
-                >
-                  Ruby on Rails
-                </span>
-              </li>
-              <li>
-                <span
-                  class="typewriter-text"
-                >
-                  React
-                </span>
-              </li>
-              <li>
-                <span
-                  class="typewriter-text"
-                >
-                  AWS
-                </span>
-              </li>
-              <li>
-                <span
-                  class="typewriter-text"
-                >
-                  Scrum
-                </span>
-              </li>
-            </ul>
-          </div>
-          <div
-            class="relative pl-8 group"
-          >
-            <div
-              class="absolute -left-[9px] top-1 h-4 w-4 rounded-full bg-slate-200 dark:bg-slate-800 border-4 border-background group-hover:bg-primary group-hover:scale-125 transition-all duration-300"
-            />
-            <div
-              class="flex flex-col sm:flex-row sm:items-center sm:justify-between mb-2"
-            >
-              <h3
-                class="text-xl font-bold text-slate-900 dark:text-slate-100 group-hover:text-primary transition-colors"
-              >
-                <span
-                  class="typewriter-text"
+                  class="typewriter-text typewriter-text--visible"
                 >
                   Web Developer
                 </span>
@@ -798,7 +703,7 @@ exports[`Home Page should render the page and match snapshot 1`] = `
                 class="text-sm font-medium text-slate-500 dark:text-slate-400 bg-slate-100 dark:bg-slate-800/50 px-2 py-1 rounded"
               >
                 <span
-                  class="typewriter-text"
+                  class="typewriter-text typewriter-text--visible"
                 >
                   2011 - 2014
                 </span>
@@ -811,7 +716,7 @@ exports[`Home Page should render the page and match snapshot 1`] = `
                 class="text-base font-semibold text-slate-700 dark:text-slate-300"
               >
                 <span
-                  class="typewriter-text"
+                  class="typewriter-text typewriter-text--visible"
                 >
                   Self-Employed (Freelancer)
                 </span>
@@ -820,7 +725,7 @@ exports[`Home Page should render the page and match snapshot 1`] = `
                 class="text-sm text-muted-foreground"
               >
                 <span
-                  class="typewriter-text"
+                  class="typewriter-text typewriter-text--visible"
                 >
                   Belo Horizonte
                 </span>
@@ -830,7 +735,7 @@ exports[`Home Page should render the page and match snapshot 1`] = `
               class="prose dark:prose-invert max-w-none text-slate-600 dark:text-slate-400 text-sm mb-4"
             >
               <span
-                class="typewriter-text"
+                class="typewriter-text typewriter-text--visible"
               >
                 Developed a Ruby on Rails physical evaluation platform and WordPress websites for various clients.
               </span>
@@ -840,7 +745,7 @@ exports[`Home Page should render the page and match snapshot 1`] = `
             >
               <li>
                 <span
-                  class="typewriter-text"
+                  class="typewriter-text typewriter-text--visible"
                 >
                   Set up testing environments with live hosting and Git for instant client review
                 </span>
@@ -855,11 +760,11 @@ exports[`Home Page should render the page and match snapshot 1`] = `
     >
       <section
         aria-label="Education"
-        class="x-section relative py-8 md:py-12"
+        class="x-section relative py-4 md:py-6"
         id="education"
       >
         <div
-          class="flex items-center gap-4 mb-8 md:mb-12"
+          class="flex items-center gap-4 mb-4 md:mb-6"
         >
           <h2
             class="font-mono text-3xl font-bold tracking-tight text-slate-900 dark:text-slate-100 shrink-0"
@@ -871,16 +776,16 @@ exports[`Home Page should render the page and match snapshot 1`] = `
           />
         </div>
         <div
-          class="grid gap-6 md:grid-cols-2"
+          class="grid gap-4 md:grid-cols-2"
         >
           <div
-            class="p-6 rounded-xl border border-slate-200 dark:border-slate-800 bg-slate-50 dark:bg-slate-900/50"
+            class="p-5 rounded-xl border border-slate-200 dark:border-slate-800 bg-slate-50 dark:bg-slate-900/50"
           >
             <h3
               class="text-xl font-bold mb-1"
             >
               <span
-                class="typewriter-text"
+                class="typewriter-text typewriter-text--visible"
               >
                 PUC Minas
               </span>
@@ -889,7 +794,7 @@ exports[`Home Page should render the page and match snapshot 1`] = `
               class="text-muted-foreground font-medium mb-2"
             >
               <span
-                class="typewriter-text"
+                class="typewriter-text typewriter-text--visible"
               >
                 Postgraduate Degree, Solutions Architect
               </span>
@@ -898,20 +803,20 @@ exports[`Home Page should render the page and match snapshot 1`] = `
               class="text-sm text-slate-500"
             >
               <span
-                class="typewriter-text"
+                class="typewriter-text typewriter-text--visible"
               >
-                Expected May 2025
+                2025 \\u2013 2026
               </span>
             </p>
           </div>
           <div
-            class="p-6 rounded-xl border border-slate-200 dark:border-slate-800 bg-slate-50 dark:bg-slate-900/50"
+            class="p-5 rounded-xl border border-slate-200 dark:border-slate-800 bg-slate-50 dark:bg-slate-900/50"
           >
             <h3
               class="text-xl font-bold mb-1"
             >
               <span
-                class="typewriter-text"
+                class="typewriter-text typewriter-text--visible"
               >
                 FCSL
               </span>
@@ -920,18 +825,18 @@ exports[`Home Page should render the page and match snapshot 1`] = `
               class="text-muted-foreground font-medium mb-2"
             >
               <span
-                class="typewriter-text"
+                class="typewriter-text typewriter-text--visible"
               >
-                Bacharel em Sistemas de Informa\\u00e7\\u00e3o
+                Bachelor\\u2019s in Information Systems
               </span>
             </p>
             <p
               class="text-sm text-slate-500"
             >
               <span
-                class="typewriter-text"
+                class="typewriter-text typewriter-text--visible"
               >
-                2010 - 2013
+                2013
               </span>
             </p>
           </div>
@@ -943,11 +848,11 @@ exports[`Home Page should render the page and match snapshot 1`] = `
     >
       <section
         aria-label="Skills"
-        class="x-section relative py-8 md:py-12"
+        class="x-section relative py-4 md:py-6"
         id="skills"
       >
         <div
-          class="flex items-center gap-4 mb-8 md:mb-12"
+          class="flex items-center gap-4 mb-4 md:mb-6"
         >
           <h2
             class="font-mono text-3xl font-bold tracking-tight text-slate-900 dark:text-slate-100 shrink-0"
@@ -965,7 +870,7 @@ exports[`Home Page should render the page and match snapshot 1`] = `
             class="px-4 py-2 bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-lg text-sm font-medium hover:border-primary/50 hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors cursor-default shadow-sm"
           >
             <span
-              class="typewriter-text"
+              class="typewriter-text typewriter-text--visible"
             >
               TypeScript
             </span>
@@ -974,7 +879,7 @@ exports[`Home Page should render the page and match snapshot 1`] = `
             class="px-4 py-2 bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-lg text-sm font-medium hover:border-primary/50 hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors cursor-default shadow-sm"
           >
             <span
-              class="typewriter-text"
+              class="typewriter-text typewriter-text--visible"
             >
               JavaScript
             </span>
@@ -983,25 +888,7 @@ exports[`Home Page should render the page and match snapshot 1`] = `
             class="px-4 py-2 bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-lg text-sm font-medium hover:border-primary/50 hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors cursor-default shadow-sm"
           >
             <span
-              class="typewriter-text"
-            >
-              React.js
-            </span>
-          </span>
-          <span
-            class="px-4 py-2 bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-lg text-sm font-medium hover:border-primary/50 hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors cursor-default shadow-sm"
-          >
-            <span
-              class="typewriter-text"
-            >
-              Next.js
-            </span>
-          </span>
-          <span
-            class="px-4 py-2 bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-lg text-sm font-medium hover:border-primary/50 hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors cursor-default shadow-sm"
-          >
-            <span
-              class="typewriter-text"
+              class="typewriter-text typewriter-text--visible"
             >
               Vue.js
             </span>
@@ -1010,25 +897,7 @@ exports[`Home Page should render the page and match snapshot 1`] = `
             class="px-4 py-2 bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-lg text-sm font-medium hover:border-primary/50 hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors cursor-default shadow-sm"
           >
             <span
-              class="typewriter-text"
-            >
-              Vuex
-            </span>
-          </span>
-          <span
-            class="px-4 py-2 bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-lg text-sm font-medium hover:border-primary/50 hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors cursor-default shadow-sm"
-          >
-            <span
-              class="typewriter-text"
-            >
-              Pinia
-            </span>
-          </span>
-          <span
-            class="px-4 py-2 bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-lg text-sm font-medium hover:border-primary/50 hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors cursor-default shadow-sm"
-          >
-            <span
-              class="typewriter-text"
+              class="typewriter-text typewriter-text--visible"
             >
               Nuxt.js
             </span>
@@ -1037,106 +906,25 @@ exports[`Home Page should render the page and match snapshot 1`] = `
             class="px-4 py-2 bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-lg text-sm font-medium hover:border-primary/50 hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors cursor-default shadow-sm"
           >
             <span
-              class="typewriter-text"
+              class="typewriter-text typewriter-text--visible"
             >
-              Node.js
+              Vuex
             </span>
           </span>
           <span
             class="px-4 py-2 bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-lg text-sm font-medium hover:border-primary/50 hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors cursor-default shadow-sm"
           >
             <span
-              class="typewriter-text"
+              class="typewriter-text typewriter-text--visible"
             >
-              Express
+              Pinia
             </span>
           </span>
           <span
             class="px-4 py-2 bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-lg text-sm font-medium hover:border-primary/50 hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors cursor-default shadow-sm"
           >
             <span
-              class="typewriter-text"
-            >
-              Nest.js
-            </span>
-          </span>
-          <span
-            class="px-4 py-2 bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-lg text-sm font-medium hover:border-primary/50 hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors cursor-default shadow-sm"
-          >
-            <span
-              class="typewriter-text"
-            >
-              HTML5
-            </span>
-          </span>
-          <span
-            class="px-4 py-2 bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-lg text-sm font-medium hover:border-primary/50 hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors cursor-default shadow-sm"
-          >
-            <span
-              class="typewriter-text"
-            >
-              CSS3
-            </span>
-          </span>
-          <span
-            class="px-4 py-2 bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-lg text-sm font-medium hover:border-primary/50 hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors cursor-default shadow-sm"
-          >
-            <span
-              class="typewriter-text"
-            >
-              SASS
-            </span>
-          </span>
-          <span
-            class="px-4 py-2 bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-lg text-sm font-medium hover:border-primary/50 hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors cursor-default shadow-sm"
-          >
-            <span
-              class="typewriter-text"
-            >
-              LESS
-            </span>
-          </span>
-          <span
-            class="px-4 py-2 bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-lg text-sm font-medium hover:border-primary/50 hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors cursor-default shadow-sm"
-          >
-            <span
-              class="typewriter-text"
-            >
-              Tailwind CSS
-            </span>
-          </span>
-          <span
-            class="px-4 py-2 bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-lg text-sm font-medium hover:border-primary/50 hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors cursor-default shadow-sm"
-          >
-            <span
-              class="typewriter-text"
-            >
-              Shadcn
-            </span>
-          </span>
-          <span
-            class="px-4 py-2 bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-lg text-sm font-medium hover:border-primary/50 hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors cursor-default shadow-sm"
-          >
-            <span
-              class="typewriter-text"
-            >
-              Storybook
-            </span>
-          </span>
-          <span
-            class="px-4 py-2 bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-lg text-sm font-medium hover:border-primary/50 hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors cursor-default shadow-sm"
-          >
-            <span
-              class="typewriter-text"
-            >
-              Zustand
-            </span>
-          </span>
-          <span
-            class="px-4 py-2 bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-lg text-sm font-medium hover:border-primary/50 hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors cursor-default shadow-sm"
-          >
-            <span
-              class="typewriter-text"
+              class="typewriter-text typewriter-text--visible"
             >
               Quasar
             </span>
@@ -1145,241 +933,52 @@ exports[`Home Page should render the page and match snapshot 1`] = `
             class="px-4 py-2 bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-lg text-sm font-medium hover:border-primary/50 hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors cursor-default shadow-sm"
           >
             <span
-              class="typewriter-text"
+              class="typewriter-text typewriter-text--visible"
             >
-              Jest
+              React.js
             </span>
           </span>
           <span
             class="px-4 py-2 bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-lg text-sm font-medium hover:border-primary/50 hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors cursor-default shadow-sm"
           >
             <span
-              class="typewriter-text"
+              class="typewriter-text typewriter-text--visible"
             >
-              Vitest
+              Next.js
             </span>
           </span>
           <span
             class="px-4 py-2 bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-lg text-sm font-medium hover:border-primary/50 hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors cursor-default shadow-sm"
           >
             <span
-              class="typewriter-text"
+              class="typewriter-text typewriter-text--visible"
             >
-              React Testing Library
+              Node.js
             </span>
           </span>
           <span
             class="px-4 py-2 bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-lg text-sm font-medium hover:border-primary/50 hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors cursor-default shadow-sm"
           >
             <span
-              class="typewriter-text"
+              class="typewriter-text typewriter-text--visible"
             >
-              Playwright
+              Express
             </span>
           </span>
           <span
             class="px-4 py-2 bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-lg text-sm font-medium hover:border-primary/50 hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors cursor-default shadow-sm"
           >
             <span
-              class="typewriter-text"
+              class="typewriter-text typewriter-text--visible"
             >
-              Cypress
+              Nest.js
             </span>
           </span>
           <span
             class="px-4 py-2 bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-lg text-sm font-medium hover:border-primary/50 hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors cursor-default shadow-sm"
           >
             <span
-              class="typewriter-text"
-            >
-              A/B Testing
-            </span>
-          </span>
-          <span
-            class="px-4 py-2 bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-lg text-sm font-medium hover:border-primary/50 hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors cursor-default shadow-sm"
-          >
-            <span
-              class="typewriter-text"
-            >
-              AWS
-            </span>
-          </span>
-          <span
-            class="px-4 py-2 bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-lg text-sm font-medium hover:border-primary/50 hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors cursor-default shadow-sm"
-          >
-            <span
-              class="typewriter-text"
-            >
-              GCP
-            </span>
-          </span>
-          <span
-            class="px-4 py-2 bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-lg text-sm font-medium hover:border-primary/50 hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors cursor-default shadow-sm"
-          >
-            <span
-              class="typewriter-text"
-            >
-              Docker
-            </span>
-          </span>
-          <span
-            class="px-4 py-2 bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-lg text-sm font-medium hover:border-primary/50 hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors cursor-default shadow-sm"
-          >
-            <span
-              class="typewriter-text"
-            >
-              CI/CD
-            </span>
-          </span>
-          <span
-            class="px-4 py-2 bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-lg text-sm font-medium hover:border-primary/50 hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors cursor-default shadow-sm"
-          >
-            <span
-              class="typewriter-text"
-            >
-              Vercel
-            </span>
-          </span>
-          <span
-            class="px-4 py-2 bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-lg text-sm font-medium hover:border-primary/50 hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors cursor-default shadow-sm"
-          >
-            <span
-              class="typewriter-text"
-            >
-              Heroku
-            </span>
-          </span>
-          <span
-            class="px-4 py-2 bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-lg text-sm font-medium hover:border-primary/50 hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors cursor-default shadow-sm"
-          >
-            <span
-              class="typewriter-text"
-            >
-              PostgreSQL
-            </span>
-          </span>
-          <span
-            class="px-4 py-2 bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-lg text-sm font-medium hover:border-primary/50 hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors cursor-default shadow-sm"
-          >
-            <span
-              class="typewriter-text"
-            >
-              MySQL
-            </span>
-          </span>
-          <span
-            class="px-4 py-2 bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-lg text-sm font-medium hover:border-primary/50 hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors cursor-default shadow-sm"
-          >
-            <span
-              class="typewriter-text"
-            >
-              MongoDB
-            </span>
-          </span>
-          <span
-            class="px-4 py-2 bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-lg text-sm font-medium hover:border-primary/50 hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors cursor-default shadow-sm"
-          >
-            <span
-              class="typewriter-text"
-            >
-              Supabase
-            </span>
-          </span>
-          <span
-            class="px-4 py-2 bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-lg text-sm font-medium hover:border-primary/50 hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors cursor-default shadow-sm"
-          >
-            <span
-              class="typewriter-text"
-            >
-              Prisma
-            </span>
-          </span>
-          <span
-            class="px-4 py-2 bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-lg text-sm font-medium hover:border-primary/50 hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors cursor-default shadow-sm"
-          >
-            <span
-              class="typewriter-text"
-            >
-              Drizzle
-            </span>
-          </span>
-          <span
-            class="px-4 py-2 bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-lg text-sm font-medium hover:border-primary/50 hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors cursor-default shadow-sm"
-          >
-            <span
-              class="typewriter-text"
-            >
-              Zod
-            </span>
-          </span>
-          <span
-            class="px-4 py-2 bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-lg text-sm font-medium hover:border-primary/50 hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors cursor-default shadow-sm"
-          >
-            <span
-              class="typewriter-text"
-            >
-              REST APIs
-            </span>
-          </span>
-          <span
-            class="px-4 py-2 bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-lg text-sm font-medium hover:border-primary/50 hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors cursor-default shadow-sm"
-          >
-            <span
-              class="typewriter-text"
-            >
-              WCAG
-            </span>
-          </span>
-          <span
-            class="px-4 py-2 bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-lg text-sm font-medium hover:border-primary/50 hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors cursor-default shadow-sm"
-          >
-            <span
-              class="typewriter-text"
-            >
-              Core Web Vitals
-            </span>
-          </span>
-          <span
-            class="px-4 py-2 bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-lg text-sm font-medium hover:border-primary/50 hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors cursor-default shadow-sm"
-          >
-            <span
-              class="typewriter-text"
-            >
-              Agile/Scrum
-            </span>
-          </span>
-          <span
-            class="px-4 py-2 bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-lg text-sm font-medium hover:border-primary/50 hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors cursor-default shadow-sm"
-          >
-            <span
-              class="typewriter-text"
-            >
-              Microfrontends
-            </span>
-          </span>
-          <span
-            class="px-4 py-2 bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-lg text-sm font-medium hover:border-primary/50 hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors cursor-default shadow-sm"
-          >
-            <span
-              class="typewriter-text"
-            >
-              Code Review
-            </span>
-          </span>
-          <span
-            class="px-4 py-2 bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-lg text-sm font-medium hover:border-primary/50 hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors cursor-default shadow-sm"
-          >
-            <span
-              class="typewriter-text"
-            >
-              Mentoring
-            </span>
-          </span>
-          <span
-            class="px-4 py-2 bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-lg text-sm font-medium hover:border-primary/50 hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors cursor-default shadow-sm"
-          >
-            <span
-              class="typewriter-text"
+              class="typewriter-text typewriter-text--visible"
             >
               Ruby on Rails
             </span>
@@ -1388,18 +987,369 @@ exports[`Home Page should render the page and match snapshot 1`] = `
             class="px-4 py-2 bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-lg text-sm font-medium hover:border-primary/50 hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors cursor-default shadow-sm"
           >
             <span
-              class="typewriter-text"
+              class="typewriter-text typewriter-text--visible"
             >
-              PHP
+              HTML5
             </span>
           </span>
           <span
             class="px-4 py-2 bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-lg text-sm font-medium hover:border-primary/50 hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors cursor-default shadow-sm"
           >
             <span
-              class="typewriter-text"
+              class="typewriter-text typewriter-text--visible"
             >
-              Shell Script
+              CSS3
+            </span>
+          </span>
+          <span
+            class="px-4 py-2 bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-lg text-sm font-medium hover:border-primary/50 hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors cursor-default shadow-sm"
+          >
+            <span
+              class="typewriter-text typewriter-text--visible"
+            >
+              SASS
+            </span>
+          </span>
+          <span
+            class="px-4 py-2 bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-lg text-sm font-medium hover:border-primary/50 hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors cursor-default shadow-sm"
+          >
+            <span
+              class="typewriter-text typewriter-text--visible"
+            >
+              LESS
+            </span>
+          </span>
+          <span
+            class="px-4 py-2 bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-lg text-sm font-medium hover:border-primary/50 hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors cursor-default shadow-sm"
+          >
+            <span
+              class="typewriter-text typewriter-text--visible"
+            >
+              Tailwind CSS
+            </span>
+          </span>
+          <span
+            class="px-4 py-2 bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-lg text-sm font-medium hover:border-primary/50 hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors cursor-default shadow-sm"
+          >
+            <span
+              class="typewriter-text typewriter-text--visible"
+            >
+              Shadcn
+            </span>
+          </span>
+          <span
+            class="px-4 py-2 bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-lg text-sm font-medium hover:border-primary/50 hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors cursor-default shadow-sm"
+          >
+            <span
+              class="typewriter-text typewriter-text--visible"
+            >
+              Storybook
+            </span>
+          </span>
+          <span
+            class="px-4 py-2 bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-lg text-sm font-medium hover:border-primary/50 hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors cursor-default shadow-sm"
+          >
+            <span
+              class="typewriter-text typewriter-text--visible"
+            >
+              Zustand
+            </span>
+          </span>
+          <span
+            class="px-4 py-2 bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-lg text-sm font-medium hover:border-primary/50 hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors cursor-default shadow-sm"
+          >
+            <span
+              class="typewriter-text typewriter-text--visible"
+            >
+              Jest
+            </span>
+          </span>
+          <span
+            class="px-4 py-2 bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-lg text-sm font-medium hover:border-primary/50 hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors cursor-default shadow-sm"
+          >
+            <span
+              class="typewriter-text typewriter-text--visible"
+            >
+              Vitest
+            </span>
+          </span>
+          <span
+            class="px-4 py-2 bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-lg text-sm font-medium hover:border-primary/50 hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors cursor-default shadow-sm"
+          >
+            <span
+              class="typewriter-text typewriter-text--visible"
+            >
+              React Testing Library
+            </span>
+          </span>
+          <span
+            class="px-4 py-2 bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-lg text-sm font-medium hover:border-primary/50 hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors cursor-default shadow-sm"
+          >
+            <span
+              class="typewriter-text typewriter-text--visible"
+            >
+              Playwright
+            </span>
+          </span>
+          <span
+            class="px-4 py-2 bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-lg text-sm font-medium hover:border-primary/50 hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors cursor-default shadow-sm"
+          >
+            <span
+              class="typewriter-text typewriter-text--visible"
+            >
+              Cypress
+            </span>
+          </span>
+          <span
+            class="px-4 py-2 bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-lg text-sm font-medium hover:border-primary/50 hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors cursor-default shadow-sm"
+          >
+            <span
+              class="typewriter-text typewriter-text--visible"
+            >
+              A/B Testing
+            </span>
+          </span>
+          <span
+            class="px-4 py-2 bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-lg text-sm font-medium hover:border-primary/50 hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors cursor-default shadow-sm"
+          >
+            <span
+              class="typewriter-text typewriter-text--visible"
+            >
+              Microsoft Azure
+            </span>
+          </span>
+          <span
+            class="px-4 py-2 bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-lg text-sm font-medium hover:border-primary/50 hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors cursor-default shadow-sm"
+          >
+            <span
+              class="typewriter-text typewriter-text--visible"
+            >
+              Azure DevOps
+            </span>
+          </span>
+          <span
+            class="px-4 py-2 bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-lg text-sm font-medium hover:border-primary/50 hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors cursor-default shadow-sm"
+          >
+            <span
+              class="typewriter-text typewriter-text--visible"
+            >
+              AWS
+            </span>
+          </span>
+          <span
+            class="px-4 py-2 bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-lg text-sm font-medium hover:border-primary/50 hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors cursor-default shadow-sm"
+          >
+            <span
+              class="typewriter-text typewriter-text--visible"
+            >
+              GCP
+            </span>
+          </span>
+          <span
+            class="px-4 py-2 bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-lg text-sm font-medium hover:border-primary/50 hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors cursor-default shadow-sm"
+          >
+            <span
+              class="typewriter-text typewriter-text--visible"
+            >
+              Docker
+            </span>
+          </span>
+          <span
+            class="px-4 py-2 bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-lg text-sm font-medium hover:border-primary/50 hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors cursor-default shadow-sm"
+          >
+            <span
+              class="typewriter-text typewriter-text--visible"
+            >
+              CI/CD (GitHub Actions, GitLab CI)
+            </span>
+          </span>
+          <span
+            class="px-4 py-2 bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-lg text-sm font-medium hover:border-primary/50 hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors cursor-default shadow-sm"
+          >
+            <span
+              class="typewriter-text typewriter-text--visible"
+            >
+              Vercel
+            </span>
+          </span>
+          <span
+            class="px-4 py-2 bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-lg text-sm font-medium hover:border-primary/50 hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors cursor-default shadow-sm"
+          >
+            <span
+              class="typewriter-text typewriter-text--visible"
+            >
+              Heroku
+            </span>
+          </span>
+          <span
+            class="px-4 py-2 bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-lg text-sm font-medium hover:border-primary/50 hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors cursor-default shadow-sm"
+          >
+            <span
+              class="typewriter-text typewriter-text--visible"
+            >
+              Sentry
+            </span>
+          </span>
+          <span
+            class="px-4 py-2 bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-lg text-sm font-medium hover:border-primary/50 hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors cursor-default shadow-sm"
+          >
+            <span
+              class="typewriter-text typewriter-text--visible"
+            >
+              Grafana
+            </span>
+          </span>
+          <span
+            class="px-4 py-2 bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-lg text-sm font-medium hover:border-primary/50 hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors cursor-default shadow-sm"
+          >
+            <span
+              class="typewriter-text typewriter-text--visible"
+            >
+              Datadog
+            </span>
+          </span>
+          <span
+            class="px-4 py-2 bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-lg text-sm font-medium hover:border-primary/50 hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors cursor-default shadow-sm"
+          >
+            <span
+              class="typewriter-text typewriter-text--visible"
+            >
+              PostgreSQL
+            </span>
+          </span>
+          <span
+            class="px-4 py-2 bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-lg text-sm font-medium hover:border-primary/50 hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors cursor-default shadow-sm"
+          >
+            <span
+              class="typewriter-text typewriter-text--visible"
+            >
+              MySQL
+            </span>
+          </span>
+          <span
+            class="px-4 py-2 bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-lg text-sm font-medium hover:border-primary/50 hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors cursor-default shadow-sm"
+          >
+            <span
+              class="typewriter-text typewriter-text--visible"
+            >
+              MongoDB
+            </span>
+          </span>
+          <span
+            class="px-4 py-2 bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-lg text-sm font-medium hover:border-primary/50 hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors cursor-default shadow-sm"
+          >
+            <span
+              class="typewriter-text typewriter-text--visible"
+            >
+              Supabase
+            </span>
+          </span>
+          <span
+            class="px-4 py-2 bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-lg text-sm font-medium hover:border-primary/50 hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors cursor-default shadow-sm"
+          >
+            <span
+              class="typewriter-text typewriter-text--visible"
+            >
+              Prisma
+            </span>
+          </span>
+          <span
+            class="px-4 py-2 bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-lg text-sm font-medium hover:border-primary/50 hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors cursor-default shadow-sm"
+          >
+            <span
+              class="typewriter-text typewriter-text--visible"
+            >
+              Drizzle
+            </span>
+          </span>
+          <span
+            class="px-4 py-2 bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-lg text-sm font-medium hover:border-primary/50 hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors cursor-default shadow-sm"
+          >
+            <span
+              class="typewriter-text typewriter-text--visible"
+            >
+              Zod
+            </span>
+          </span>
+          <span
+            class="px-4 py-2 bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-lg text-sm font-medium hover:border-primary/50 hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors cursor-default shadow-sm"
+          >
+            <span
+              class="typewriter-text typewriter-text--visible"
+            >
+              REST APIs
+            </span>
+          </span>
+          <span
+            class="px-4 py-2 bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-lg text-sm font-medium hover:border-primary/50 hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors cursor-default shadow-sm"
+          >
+            <span
+              class="typewriter-text typewriter-text--visible"
+            >
+              Microfrontends
+            </span>
+          </span>
+          <span
+            class="px-4 py-2 bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-lg text-sm font-medium hover:border-primary/50 hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors cursor-default shadow-sm"
+          >
+            <span
+              class="typewriter-text typewriter-text--visible"
+            >
+              WCAG
+            </span>
+          </span>
+          <span
+            class="px-4 py-2 bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-lg text-sm font-medium hover:border-primary/50 hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors cursor-default shadow-sm"
+          >
+            <span
+              class="typewriter-text typewriter-text--visible"
+            >
+              Core Web Vitals
+            </span>
+          </span>
+          <span
+            class="px-4 py-2 bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-lg text-sm font-medium hover:border-primary/50 hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors cursor-default shadow-sm"
+          >
+            <span
+              class="typewriter-text typewriter-text--visible"
+            >
+              Agile/Scrum
+            </span>
+          </span>
+          <span
+            class="px-4 py-2 bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-lg text-sm font-medium hover:border-primary/50 hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors cursor-default shadow-sm"
+          >
+            <span
+              class="typewriter-text typewriter-text--visible"
+            >
+              Code Review
+            </span>
+          </span>
+          <span
+            class="px-4 py-2 bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-lg text-sm font-medium hover:border-primary/50 hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors cursor-default shadow-sm"
+          >
+            <span
+              class="typewriter-text typewriter-text--visible"
+            >
+              Mentoring
+            </span>
+          </span>
+          <span
+            class="px-4 py-2 bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-lg text-sm font-medium hover:border-primary/50 hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors cursor-default shadow-sm"
+          >
+            <span
+              class="typewriter-text typewriter-text--visible"
+            >
+              AEM Frontend (HTL/Sightly)
+            </span>
+          </span>
+          <span
+            class="px-4 py-2 bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-lg text-sm font-medium hover:border-primary/50 hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors cursor-default shadow-sm"
+          >
+            <span
+              class="typewriter-text typewriter-text--visible"
+            >
+              AI-Augmented Development
             </span>
           </span>
         </div>
@@ -1410,11 +1360,11 @@ exports[`Home Page should render the page and match snapshot 1`] = `
     >
       <section
         aria-label="Certifications"
-        class="x-section relative py-8 md:py-12"
+        class="x-section relative py-4 md:py-6"
         id="certifications"
       >
         <div
-          class="flex items-center gap-4 mb-8 md:mb-12"
+          class="flex items-center gap-4 mb-4 md:mb-6"
         >
           <h2
             class="font-mono text-3xl font-bold tracking-tight text-slate-900 dark:text-slate-100 shrink-0"
@@ -1432,7 +1382,7 @@ exports[`Home Page should render the page and match snapshot 1`] = `
             class="px-4 py-2 bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-lg text-sm font-medium hover:border-primary/50 hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors cursor-default shadow-sm"
           >
             <span
-              class="typewriter-text"
+              class="typewriter-text typewriter-text--visible"
             >
               Google Agile Essentials – Coursera
             </span>
@@ -1441,7 +1391,7 @@ exports[`Home Page should render the page and match snapshot 1`] = `
             class="px-4 py-2 bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-lg text-sm font-medium hover:border-primary/50 hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors cursor-default shadow-sm"
           >
             <span
-              class="typewriter-text"
+              class="typewriter-text typewriter-text--visible"
             >
               Google AI Essentials – Credly
             </span>
@@ -1450,7 +1400,7 @@ exports[`Home Page should render the page and match snapshot 1`] = `
             class="px-4 py-2 bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-lg text-sm font-medium hover:border-primary/50 hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors cursor-default shadow-sm"
           >
             <span
-              class="typewriter-text"
+              class="typewriter-text typewriter-text--visible"
             >
               Datadog Foundation
             </span>
@@ -1463,11 +1413,11 @@ exports[`Home Page should render the page and match snapshot 1`] = `
     >
       <section
         aria-label="Languages"
-        class="x-section relative py-8 md:py-12"
+        class="x-section relative py-4 md:py-6"
         id="languages"
       >
         <div
-          class="flex items-center gap-4 mb-8 md:mb-12"
+          class="flex items-center gap-4 mb-4 md:mb-6"
         >
           <h2
             class="font-mono text-3xl font-bold tracking-tight text-slate-900 dark:text-slate-100 shrink-0"
@@ -1485,7 +1435,7 @@ exports[`Home Page should render the page and match snapshot 1`] = `
             class="px-4 py-2 bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-lg text-sm font-medium hover:border-primary/50 hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors cursor-default shadow-sm"
           >
             <span
-              class="typewriter-text"
+              class="typewriter-text typewriter-text--visible"
             >
               English (Advanced/Fluent)
             </span>
@@ -1494,7 +1444,7 @@ exports[`Home Page should render the page and match snapshot 1`] = `
             class="px-4 py-2 bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-lg text-sm font-medium hover:border-primary/50 hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors cursor-default shadow-sm"
           >
             <span
-              class="typewriter-text"
+              class="typewriter-text typewriter-text--visible"
             >
               Portuguese (Native)
             </span>
@@ -1503,7 +1453,7 @@ exports[`Home Page should render the page and match snapshot 1`] = `
             class="px-4 py-2 bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-lg text-sm font-medium hover:border-primary/50 hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors cursor-default shadow-sm"
           >
             <span
-              class="typewriter-text"
+              class="typewriter-text typewriter-text--visible"
             >
               Spanish (Basic)
             </span>
@@ -1516,11 +1466,11 @@ exports[`Home Page should render the page and match snapshot 1`] = `
     >
       <section
         aria-label="Causes"
-        class="x-section relative py-8 md:py-12"
+        class="x-section relative py-4 md:py-6"
         id="causes"
       >
         <div
-          class="flex items-center gap-4 mb-8 md:mb-12"
+          class="flex items-center gap-4 mb-4 md:mb-6"
         >
           <h2
             class="font-mono text-3xl font-bold tracking-tight text-slate-900 dark:text-slate-100 shrink-0"
@@ -1538,7 +1488,7 @@ exports[`Home Page should render the page and match snapshot 1`] = `
             class="px-4 py-2 bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-lg text-sm font-medium hover:border-primary/50 hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors cursor-default shadow-sm"
           >
             <span
-              class="typewriter-text"
+              class="typewriter-text typewriter-text--visible"
             >
               Poverty Alleviation
             </span>
@@ -1547,7 +1497,7 @@ exports[`Home Page should render the page and match snapshot 1`] = `
             class="px-4 py-2 bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-lg text-sm font-medium hover:border-primary/50 hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors cursor-default shadow-sm"
           >
             <span
-              class="typewriter-text"
+              class="typewriter-text typewriter-text--visible"
             >
               Science and Technology
             </span>
@@ -1556,7 +1506,7 @@ exports[`Home Page should render the page and match snapshot 1`] = `
             class="px-4 py-2 bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-lg text-sm font-medium hover:border-primary/50 hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors cursor-default shadow-sm"
           >
             <span
-              class="typewriter-text"
+              class="typewriter-text typewriter-text--visible"
             >
               Arts and Culture
             </span>
@@ -1565,7 +1515,7 @@ exports[`Home Page should render the page and match snapshot 1`] = `
             class="px-4 py-2 bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-lg text-sm font-medium hover:border-primary/50 hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors cursor-default shadow-sm"
           >
             <span
-              class="typewriter-text"
+              class="typewriter-text typewriter-text--visible"
             >
               Human Rights
             </span>
@@ -1574,7 +1524,7 @@ exports[`Home Page should render the page and match snapshot 1`] = `
             class="px-4 py-2 bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-lg text-sm font-medium hover:border-primary/50 hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors cursor-default shadow-sm"
           >
             <span
-              class="typewriter-text"
+              class="typewriter-text typewriter-text--visible"
             >
               Education
             </span>
@@ -1583,7 +1533,7 @@ exports[`Home Page should render the page and match snapshot 1`] = `
             class="px-4 py-2 bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-lg text-sm font-medium hover:border-primary/50 hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors cursor-default shadow-sm"
           >
             <span
-              class="typewriter-text"
+              class="typewriter-text typewriter-text--visible"
             >
               Environment
             </span>
@@ -1592,7 +1542,7 @@ exports[`Home Page should render the page and match snapshot 1`] = `
             class="px-4 py-2 bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-lg text-sm font-medium hover:border-primary/50 hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors cursor-default shadow-sm"
           >
             <span
-              class="typewriter-text"
+              class="typewriter-text typewriter-text--visible"
             >
               Health
             </span>
@@ -1601,7 +1551,7 @@ exports[`Home Page should render the page and match snapshot 1`] = `
             class="px-4 py-2 bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-lg text-sm font-medium hover:border-primary/50 hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors cursor-default shadow-sm"
           >
             <span
-              class="typewriter-text"
+              class="typewriter-text typewriter-text--visible"
             >
               Civil Rights and Social Action
             </span>

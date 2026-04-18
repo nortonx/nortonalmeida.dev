@@ -84,17 +84,17 @@ export default function Hero() {
     700,
   )
   const { displayed, done } = useTypewriter(
-    "Solutions Architect · Full Stack Developer",
+    "Vue/Nuxt Specialist \u00b7 Full Stack Developer",
     55,
     1700,
   )
   const { displayed: bioDisplayed, done: bioDone } = useTypewriter(
-    "Designing scalable solutions and crafting exceptional user experiences. With over 20 years in technology and a specialization in frontend development, I bridge the gap between complex backend logic and beautiful, intuitive interfaces.",
+    "Senior Front-End Developer with 20+ years in technology and 10+ years of dedicated front-end expertise. Proven track record as a consultant for Fortune 500 companies, delivering high-performance web applications and mentoring development teams.",
     5,
     4100,
   )
   const { displayed: eduDisplayed } = useTypewriter(
-    "Bachelor\u2019s in Information Systems \u2022 Postgrad Solutions Architect (2026)",
+    "Bachelor\u2019s in Information Systems \u2022 Postgrad Solutions Architect (2025\u20132026)",
     10,
     5300,
   )

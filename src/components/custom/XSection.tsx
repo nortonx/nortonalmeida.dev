@@ -45,9 +45,9 @@ export default function XSection({
     <ScrollAnimatedSection className="w-full">
       <section
         aria-label={title}
-        className={cn("x-section relative py-8 md:py-12", className)}
+        className={cn("x-section relative py-4 md:py-6", className)}
         {...props}>
-        <div className="flex items-center gap-4 mb-8 md:mb-12">
+        <div className="flex items-center gap-4 mb-4 md:mb-6">
           <h2
             ref={ref}
             className="font-mono text-3xl font-bold tracking-tight text-slate-900 dark:text-slate-100 shrink-0">

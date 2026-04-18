@@ -25,7 +25,7 @@ describe("XSection", () => {
     const section = screen.getByLabelText("Styled")
     expect(section).toBeInTheDocument()
     expect(section).toHaveClass("relative")
-    expect(section).toHaveClass("py-8")
+    expect(section).toHaveClass("py-4")
 
     const heading = section.querySelector("h2")
     expect(heading).not.toBeNull()
