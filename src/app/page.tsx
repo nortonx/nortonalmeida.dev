@@ -12,10 +12,9 @@ const experienceData = [
     period: "Dec 2025 - Present",
     location: "Remote \u2022 Full-time",
     description:
-      "Delivering senior front-end consulting for a Fortune 500 beverage industry client; building enterprise web applications with Vue.js and TypeScript on Microsoft Azure, with Azure DevOps pipelines.",
+      "Delivering senior front-end consulting for a Fortune 500 beverage industry client; building enterprise web applications with Vue.js and TypeScript on Microsoft Azure.",
     skills: [
-      "Built custom productivity workflows and automated code-reviewer bots leveraging LLMs to standardize reviews, catch regressions earlier, and compress feedback cycles across the team",
-      "Driving code quality through reviews, unit/integration testing, and design-system alignment across distributed teams",
+      "Driving code quality through reviews, unit/integration testing, awesome DX improvements and design-system alignment across distributed teams",
     ],
   },
   {
@@ -27,8 +26,9 @@ const experienceData = [
       "Consultant for NACS clients, working as a Solutions Architect and Full Stack Developer.",
     skills: [
       "Built a Financial Tracker MVP using Nuxt 3, Vue 3, Shadcn/Tailwind, Nest.js, and PostgreSQL with Playwright E2E testing",
-      "Developed platforms for multiple business domains (work safety, finance tracking) with full-stack ownership",
+      "Developed platforms for multiple business domains (work safety, education) with full-stack ownership",
       "Delivered consulting services with agile methodologies and modern tooling (Bun, ElysiaJS, Drizzle, Pinia); integrated AI-assisted development (Claude Code, GitHub Copilot) to compress time-to-MVP while maintaining test coverage",
+      "Built custom productivity workflows and automated code-reviewer bots leveraging LLMs to standardize reviews, catch regressions earlier, and compress feedback cycles across the team",
     ],
   },
   {
@@ -68,6 +68,7 @@ const experienceData = [
       "Built and optimized Component Style Guide (CSG) and Storybook-based component libraries for department stores",
       "Performed REST API integration, A/B testing, and checkout optimization during peak Holiday seasons",
       "Mentored junior and mid-level developers; led onboarding, code reviews, and client presentations",
+      "Built and maintained AEM frontend components and page templates using HTL/Sightly; worked with Granite UI and Coral UI for authoring interfaces; managed clientlibs for CSS/JS delivery across AEM-hosted sites",
     ],
   },
   {
@@ -152,17 +153,6 @@ const LANGUAGES = [
   "Spanish (Basic)",
 ]
 
-const CAUSES = [
-  "Poverty Alleviation",
-  "Science and Technology",
-  "Arts and Culture",
-  "Human Rights",
-  "Education",
-  "Environment",
-  "Health",
-  "Civil Rights and Social Action",
-]
-
 export default function Home() {
   return (
     <div data-testid="home-page" className="space-y-6 pb-12">
@@ -173,7 +163,7 @@ export default function Home() {
         <div className="text-lg leading-relaxed text-slate-700 dark:text-slate-300 space-y-4 max-w-3xl">
           <p>
             <TypewriterText
-              text="Senior Front-End Developer with 20+ years in technology and 10+ years of dedicated front-end expertise. Vue/Nuxt specialist with strong React/Next.js experience. Proven track record as a consultant for Fortune 500 companies, delivering high-performance web applications, leading rebranding initiatives, and mentoring development teams."
+              text="Senior Front-End Developer with 20+ years in technology and 10+ years of dedicated front-end expertise. Vue/Nuxt focused with strong React/Next.js experience. Proven track record as a consultant for Fortune 500 companies, delivering high-performance web applications, leading rebranding initiatives, and mentoring development teams."
               speed={5}
             />
           </p>
@@ -236,10 +226,6 @@ export default function Home() {
 
       <NSection title="Languages" id="languages">
         <SkillCloud skills={LANGUAGES} />
-      </NSection>
-
-      <NSection title="Causes" id="causes">
-        <SkillCloud skills={CAUSES} />
       </NSection>
     </div>
   )

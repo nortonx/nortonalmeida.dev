@@ -84,7 +84,7 @@ export default function Hero() {
     700,
   )
   const { displayed, done } = useTypewriter(
-    "Vue/Nuxt Specialist \u00b7 Full Stack Developer",
+    "Senior Front-End Developer \u00b7 Full Stack Developer",
     55,
     1700,
   )

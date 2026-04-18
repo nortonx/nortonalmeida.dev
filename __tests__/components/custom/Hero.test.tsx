@@ -34,11 +34,13 @@ describe("Hero", () => {
 
     // Subtitle starts at 1700ms delay, speed 55ms per char
     act(() => {
-      jest.advanceTimersByTime(1700 + 55 * 45 + 100)
+      jest.advanceTimersByTime(1700 + 55 * 48 + 100)
     })
 
     expect(
-      screen.getByText("Vue/Nuxt Specialist \u00b7 Full Stack Developer"),
+      screen.getByText(
+        "Senior Front-End Developer \u00b7 Full Stack Developer",
+      ),
     ).toBeInTheDocument()
   })
 

@@ -23,7 +23,7 @@ exports[`Home Page should render the page and match snapshot 1`] = `
           <h2
             class="font-mono text-xl text-slate-600 dark:text-slate-300 min-h-[1.75rem]"
           >
-            Vue/Nuxt Specialist · Full Stack Developer
+            Senior Front-End Developer · Full Stack Developer
           </h2>
         </div>
         <div
@@ -227,7 +227,7 @@ exports[`Home Page should render the page and match snapshot 1`] = `
             <span
               class="typewriter-text typewriter-text--visible"
             >
-              Senior Front-End Developer with 20+ years in technology and 10+ years of dedicated front-end expertise. Vue/Nuxt specialist with strong React/Next.js experience. Proven track record as a consultant for Fortune 500 companies, delivering high-performance web applications, leading rebranding initiatives, and mentoring development teams.
+              Senior Front-End Developer with 20+ years in technology and 10+ years of dedicated front-end expertise. Vue/Nuxt focused with strong React/Next.js experience. Proven track record as a consultant for Fortune 500 companies, delivering high-performance web applications, leading rebranding initiatives, and mentoring development teams.
             </span>
           </p>
           <p>
@@ -319,7 +319,7 @@ exports[`Home Page should render the page and match snapshot 1`] = `
               <span
                 class="typewriter-text typewriter-text--visible"
               >
-                Delivering senior front-end consulting for a Fortune 500 beverage industry client; building enterprise web applications with Vue.js and TypeScript on Microsoft Azure, with Azure DevOps pipelines.
+                Delivering senior front-end consulting for a Fortune 500 beverage industry client; building enterprise web applications with Vue.js and TypeScript on Microsoft Azure.
               </span>
             </div>
             <ul
@@ -329,14 +329,7 @@ exports[`Home Page should render the page and match snapshot 1`] = `
                 <span
                   class="typewriter-text typewriter-text--visible"
                 >
-                  Built custom productivity workflows and automated code-reviewer bots leveraging LLMs to standardize reviews, catch regressions earlier, and compress feedback cycles across the team
-                </span>
-              </li>
-              <li>
-                <span
-                  class="typewriter-text typewriter-text--visible"
-                >
-                  Driving code quality through reviews, unit/integration testing, and design-system alignment across distributed teams
+                  Driving code quality through reviews, unit/integration testing, awesome DX improvements and design-system alignment across distributed teams
                 </span>
               </li>
             </ul>
@@ -414,7 +407,7 @@ exports[`Home Page should render the page and match snapshot 1`] = `
                 <span
                   class="typewriter-text typewriter-text--visible"
                 >
-                  Developed platforms for multiple business domains (work safety, finance tracking) with full-stack ownership
+                  Developed platforms for multiple business domains (work safety, education) with full-stack ownership
                 </span>
               </li>
               <li>
@@ -422,6 +415,13 @@ exports[`Home Page should render the page and match snapshot 1`] = `
                   class="typewriter-text typewriter-text--visible"
                 >
                   Delivered consulting services with agile methodologies and modern tooling (Bun, ElysiaJS, Drizzle, Pinia); integrated AI-assisted development (Claude Code, GitHub Copilot) to compress time-to-MVP while maintaining test coverage
+                </span>
+              </li>
+              <li>
+                <span
+                  class="typewriter-text typewriter-text--visible"
+                >
+                  Built custom productivity workflows and automated code-reviewer bots leveraging LLMs to standardize reviews, catch regressions earlier, and compress feedback cycles across the team
                 </span>
               </li>
             </ul>
@@ -677,6 +677,13 @@ exports[`Home Page should render the page and match snapshot 1`] = `
                   class="typewriter-text typewriter-text--visible"
                 >
                   Mentored junior and mid-level developers; led onboarding, code reviews, and client presentations
+                </span>
+              </li>
+              <li>
+                <span
+                  class="typewriter-text typewriter-text--visible"
+                >
+                  Built and maintained AEM frontend components and page templates using HTL/Sightly; worked with Granite UI and Coral UI for authoring interfaces; managed clientlibs for CSS/JS delivery across AEM-hosted sites
                 </span>
               </li>
             </ul>
@@ -1456,104 +1463,6 @@ exports[`Home Page should render the page and match snapshot 1`] = `
               class="typewriter-text typewriter-text--visible"
             >
               Spanish (Basic)
-            </span>
-          </span>
-        </div>
-      </section>
-    </div>
-    <div
-      class="scroll-animated-section w-full"
-    >
-      <section
-        aria-label="Causes"
-        class="x-section relative py-4 md:py-6"
-        id="causes"
-      >
-        <div
-          class="flex items-center gap-4 mb-4 md:mb-6"
-        >
-          <h2
-            class="font-mono text-3xl font-bold tracking-tight text-slate-900 dark:text-slate-100 shrink-0"
-          >
-            Causes
-          </h2>
-          <div
-            class="h-px bg-slate-200 dark:bg-slate-800 flex-grow"
-          />
-        </div>
-        <div
-          class="skill-cloud flex flex-wrap gap-3"
-        >
-          <span
-            class="px-4 py-2 bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-lg text-sm font-medium hover:border-primary/50 hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors cursor-default shadow-sm"
-          >
-            <span
-              class="typewriter-text typewriter-text--visible"
-            >
-              Poverty Alleviation
-            </span>
-          </span>
-          <span
-            class="px-4 py-2 bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-lg text-sm font-medium hover:border-primary/50 hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors cursor-default shadow-sm"
-          >
-            <span
-              class="typewriter-text typewriter-text--visible"
-            >
-              Science and Technology
-            </span>
-          </span>
-          <span
-            class="px-4 py-2 bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-lg text-sm font-medium hover:border-primary/50 hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors cursor-default shadow-sm"
-          >
-            <span
-              class="typewriter-text typewriter-text--visible"
-            >
-              Arts and Culture
-            </span>
-          </span>
-          <span
-            class="px-4 py-2 bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-lg text-sm font-medium hover:border-primary/50 hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors cursor-default shadow-sm"
-          >
-            <span
-              class="typewriter-text typewriter-text--visible"
-            >
-              Human Rights
-            </span>
-          </span>
-          <span
-            class="px-4 py-2 bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-lg text-sm font-medium hover:border-primary/50 hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors cursor-default shadow-sm"
-          >
-            <span
-              class="typewriter-text typewriter-text--visible"
-            >
-              Education
-            </span>
-          </span>
-          <span
-            class="px-4 py-2 bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-lg text-sm font-medium hover:border-primary/50 hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors cursor-default shadow-sm"
-          >
-            <span
-              class="typewriter-text typewriter-text--visible"
-            >
-              Environment
-            </span>
-          </span>
-          <span
-            class="px-4 py-2 bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-lg text-sm font-medium hover:border-primary/50 hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors cursor-default shadow-sm"
-          >
-            <span
-              class="typewriter-text typewriter-text--visible"
-            >
-              Health
-            </span>
-          </span>
-          <span
-            class="px-4 py-2 bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-lg text-sm font-medium hover:border-primary/50 hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors cursor-default shadow-sm"
-          >
-            <span
-              class="typewriter-text typewriter-text--visible"
-            >
-              Civil Rights and Social Action
             </span>
           </span>
         </div>
