@@ -90,8 +90,13 @@ export default function GitHubHeatmap() {
       0,
     )
     const domain =
-      maxCount > 0
-        ? [1, maxCount * 0.25, maxCount * 0.5, maxCount * 0.75]
+      maxCount >= 5
+        ? [
+            1,
+            Math.ceil(maxCount * 0.25),
+            Math.ceil(maxCount * 0.5),
+            Math.ceil(maxCount * 0.75),
+          ]
         : [1, 2, 3, 4]
     return scaleThreshold<number, string>()
       .domain(domain)
@@ -181,8 +186,7 @@ export default function GitHubHeatmap() {
 
   const totalContributions = useMemo(() => {
     if (!data) return 0
-    const totalKey = Object.keys(data.total)[0]
-    return totalKey ? (data.total[totalKey] ?? 0) : 0
+    return data.contributions.reduce((sum, day) => sum + day.count, 0)
   }, [data])
 
   if (!mounted || hasError || !data || !colorScale) return null

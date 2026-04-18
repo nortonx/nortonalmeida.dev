@@ -62,4 +62,4 @@ Content is driven by data arrays defined in `page.tsx`:
 - **LANGUAGES** — English, Portuguese, Spanish
 - **CAUSES** — Social causes
 
-Sections rendered: GitHubHeatmap (above-the-fold, 1s fade-in on mount, fetches from `github-contributions-api.jogruber.de`, silent-hides on error via `errorMessage=""`), Hero, About, Experience, Education, Skills, Certifications, Languages, Causes. CV source of truth: `NortonAlmeidaCvCompact2026.docx`.
+Sections rendered: GitHubHeatmap (above-the-fold, 0.5s fade-in on mount, fetches from `github-contributions-api.jogruber.de`, silent-hides on error), Hero, About, Experience, Education, Skills, Certifications, Languages, Causes. CV source of truth: `NortonAlmeidaCvCompact2026.docx`.

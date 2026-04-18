@@ -31,7 +31,7 @@ describe("GitHubHeatmap", () => {
       expect(screen.getByTestId("github-heatmap")).toBeInTheDocument(),
     )
     expect(
-      screen.getByText("128 contributions in the last year"),
+      screen.getByText("21 contributions in the last year"),
     ).toBeInTheDocument()
   })
 
