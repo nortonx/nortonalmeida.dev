@@ -39,5 +39,9 @@ export default function TypewriterText({
     }
   }, [isInView, text, speed, delay])
 
-  return <span ref={ref}>{displayed}</span>
+  return (
+    <span ref={ref} className="typewriter-text">
+      {displayed}
+    </span>
+  )
 }

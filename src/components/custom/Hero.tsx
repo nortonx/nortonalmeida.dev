@@ -44,50 +44,63 @@ function TypewriterTag({ text, delay }: { text: string; delay: number }) {
   )
 }
 
+const container = {
+  hidden: { opacity: 0 },
+  show: {
+    opacity: 1,
+    transition: {
+      staggerChildren: 0.25,
+      delayChildren: 0.5,
+    },
+  },
+}
+
+const item = {
+  hidden: { opacity: 0, y: 20 },
+  show: {
+    opacity: 1,
+    y: 0,
+    transition: { duration: 0.6, ease: "easeOut" as const },
+  },
+}
+
+const TECH_TAGS = [
+  "JavaScript",
+  "TypeScript",
+  "Vue",
+  "Nuxt",
+  "React",
+  "Next.js",
+  "Node.js",
+  "NestJS",
+  "ElysiaJS",
+  "Bun",
+] as const
+
 export default function Hero() {
   const { displayed: nameDisplayed, done: nameDone } = useTypewriter(
     "Norton Almeida",
     70,
-    200,
+    700,
   )
   const { displayed, done } = useTypewriter(
     "Solutions Architect · Full Stack Developer",
     55,
-    1200,
+    1700,
   )
   const { displayed: bioDisplayed, done: bioDone } = useTypewriter(
     "Designing scalable solutions and crafting exceptional user experiences. With over 20 years in technology and a specialization in frontend development, I bridge the gap between complex backend logic and beautiful, intuitive interfaces.",
     5,
-    3600,
+    4100,
   )
   const { displayed: eduDisplayed } = useTypewriter(
     "Bachelor\u2019s in Information Systems \u2022 Postgrad Solutions Architect (2026)",
     10,
-    4800,
+    5300,
   )
 
-  const container = {
-    hidden: { opacity: 0 },
-    show: {
-      opacity: 1,
-      transition: {
-        staggerChildren: 0.25,
-        delayChildren: 0.2,
-      },
-    },
-  }
-
-  const item = {
-    hidden: { opacity: 0, y: 20 },
-    show: {
-      opacity: 1,
-      y: 0,
-      transition: { duration: 0.6, ease: "easeOut" as const },
-    },
-  }
-
   return (
-    <section className="relative flex flex-col items-start justify-center min-h-[85vh] py-20 gap-8 overflow-hidden">
+    <section className="hero relative flex flex-col items-start justify-center min-h-[85vh] py-10 gap-8 overflow-hidden">
       <motion.div
         variants={container}
         initial="hidden"
@@ -113,19 +126,8 @@ export default function Hero() {
         <motion.div
           variants={item}
           className="flex flex-wrap gap-2 text-sm text-muted-foreground font-mono">
-          {[
-            "JavaScript",
-            "TypeScript",
-            "Vue",
-            "Nuxt",
-            "React",
-            "Next.js",
-            "Node.js",
-            "NestJS",
-            "ElysiaJS",
-            "Bun",
-          ].map((tech, i) => (
-            <TypewriterTag key={tech} text={tech} delay={2600 + i * 120} />
+          {TECH_TAGS.map((tech, i) => (
+            <TypewriterTag key={tech} text={tech} delay={3100 + i * 120} />
           ))}
         </motion.div>
 

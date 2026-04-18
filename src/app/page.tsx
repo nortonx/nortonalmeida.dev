@@ -1,3 +1,4 @@
+import GitHubHeatmap from "@/components/custom/GitHubHeatmap"
 import Hero from "@/components/custom/Hero"
 import SkillCloud from "@/components/custom/SkillCloud"
 import Timeline from "@/components/custom/Timeline"
@@ -166,6 +167,7 @@ const CAUSES = [
 export default function Home() {
   return (
     <div data-testid="home-page" className="space-y-12 pb-20">
+      <GitHubHeatmap />
       <Hero />
 
       <NSection title="About" id="about">

@@ -18,7 +18,7 @@ interface TimelineProps {
 
 export default function Timeline({ items }: TimelineProps) {
   return (
-    <div className="relative border-l-2 border-slate-200 dark:border-slate-800 ml-3 space-y-12 py-4">
+    <div className="timeline relative border-l-2 border-slate-200 dark:border-slate-800 ml-3 space-y-12 py-4">
       {items.map((item, index) => (
         <motion.div
           key={`${item.company}-${item.title}`}

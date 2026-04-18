@@ -28,7 +28,7 @@ Pre-commit hooks (Husky) run: lint, format:check, build, test. All must pass. No
 
 - **`src/app/`** — App Router pages and server actions (`actions/`). `"use client"` only where needed.
 - **`src/components/ui/`** — Generic UI primitives (Button with CVA variants, Input, etc.).
-- **`src/components/custom/`** — Domain components (Hero, Timeline, SkillCloud, TypewriterText, ScrollAnimatedSection, XSection, XButton, XInput). `X`-prefixed = opinionated wrappers around UI primitives.
+- **`src/components/custom/`** — Domain components (Hero, GitHubHeatmap, Timeline, SkillCloud, TypewriterText, ScrollAnimatedSection, XSection, XButton, XInput). `X`-prefixed = opinionated wrappers around UI primitives.
 - **`src/lib/utils.ts`** — `cn()` helper (clsx + tailwind-merge).
 - **`__tests__/`** — Jest unit tests mirroring `src/`. Uses React Testing Library with accessibility-first selectors (`getByRole`, `getByLabelText`).
 - **`e2e/`** — Playwright E2E tests with shared helpers in `e2e/helpers/`.
@@ -62,4 +62,4 @@ Content is driven by data arrays defined in `page.tsx`:
 - **LANGUAGES** — English, Portuguese, Spanish
 - **CAUSES** — Social causes
 
-Sections rendered: Hero, About, Experience, Education, Skills, Certifications, Languages, Causes. CV source of truth: `NortonAlmeidaCvCompact2026.docx`.
+Sections rendered: GitHubHeatmap (above-the-fold, 1s fade-in on mount, fetches from `github-contributions-api.jogruber.de`, silent-hides on error via `errorMessage=""`), Hero, About, Experience, Education, Skills, Certifications, Languages, Causes. CV source of truth: `NortonAlmeidaCvCompact2026.docx`.

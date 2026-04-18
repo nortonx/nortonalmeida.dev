@@ -29,7 +29,7 @@ export default function SkillCloud({ skills }: SkillCloudProps) {
       initial="hidden"
       whileInView="show"
       viewport={{ once: true }}
-      className="flex flex-wrap gap-3">
+      className="skill-cloud flex flex-wrap gap-3">
       {skills.map((skill, i) => (
         <motion.span
           key={skill}
