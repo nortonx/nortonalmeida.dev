@@ -3,9 +3,11 @@ import "@testing-library/jest-dom"
 import XSection from "@/components/custom/XSection"
 
 describe("XSection", () => {
-  it("renders title", () => {
+  it("renders the section with correct aria-label", () => {
     render(<XSection title="Hello" />)
-    expect(screen.getByText(/hello/i)).toBeInTheDocument()
+    const section = screen.getByLabelText("Hello")
+    expect(section).toBeInTheDocument()
+    expect(section.tagName.toLowerCase()).toBe("section")
   })
 
   it("renders children content", () => {
@@ -14,7 +16,7 @@ describe("XSection", () => {
         <p>Child content</p>
       </XSection>,
     )
-    expect(screen.getByText(/parent/i)).toBeInTheDocument()
+    expect(screen.getByLabelText("Parent")).toBeInTheDocument()
     expect(screen.getByText(/child content/i)).toBeInTheDocument()
   })
 
@@ -23,14 +25,10 @@ describe("XSection", () => {
     const section = screen.getByLabelText("Styled")
     expect(section).toBeInTheDocument()
     expect(section).toHaveClass("relative")
-    expect(section).toHaveClass("border")
-    expect(section).toHaveClass("rounded-md")
-    expect(section).toHaveClass("p-4")
-    expect(section).toHaveClass("border-slate-300")
+    expect(section).toHaveClass("py-8")
 
-    const titleEl = screen.getByText("Styled")
-    expect(titleEl.tagName.toLowerCase()).toBe("span")
-    expect(titleEl).toHaveClass("absolute")
-    expect(titleEl).toHaveClass("bg-background")
+    const heading = section.querySelector("h2")
+    expect(heading).not.toBeNull()
+    expect(heading).toHaveClass("font-mono")
   })
 })
