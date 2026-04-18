@@ -18,6 +18,8 @@ const customJestConfig = {
     "^@/(.*)$": "<rootDir>/src/$1",
     "^public/(.*)$": "<rootDir>/public/$1",
     "^framer-motion$": "<rootDir>/__mocks__/framer-motion.tsx",
+    "^d3-scale$": "<rootDir>/__mocks__/d3-scale.ts",
+    "^d3-time-format$": "<rootDir>/__mocks__/d3-time-format.ts",
   },
 }
 

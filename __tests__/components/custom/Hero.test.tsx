@@ -21,9 +21,9 @@ describe("Hero", () => {
   it("types out the name after its delay", () => {
     render(<Hero />)
 
-    // Name starts at 200ms delay, speed 70ms per char
+    // Name starts at 700ms delay (500ms heatmap fade + 200ms base), speed 70ms per char
     act(() => {
-      jest.advanceTimersByTime(200 + 70 * 14 + 100)
+      jest.advanceTimersByTime(700 + 70 * 14 + 100)
     })
 
     expect(screen.getByText("Norton Almeida")).toBeInTheDocument()
@@ -32,13 +32,15 @@ describe("Hero", () => {
   it("types out the subtitle after its delay", () => {
     render(<Hero />)
 
-    // Subtitle starts at 1200ms delay
+    // Subtitle starts at 1700ms delay, speed 55ms per char
     act(() => {
-      jest.advanceTimersByTime(1200 + 55 * 43 + 100)
+      jest.advanceTimersByTime(1700 + 55 * 48 + 100)
     })
 
     expect(
-      screen.getByText("Solutions Architect \u00b7 Full Stack Developer"),
+      screen.getByText(
+        "Senior Front-End Developer \u00b7 Full Stack Developer",
+      ),
     ).toBeInTheDocument()
   })
 
@@ -55,9 +57,9 @@ describe("Hero", () => {
   it("renders tech tags after their delays", () => {
     render(<Hero />)
 
-    // Tech tags start at 2600ms with 120ms stagger, speed 40ms
+    // Tech tags start at 3100ms (500ms heatmap fade + 2600ms base) with 120ms stagger, speed 40ms
     act(() => {
-      jest.advanceTimersByTime(2600 + 10 * 120 + 40 * 10 + 200)
+      jest.advanceTimersByTime(3100 + 10 * 120 + 40 * 10 + 200)
     })
 
     expect(screen.getByText("JavaScript")).toBeInTheDocument()

@@ -101,3 +101,12 @@
   0%, 100% { opacity: 1; }
   50% { opacity: 0; }
 }
+
+.typewriter-text {
+  opacity: 0;
+  transition: opacity 0.2s ease-in;
+}
+
+.typewriter-text--visible {
+  opacity: 1;
+}

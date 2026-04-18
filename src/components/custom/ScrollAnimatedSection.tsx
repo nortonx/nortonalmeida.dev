@@ -2,6 +2,7 @@
 
 import { motion } from "framer-motion"
 import type { ReactNode } from "react"
+import { cn } from "@/lib/utils"
 
 interface ScrollAnimatedSectionProps {
   children: ReactNode
@@ -20,7 +21,7 @@ export default function ScrollAnimatedSection({
       whileInView={{ opacity: 1, y: 0 }}
       viewport={{ once: true, margin: "-100px" }}
       transition={{ duration: 0.5, delay, ease: "easeOut" }}
-      className={className}>
+      className={cn("scroll-animated-section", className)}>
       {children}
     </motion.div>
   )

@@ -19,7 +19,7 @@ export default function XButton({
       variant={variant}
       size={size}
       className={cn(
-        "rounded-full",
+        "x-button rounded-full",
         // Only add default paddings if no size is provided
         !size && "px-4 py-2",
         className,

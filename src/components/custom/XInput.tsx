@@ -14,7 +14,7 @@ export default function XInput({
   ...props
 }: XInputProps) {
   return (
-    <div className="relative">
+    <div className="x-input relative">
       {Icon && (
         <Icon
           className="absolute left-3 top-1/2 -translate-y-1/2 size-4 text-muted-foreground"
