@@ -10,9 +10,13 @@ const customJestConfig = {
   testEnvironment: "jest-environment-jsdom",
   preset: "ts-jest",
   verbose: true,
+  // Prevent jest-haste-map from scanning the Next.js build output, which
+  // with `output: "standalone"` contains a nested package.json that would
+  // collide with the project's own.
+  modulePathIgnorePatterns: ["/\\.next/"],
   testMatch: [
-    "<rootDir>/__tests__/**/*.test.ts",
-    "<rootDir>/__tests__/**/*.test.tsx",
+    "**/__tests__/**/*.test.ts",
+    "**/__tests__/**/*.test.tsx",
   ],
   moduleNameMapper: {
     "^@/(.*)$": "<rootDir>/src/$1",
