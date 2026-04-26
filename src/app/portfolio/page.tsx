@@ -5,8 +5,8 @@ import { ExternalLink } from "lucide-react"
 
 const projects = [
   {
-    title: "FinTrack",
-    url: "https://fintrack.nortonalmeida.dev",
+    title: "FinTrack/Dinheiros",
+    url: "https://dinheiros.app.br",
     image: "/fintrack.png",
     description:
       "A modern, premium financial dashboard to track your expenses, investments, and net worth with sleek charts and dynamic UI.",
