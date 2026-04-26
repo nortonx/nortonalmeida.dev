@@ -14,10 +14,7 @@ const customJestConfig = {
   // with `output: "standalone"` contains a nested package.json that would
   // collide with the project's own.
   modulePathIgnorePatterns: ["/\\.next/"],
-  testMatch: [
-    "**/__tests__/**/*.test.ts",
-    "**/__tests__/**/*.test.tsx",
-  ],
+  testMatch: ["**/__tests__/**/*.test.ts", "**/__tests__/**/*.test.tsx"],
   moduleNameMapper: {
     "^@/(.*)$": "<rootDir>/src/$1",
     "^public/(.*)$": "<rootDir>/public/$1",
