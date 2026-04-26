@@ -58,6 +58,7 @@
     "jest-environment-jsdom": "^30.0.0",
     "postcss": "^8.5.10",
     "prettier": "3.6.2",
+    "release-please": "^17.6.0",
     "tailwindcss": "^4",
     "ts-jest": "^29.4.0",
     "ts-node": "^10.9.2",
