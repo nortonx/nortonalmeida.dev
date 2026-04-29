@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.0.1](https://github.com/nortonx/nortonalmeida.dev/compare/v1.0.0...v1.0.1) (2026-04-26)
+
+
+### Bug Fixes
+
+* update link on portfolio page ([#28](https://github.com/nortonx/nortonalmeida.dev/issues/28)) ([f474e74](https://github.com/nortonx/nortonalmeida.dev/commit/f474e7413cab5b5d27775b674740d6de9ff6dbaf))
+* update nnav-links ([#30](https://github.com/nortonx/nortonalmeida.dev/issues/30)) ([3fe47f0](https://github.com/nortonx/nortonalmeida.dev/commit/3fe47f0adcfda261e04ccdac0fca77d7b565833e))
+
 ## 1.0.0 (2026-04-26)
 
 ### Features
